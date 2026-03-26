@@ -1,0 +1,300 @@
+{
+  "main": {
+    "id": "621f4b247f282d4c",
+    "type": "split",
+    "children": [
+      {
+        "id": "128ca9f86d2e7df1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7e6fc78ce119d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sistemas de Defensa"
+            }
+          },
+          {
+            "id": "eed3ce0edd85ea68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gobuster"
+            }
+          },
+          {
+            "id": "9264a1e5e162328f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Recursos/Conceptos/Hacker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hacker"
+            }
+          },
+          {
+            "id": "9efa1ab119cc3808",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nmap"
+            }
+          },
+          {
+            "id": "1273b6ac3297eb16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Syncthing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Syncthing"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ad754343997d67e",
+    "type": "split",
+    "children": [
+      {
+        "id": "07794e627f4c4e15",
+        "type": "tabs",
+        "dimension": 69.29368029739777,
+        "children": [
+          {
+            "id": "ed1805fea565fd93",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "46eb06468fab7a49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "864e75faad137d63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      },
+      {
+        "id": "905fcd07cda69d99",
+        "type": "tabs",
+        "dimension": 30.70631970260223,
+        "children": [
+          {
+            "id": "e79297ae4ee9286d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "1a8596eda4e44b2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d9499943debf7fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04176a4557458d1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Syncthing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Syncthing"
+            }
+          },
+          {
+            "id": "97a2fa053b8d6055",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Syncthing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Syncthing"
+            }
+          },
+          {
+            "id": "bdf71c03a6186fe3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "4e32244ab53cd026",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "7416ea0cee8bb13e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Syncthing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Syncthing"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 230.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "graph:Abrir vista gráfica": false
+    }
+  },
+  "active": "1273b6ac3297eb16",
+  "lastOpenFiles": [
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "Syncthing.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Tcpdump.md",
+    "03-Recursos/Conceptos/Enumeración.md",
+    "Desarrollo de Software Web.md",
+    "06-Común/Conectarse a Tryhackme.md",
+    "06-Común/Frameworks/NIST Cybersecurity Framefork (CSF).md",
+    "06-Común/Frameworks/MITRE ATT&CK.md",
+    "06-Común/Frameworks/ISO.md",
+    "06-Común/Frameworks/CIS Controls.md",
+    "06-Común/Frameworks/Frameworks.md",
+    "06-Común/Frameworks/Laravel/Laravel.md",
+    "06-Común/Frameworks/Laravel/Instalación de Laravel.md",
+    "05-Evaluaciones/Evaluaciones — Universidad Mayor.md",
+    "05-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
+    "04-Plantillas/Resumen-Teorico.md",
+    "04-Plantillas/Recurso.md",
+    "04-Plantillas/Inbox-Rapido.md",
+    "04-Plantillas/Hoja-Comandos.md",
+    "04-Plantillas/CTF-Writeup.md",
+    "04-Plantillas/Apunte-Clase.md",
+    "01-Ciberseguridad/Seguridad/Seguridad Informática.md",
+    "01-Ciberseguridad/Seguridad/Seguridad de la Información.md",
+    "01-Ciberseguridad/Seguridad/Seguridad Perimetral.md",
+    "01-Ciberseguridad/Seguridad/SGSI.md",
+    "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red",
+    "01-Ciberseguridad/Herramientas/Enumeración",
+    "01-Ciberseguridad/Herramientas/Virtualización",
+    "06-Común/Frameworks/Laravel",
+    "06-Común/Frameworks",
+    "06-Común",
+    "02-Informatica/Cloud",
+    "01-Ciberseguridad/Seguridad",
+    "01-Ciberseguridad/Frameworks",
+    "01-Ciberseguridad/Vectores de Ataque"
+  ]
+}
