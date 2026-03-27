@@ -280,7 +280,6 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
       "graph:Abrir vista gráfica": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false
     }
   },
