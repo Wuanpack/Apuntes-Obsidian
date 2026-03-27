@@ -11,14 +11,10 @@
             "id": "841f3b41028aa6cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "testeo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "testeo"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -112,7 +108,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "testeo.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -131,7 +126,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "testeo.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -145,7 +139,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "testeo.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -180,5 +173,17 @@
     }
   },
   "active": "841f3b41028aa6cd",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "testeo.md",
+    "Criptografía Asimétrica.md",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "/Criptografía Asimétrica.md",
+    "/01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "/01-Ciberseguridad/Herramientas/Análisis de Red",
+    "/01-Ciberseguridad/Herramientas",
+    "/01-Ciberseguridad/Criptografía/Criptografía.md",
+    "/01-Ciberseguridad/Criptografía",
+    "01-Ciberseguridad/Criptografía",
+    "/01-Ciberseguridad"
+  ]
 }
