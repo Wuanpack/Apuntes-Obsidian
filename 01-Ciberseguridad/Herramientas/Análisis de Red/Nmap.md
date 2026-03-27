@@ -103,3 +103,44 @@ Podemos pedirle a Nmap que trate a todos los hosts como en línea y que escanee 
 ## Timing
 
 Nmap proporciona varias opciones para controlar la velocidad y el tiempo de escaneo.
+
+Hacer un escaneo con la velocidad normal podría activar IDS u otras soluciones de seguridad. Nmap provee de 6 plantillas de timing, con nombres bastante distintivos:
+
+* paranoid (0)
+* sneaky (1)
+* polite (2)
+* normal (3)
+* aggressive (4)
+* insane (5)
+
+Donde 0 es el más lento y 5 es el más rápido
+
+Para elegir alguno de ellos, podemos agregar `-T0`, `-T 0` o `-T paranoid`.
+
+El número de sondas paralelas se puede controlar con `--min-parallelism <numprobes>` y `--max-parallelism <numprobes>`. Estas opciones pueden ser usadas para establecer el mínimo y el máximo de número de sondas puerto TCP y UDP simultáneas para un grupo de hosts.
+
+Por defecto nmap controla el numero de sondas paralelas de forma automática.
+
+Otra opción útil es `--min-rate <number>`y `--max-rate <number>`. Como el nombre indica, estas controlan la velocidad mínima y máxima con la que nmap envía paquetes. El ratio se provee como *número de paquetes por segundo*.
+
+`--host-timeout <time>` es una opción que nos permite especificar el tiempo máximo que queremos esperar, y es especialmente útil para hosts lentos o hosts con conexiones de internet lentas.
+
+## Output
+
+### Verbosity and Debugging
+
+Para imprimir más detalles en un escaneo podemos usar la opción `-v`, se puede incrementar el nivel de detalles añadiendo otra "v", como `-vv` o `-vvvv`. También podemos especificar el nivel de detalle directamente, por ejemplo `-v2` y `-v4`. Se puede incrementar el nivel de detalles presionando "v" después de que el scan haya empezado.
+
+Si los detalles no son suficientes, podemos usar `-d` para un output a nivel de debugging. Al igual que con el verbosity, podemos agrandar el nivel de detalle añadiendo más "d" o con números, el nivel máximo es `-d9`.
+
+### Saving Scan Report
+
+Nmap nos da varios formatos. Los tres formatos más útiles son el normal (human-friendly), XML output y grepable output, en referencia al comando `grep`. Se puede seleccionar el formate de reporte de scan de esta forma:
+
+* `-oN <filename>` - Normal output
+* `-oX <filename>` - XML output
+* `-oG <filename>` - grepable output (useful for grep and awk).
+* `-oA <filename>` - Output in all major formats
+
+Es decir, que con `-oA <filename>`, el reporte se guarda en tres archivos: nmap, xml y gnmap.
+
