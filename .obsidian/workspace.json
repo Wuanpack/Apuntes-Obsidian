@@ -227,8 +227,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7090a597d8860c5",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
+    "Pasted image 20260329161654.png",
     "01-Ciberseguridad/Herramientas/Pentesting",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit.md",
@@ -263,7 +264,6 @@
     "01-Ciberseguridad/Herramientas/Virtualización",
     "06-Común/Frameworks/Laravel",
     "06-Común/Frameworks",
-    "06-Común",
-    "02-Informatica/Cloud"
+    "06-Común"
   ]
 }
