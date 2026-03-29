@@ -93,3 +93,27 @@ Si quieres ejecutar Hashcat (se abre en una pestaña nueva), lo mejor es hacerlo
 
 [[John The Ripper]] utiliza la CPU por defecto y funciona en una máquina virtual sin necesidad de configuración adicional, aunque es posible que obtenga mejores velocidades ejecutándolo en el sistema operativo anfitrión para evitar la sobrecarga de la virtualización y aprovechar al máximo los núcleos e hilos de su CPU.
 
+## Hashing for Integrity Checking
+
+El Hashing se puede usar para verificar que los archivos no hayan sido cambiados. Si pones los mismos datos, siempre obtienes los mismos datos de salida. Incluso si un solo bit cambia, el hash cambiará significativamente. Esto significa que puedes usarlo para chequear que os archivos no hayan sido modificados o para asegurar que los archivos que descargaste son idénticos a los del servidor web. También se puede usar el hashing para encontrar archivos duplicados; si dos documentos tienen el mismo hash, entonces son el mismo documento. Esto es muy conveniente para encontrar y eliminar archivos duplicados.
+
+### HMACs
+
+HMAC (Keyed-Hash Message Authentication Code) es un tipo de código de autenticación de mensajes (MAC) que utiliza una función hash criptográfica en combinación con una clave secreta para verificar la autenticidad e [[Seguridad de la Información#Integridad|integridad]] de los datos.
+
+Un HMAC puede ser usado para asegurar que la persona que haya creado el HMAC es quien dice ser. Además, prueba que el mensaje no fue modificado o corrompido. Esto se logra a través del uso de una clave secreta para provar la autenticidad y un algoritmo de hash para producir un hash y probar la [[Seguridad de la Información#Integridad|integridad]].
+
+Los siguientes pasos dan una idea de cómo HMAC funciona:
+
+1. La clave secreta se rellena hasta alcanzar el tamaño de bloque de la función hash.
+2. La clave rellena se combina mediante XOR con una constante (normalmente un bloque de ceros o unos).
+3. El mensaje se cifra utilizando la función hash con la clave XOR.
+4. El resultado del paso 3 se vuelve a aplicar la misma función hash, pero utilizando la clave rellena y combinada mediante XOR con otra constante.
+5. El resultado final es el valor HMAC, normalmente una cadena de tamaño fijo.
+
+Técnicamente hablando, la función HMAC se calcula mediante la siguiente expresión: 
+
+*HMAC(K,M) = H((K⊕opad)||H((K⊕ipad)||M))*
+
+Nótese que M y K representan el mensaje y la clave, respectivamente.
+

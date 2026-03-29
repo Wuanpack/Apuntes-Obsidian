@@ -104,6 +104,20 @@
               "icon": "lucide-file",
               "title": "Hash"
             }
+          },
+          {
+            "id": "1b831dc8795210d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sin título"
+            }
           }
         ],
         "currentTab": 6
@@ -299,8 +313,9 @@
   },
   "active": "7559ce3f81ee61ee",
   "lastOpenFiles": [
-    "Desarrollo de Software Web.md",
+    "Sin título.md",
     "01-Ciberseguridad/Criptografía/Hash.md",
+    "Desarrollo de Software Web.md",
     "INDEX.base",
     "IPS.md",
     "RDF (Resource Description Framework).md",
@@ -325,7 +340,6 @@
     "04-Plantillas/Resumen-Teorico.md",
     "04-Plantillas/Recurso.md",
     "04-Plantillas/Inbox-Rapido.md",
-    "04-Plantillas/Hoja-Comandos.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red",
     "01-Ciberseguridad/Herramientas/Enumeración",
     "01-Ciberseguridad/Herramientas/Virtualización",
