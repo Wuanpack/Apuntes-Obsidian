@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hash.md",
+                "file": "01-Ciberseguridad/Criptografía/Hash.md",
                 "mode": "source",
                 "source": false
               },
@@ -300,7 +300,7 @@
   "active": "7559ce3f81ee61ee",
   "lastOpenFiles": [
     "Desarrollo de Software Web.md",
-    "Hash.md",
+    "01-Ciberseguridad/Criptografía/Hash.md",
     "INDEX.base",
     "IPS.md",
     "RDF (Resource Description Framework).md",
