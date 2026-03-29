@@ -243,3 +243,66 @@ Podemos llamar esta regla custom en un argumento de John usando la flag `--rule=
 
 Un comando completo sería: `john --wordlist=[path to wordlist] --rule=PoloPassword [path to file]`
 
+## Cracking Password Protected Zip Files
+
+Podemos usar John para descrifrar la contraseña de archivos Zip protegidos por contraseña. Una vez más, utilizaremos una parte independiente del conjunto de herramientas de John para convertir el archivo Zip a un formato que John pueda entender, pero utilizaremos la sintaxis con la que ya estás familiarizado a todos los efectos.
+
+### Zip2John
+
+Al igual que con la herramienta `unshadow` que usamos previamente, usaremos `zip2john` para convertir el archivo Zip en formato hash para que John pueda entenderlo y, con suerte, descrifrar. el uso primario es algo como:
+
+```bash
+zip2john [options] [zip file] > [output file]
+```
+
+* `[options]`: Permite pasar opciones de suma de verificación específicas a zip2john; esto no debería ser necesario con frecuencia.
+* `[zip file]`: El path al archivo Zip del cual queremos obtener el hash.
+* `>`: Esto redirecciona el output desde este comando a otro archivo.
+* `[output file]`: Este es el archivo que va a almacenar el output.
+
+Ejemplo de uso:
+
+`zip2john zipfile.zip > zip_hash.txt`
+
+### Cracking
+
+Entonces somos capaces de tomar el archivo de salida desde `zip2john`, en el ejemplo anterior, `zip_hash.txt`, y como hicimos con `unshadow`, ponerlo directo en John como hicimos un input especialmente para eso.
+
+```bash
+john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
+```
+
+
+## Cracking a Password-Protected RAR Archive
+
+Podemos usar un proceso similar al que usamos con los archivos ZIP.
+
+### Rar2John
+
+El uso es igual que con `zip2john`, pero en vez de esa herramienta usaremos `rar2john` para convertir el archivo RAR en un formato hash que John pueda entender, por lo tanto, la sintaxis básica sería:
+
+```bash
+rar2john [rar file] > [output file]
+```
+
+
+## Cracking SSH Key Passwords
+
+Exploremos otro uso de John que aparece con cierta frecuencia en los desafíos CTF: usar John para descifrar la contraseña de la clave privada SSH de los archivos `id_rsa`. 
+
+A no ser de que esté configurado de otra forma, puedes autenticar tu SSH login usando una contraseña. Sin embargo, puedes configurarlo para que tenga autenticación basada en claves, lo cual te permite usar tu clave privada, `id_rsa`, como clave de autenticación para iniciar sesión en una máquina remote usando SSH. Sin embargo, hacer esto usualmente requiere una contraseña para acceder a la clave privada; aquí, usaremos John para descifrar esta contraseña para permitir la autenticación con SSH usando la clave.
+
+### SSH2John
+
+Como el nombre sugiere, `ssh2john` convierta la clave privada `id_rsa`, el cual se usa para iniciar sesión en una sesión SSH, en un formato hash con el que John pueda trabajar. La sintáxis es como podrías esperar. Nótese que si no tienes `ssh2john` instalado, puedes usar `ssh2john.py`, localizado en `/usr/share/john/ssh2john.py`.
+
+```bash
+ssh2john [id_rsa private key file] > [output file]
+```
+
+Ejemplo de uso:
+
+```bash
+/otp/john/ssh2john.py id_rsa > id_rsa_hash.txt
+```
+
