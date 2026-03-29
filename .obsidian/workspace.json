@@ -8,119 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7e6fc78ce119d14",
+            "id": "a24d1591b4b2aed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
+                "file": "01-Ciberseguridad/Criptografía/Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas de Defensa"
-            }
-          },
-          {
-            "id": "eed3ce0edd85ea68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gobuster"
-            }
-          },
-          {
-            "id": "9264a1e5e162328f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-Recursos/Conceptos/Hacker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hacker"
-            }
-          },
-          {
-            "id": "9efa1ab119cc3808",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nmap"
-            }
-          },
-          {
-            "id": "dc8efb8b30ec16e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Criptografía/Criptografía.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Criptografía"
-            }
-          },
-          {
-            "id": "3e47abf01f5f0125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Desarrollo de Software Web.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Desarrollo de Software Web"
-            }
-          },
-          {
-            "id": "1b831dc8795210d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Herramientas/Fuerza-Bruta/John The Ripper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "John The Ripper"
-            }
-          },
-          {
-            "id": "9582dc28103a8f49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Herramientas/Fuerza-Bruta/John The Ripper.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "John The Ripper"
+              "title": "Hash"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -311,20 +212,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed1805fea565fd93",
+  "active": "a24d1591b4b2aed4",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta",
-    "01-Ciberseguridad/Criptografía/Hash.md",
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta/John The Ripper.md",
-    "Sin título.md",
+    "Moniter Link (CVE-2024-21413).md",
     "Desarrollo de Software Web.md",
     "INDEX.base",
     "IPS.md",
     "RDF (Resource Description Framework).md",
     "Syncthing.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
+    "Sin título.md",
+    "01-Ciberseguridad/Herramientas/Fuerza-Bruta/John The Ripper.md",
     "01-Ciberseguridad/Criptografía/Criptografía.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "01-Ciberseguridad/Herramientas/Fuerza-Bruta",
+    "01-Ciberseguridad/Criptografía/Hash.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
     "03-Recursos/Conceptos/Enumeración.md",
     "03-Recursos/Conceptos/Hacker.md",
     "testeo.md",
@@ -339,7 +241,6 @@
     "06-Común/Frameworks/Laravel/Instalación de Laravel.md",
     "05-Evaluaciones/Evaluaciones — Universidad Mayor.md",
     "05-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
-    "04-Plantillas/Resumen-Teorico.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red",
     "01-Ciberseguridad/Herramientas/Enumeración",
     "01-Ciberseguridad/Herramientas/Virtualización",
@@ -347,7 +248,6 @@
     "06-Común/Frameworks",
     "06-Común",
     "02-Informatica/Cloud",
-    "01-Ciberseguridad/Seguridad",
-    "01-Ciberseguridad/Frameworks"
+    "01-Ciberseguridad/Seguridad"
   ]
 }
