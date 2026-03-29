@@ -92,35 +92,35 @@
             }
           },
           {
-            "id": "7559ce3f81ee61ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Criptografía/Hash.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hash"
-            }
-          },
-          {
             "id": "1b831dc8795210d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sin título.md",
+                "file": "John The Ripper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "John The Ripper"
+            }
+          },
+          {
+            "id": "9582dc28103a8f49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "John The Ripper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "John The Ripper"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -311,9 +311,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7559ce3f81ee61ee",
+  "active": "9582dc28103a8f49",
   "lastOpenFiles": [
     "Sin título.md",
+    "John The Ripper.md",
     "01-Ciberseguridad/Criptografía/Hash.md",
     "Desarrollo de Software Web.md",
     "INDEX.base",
@@ -339,7 +340,6 @@
     "05-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
     "04-Plantillas/Resumen-Teorico.md",
     "04-Plantillas/Recurso.md",
-    "04-Plantillas/Inbox-Rapido.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red",
     "01-Ciberseguridad/Herramientas/Enumeración",
     "01-Ciberseguridad/Herramientas/Virtualización",
