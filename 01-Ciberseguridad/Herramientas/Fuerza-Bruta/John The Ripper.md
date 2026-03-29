@@ -128,3 +128,118 @@ Podemos entonces introducir la salida de `unshadow`, en nuestro ejemplo llamada 
 john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt unshadowed.txt
 ```
 
+
+## Single Crack Mode
+
+Hasta ahora hemos usado el modo de listas de palabras de John para hacer ataques de fuerza bruta a hashes simples y no tan simples. Pero John tiene otro modo, llamado Single Crack mode. En este modo, John utiliza únicamente la información proporcionada en el nombre de usuario para intentar descifrar posibles contraseñas de forma heurística, modificando ligeramente las letras y los números contenidos en el nombre de usuario.
+
+### Word Mangling
+
+La mejor forma de explicar el modo Single Crack y word mangling es a través de un ejemplo:
+
+Considera el nombre de usuario "Markus":
+
+Algunas contraseñas posibles serían:
+
+* Markus1, Markus2, Markus3 (etc.).
+* MArkus, MARkus, MARKus (etc.).
+* Markus!, Marku$, Markus* (etc.).
+
+Esta técnica se llama word mangling (manipulación de palabras). John está construyendo su diccionario basado en la información que se le proporciona y usa un conjunto de reglas llamadas "word mangling", el cual define como puede mutar la palabra con la que empezó para generar una lista de palabras basada en factores relevantes para el objetivo que estás intentando descifrar. Esto aprovecha la debilidad de las contraseñas, que pueden basarse en información sobre el nombre de usuario o el servicio al que se accede.
+
+### GECOS
+
+La implementación de John para la manipulación de palabras también ofrece compatibilidad con el campo GECOS del sistema operativo UNIX, así como con otros sistemas operativos similares a UNIX, como Linux.
+
+GECOS significa General Electric Comprehensive Operating System. Anteriormente, examinamos las entradas de `/etc/shadow` y `/etc/passwd`. Si observa con atención, notará que los campos están separados por dos puntos (:). El quinto campo del registro de la cuenta de usuario es el campo GECOS. Almacena información general sobre el usuario, como su nombre completo, número de oficina y número de teléfono, entre otros datos. John puede usar la información almacenada en esos registros, como el nombre completo y el nombre del directorio personal, para agregarla a la lista de palabras que genera al descifrar los hashes de `/etc/shadow` con el modo Single Crack.
+
+### Usando el modo Single Crack
+
+Para usar el modo de descifrado único, usamos prácticamente la misma sintaxis que hemos usado hasta ahora; por ejemplo, si quisiéramos descifrar la contraseña del usuario llamado "Mike", usando el modo único, usaríamos:
+
+```bash
+john --single --format=[format] [path to file]
+```
+
+* `--single`: Esta flag le hace saber a John que queremos usar el modo de descifrado hash único.
+* `--format=[format]`: Como siempre, es vital identificar el formato apropiado.
+
+Ejemplo de uso:
+
+```bash
+john --single --format=raw-sha256 hashes.txt
+```
+
+NOTA: 
+
+Si estás descifrando hashes en modo de descifrado individual, necesitas cambiar el formato del archivo que le proporcionas a John para que entienda qué datos usar para crear una lista de palabras. Esto se hace anteponiendo al hash el nombre de usuario al que pertenece, así que, según el ejemplo anterior, cambiaríamos el archivo hashes.txt.
+
+**DE** `1efee03cdcb96d90ad48ccc7b8666033`
+
+**A** `mike:1efee03cdcb96d90ad48ccc7b8666033`
+
+## Custom Rules
+
+### ¿Qué son?
+
+Como vimos en el modo Single Crack, puedes tener algunas ideas sobre algunos patrones de manipulación buenos o qué patrones tus contraseñas a menudo usan que pueden ser replicadas con un patrón de manipulación particular. Las buenas noticias es que tu puedes definir tus reglas, las cuales John usará para crear contraseñas dinámicamente. La habilidad para definir dichas reglas es beneficioso cuando sabes más información sobre la estructura de la contraseña o cualquiera sea tu objetivo.
+
+### Common Custom Rules
+
+Muchas organizaciones van a requerir cierto nivel de complejidad de contraseñas para intentar combatir ataques por diccionario. En otras palabras, cuando se crea una cuenta nueva o cambias tu contraseña, si intentas ingresar una contraseña como `polopassword`, probablemente no funcione. La razón sería la complejidad de contraseñas forzada. Como resultado, podrías recibir un prompt diciéndote que las contraseñas deben tener al menos un carácter de cada uno como se indica:
+
+* Lowercase letter.
+* Uppercase letter.
+* Number.
+* Symbol.
+
+La complejidad de contraseñas está bien. Sin embargo, podemos explotar el hecho de que la mayoría de usuario van a ser predecibles en la ubicación de estos símbolos. Para la criteria de arriba, la mayoría de usuarios usaría algo como:
+
+`Polopassword1!`
+
+Considera la contraseña con la letra capital primero y un número seguido por un símbolo al final. Este patrón familiar de la contraseña, añadidos y antepuestos por modificadores, es un patrón memorable que la gente usa y re-usa cuando crea contraseñas. Este patrón nos permite explotar la previsibilidad de la complejidad de las contraseñas.
+
+### Cómo crear Custom Rules
+
+Las Custom Rules están definidas en el archivo `john.conf`. Este archivo puede ser encontrado en `/etc/john/john.conf`.
+
+Hay que tener en cuenta que hay un nivel masivo de control granular en estas reglas.
+
+La primera linea:
+
+`[List.Rules:TMHRules` se usa para definir el nombre de tu regla; esto es lo que usarás para llamar la regla custom un argumento John.
+
+Luego usamos una coincidencia de patrones de estilo expresiones regulares para definir dónde se modificará la palabra; nuevamente, aquí solo cubriremos los modificadores principales y más comunes:
+
+* `Az`: Toma la palabra y le añade los carácteres que definas.
+* `A0`: Toma la palabra y le antepone los carácteres que definas.
+* `c`: Pone en mayúscula el carácter posicionalmente.
+
+Estas pueden ser usadas combinadas para definir dónde y qué quieres modificar en la palabra.
+
+Finalmente, debemos definir qué carácteres deben ser añadidos, antepuestos o incluidos de otra forma. Hacemos esto añadiendo conjuntos de carácteres en brackets `[]` donde estos deberían ser usados. Estos siguen los patrones de modificación dentro de double quotes `" "`.  Aquí hay algunos ejemplos:
+
+* `[0-9]`: Va a incluir números del 0 al 9.
+* `[0]`: Va a incluir solo el número 0.
+* `[A-z]`: Va a incluir letras en mayúscula y minúscula.
+* `[A-Z]`: Va a incluir sólo letras en mayúscula.
+* `[a-z]`: Va a incluir sólo letras en minúscula.
+
+Poniendo todo esto junto, para generar la lista de palabras desde las reglas con las que coincidiríamos el primer ejemplo de contraseña `Polopassword1!` (asumiendo que la palabra `polopassword` estaba en nuestra wordlist), crearíamos una regla de entrada que se vería así:
+
+`[List.Rules:PoloPassword]`
+`cAz"[0-9] [!£$%@]"`
+
+Utiliza lo siguiente:
+
+* `c`: Capitaliza la primera letra.
+* `Az`: Añade al final de la palabra.
+* `[0-9]`: Un número en el rango de 0 a 9.
+* `[!£$%@]`: La contraseña es seguida de uno de estos símbolos.
+
+### Usando Custom Rules
+
+Podemos llamar esta regla custom en un argumento de John usando la flag `--rule=PoloPassword`.
+
+Un comando completo sería: `john --wordlist=[path to wordlist] --rule=PoloPassword [path to file]`
+
