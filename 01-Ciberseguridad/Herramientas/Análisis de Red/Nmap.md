@@ -3,7 +3,7 @@ tags:
   - herramientas/analisis-red
   - redes
 ---
-## ¿Qué es?
+sV## ¿Qué es?
 
 Nmap es un escáner de redes de open-source publicado por primera vez en 1997. Desde entonces, una multitud de aspectos y opciones han sido añadidas. Es un escáner de red poderoso y flexible que puede ser adaptado para varios escenarios y configuraciones.
 
