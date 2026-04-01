@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Pentesting/Metasploit.md",
+                "file": "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metasploit"
+              "title": "Criptografía Asimétrica"
+            }
+          },
+          {
+            "id": "8093b9e3849ecfe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Criptografía Asimétrica"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rsa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,47 +241,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7090a597d8860c5",
+  "active": "8093b9e3849ecfe2",
   "lastOpenFiles": [
-    "Pasted image 20260329222655.png",
-    "Pasted image 20260329222637.png",
-    "Pasted image 20260329222559.png",
-    "Pasted image 20260329222555.png",
-    "Msfvenom.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit.md",
+    "01-Ciberseguridad/Criptografía/Hash.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "06-Común/Conectarse a Tryhackme.md",
+    "06-Común/Imágenes/Pasted image 20260329222655.png",
+    "06-Común/Imágenes/Pasted image 20260329222637.png",
+    "06-Común/Imágenes/Pasted image 20260329222559.png",
+    "06-Común/Imágenes/Pasted image 20260329222555.png",
+    "06-Común/Imágenes/Pasted image 20260329161654.png",
+    "06-Común/Imágenes",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Tcpdump.md",
+    "RDF (Resource Description Framework).md",
+    "RSA.md",
+    "SSH.md",
+    "ED25519-SK (ED25519 with Security Key).md",
+    "ECDSA-SK (ECDSA with Security Key).md",
+    "DSA (Digital Signature Algorithm).md",
+    "ED22519.md",
+    "Elliptic Curve Cryptography (ECC).md",
+    "Diffie-Hellman Key Exchange.md",
+    "No Repudio.md",
+    "Payment Card Industry Data Security Standard (PCI DSS).md",
+    "Autenticación.md",
+    "RCE.md",
+    "CVE.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit.md",
+    "Msfvenom.md",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta/John The Ripper.md",
     "05-Evaluaciones/Evaluaciones — Universidad Mayor.md",
     "05-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
-    "01-Ciberseguridad/Criptografía/Hash.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica.md",
-    "01-Ciberseguridad/Criptografía/Criptografía.md",
-    "Pasted image 20260329161654.png",
     "01-Ciberseguridad/Herramientas/Pentesting",
-    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "01-Ciberseguridad/Ciberataques",
-    "RDF (Resource Description Framework).md",
-    "Desarrollo de Software Web.md",
     "INDEX.base",
-    "IPS.md",
-    "Syncthing.md",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta",
-    "03-Recursos/Conceptos/Enumeración.md",
-    "03-Recursos/Conceptos/Hacker.md",
-    "testeo.md",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Tcpdump.md",
-    "06-Común/Conectarse a Tryhackme.md",
-    "06-Común/Frameworks/NIST Cybersecurity Framefork (CSF).md",
-    "06-Común/Frameworks/MITRE ATT&CK.md",
-    "06-Común/Frameworks/ISO.md",
-    "06-Común/Frameworks/CIS Controls.md",
-    "06-Común/Frameworks/Frameworks.md",
-    "06-Común/Frameworks/Laravel/Laravel.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red",
     "01-Ciberseguridad/Herramientas/Enumeración",
     "01-Ciberseguridad/Herramientas/Virtualización",
     "06-Común/Frameworks/Laravel",
-    "06-Común/Frameworks",
-    "06-Común"
+    "06-Común/Frameworks"
   ]
 }

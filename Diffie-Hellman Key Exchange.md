@@ -1,0 +1,11 @@
+## ¿Qué es?
+
+El intercambio de llaves apunta a establecer un secreto compartido entre dos partes. Este método permite a las dos partes establecer un secreto compartido a través de un canal de comunicación inseguro sin requerir un secreto compartido pre existente y sin un observador que pueda obtener esta llave. Consecuentemente, esta llave puede ser usada para encripción simétrica en las comunicaciones siguientes.
+
+1. Alice y Bob acuerdan las variables públicas: un numero primo largo *p* y un generador *g*, donde 0 < g < p. Estos valores van a ser divulgados públicamente por el canal de comunicación.
+2. Cada parte escoge un entero privado. Cada uno de estos valores representa la llave privada y no debe ser divulgada.
+3. Cada parte calcula su llave pública usando su llave privada del paso 2 y las variables acordadas en el paso 1. Alice calcula **_A_ = _g__a_ mod _p_** y Bob calcula **_B_ = _g__b_ mod _p_**. Estas son las llaves públicas.
+4. Alice y Bob envían sus llaves entre sí. Bob recibe **_A_ = _g__a_ mod _p_** y Alice recibe **_B_ = _g__b_ mod _p_**. Este paso se llama intercambio de llaves.
+5. Alice y Bob finalmente calculan el secreto compartido usando la llave pública recibida y su propia llave privada. Alice calcula **_B__a_ mod _p_** y Bob calcula **_A__b_ mod _p_**. Ambos cálculos dan el mismo resultado **_g__a__b_ mod _p_**.
+
+El intercambio de llaves Diffie-Hellman es usado a menudo en conjunto con RSA. Diffie-Hellman se usa para el acuerdo de llaves, mientras que RSA se usa para firmas digitales, transporte de llaves, autenticación, entre otros usos.Por ejemplo, RSA ayuda a probar la identidad de la persona a la que se le está hablando, ya que se puede confirmar en base a su llave pública. Esto podría prevenir que alguien ataque la conexión con un ataque [[Man in The Middle]] en contra de Alicia pretendiendo ser Bob. En resumen, Diffie-Hellman y RSA son incorporados en muchos protocolos de seguridad y estándares para proveer una solución de seguridad comprensiva.
