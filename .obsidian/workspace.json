@@ -115,10 +115,12 @@
             "id": "e79297ae4ee9286d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "image",
+              "state": {
+                "file": "05-Común/Imágenes/Pasted image 20260329222555.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260329222555"
             }
           }
         ]
@@ -243,8 +245,9 @@
   },
   "active": "8093b9e3849ecfe2",
   "lastOpenFiles": [
-    "Puertos.md",
+    "05-Común/Imágenes/Pasted image 20260329222555.png",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "Puertos.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
@@ -271,11 +274,9 @@
     "CVE.md",
     "INDEX.base",
     "RDF (Resource Description Framework).md",
-    "TLS.md",
     "05-Común/Imágenes/Pasted image 20260329222655.png",
     "05-Común/Imágenes/Pasted image 20260329222637.png",
     "05-Común/Imágenes/Pasted image 20260329222559.png",
-    "05-Común/Imágenes/Pasted image 20260329222555.png",
     "05-Común/Imágenes/Pasted image 20260329161654.png",
     "05-Común/Imágenes",
     "01-Ciberseguridad/Herramientas/Pentesting",
