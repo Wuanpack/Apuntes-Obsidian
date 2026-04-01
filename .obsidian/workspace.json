@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Criptografía Asimétrica"
+              "title": "Nmap"
             }
           }
         ],
@@ -243,6 +243,10 @@
   },
   "active": "8093b9e3849ecfe2",
   "lastOpenFiles": [
+    "Puertos.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "Desarrollo de Software Web.md",
     "04-Plantillas/Hoja-Comandos.md",
@@ -259,8 +263,6 @@
     "05-Común/Frameworks/MITRE ATT&CK.md",
     "05-Común/Frameworks/NIST Cybersecurity Framefork (CSF).md",
     "05-Común/Conectarse a Tryhackme.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
@@ -270,8 +272,6 @@
     "INDEX.base",
     "RDF (Resource Description Framework).md",
     "TLS.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/RSA.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Hash.md",
     "05-Común/Imágenes/Pasted image 20260329222655.png",
     "05-Común/Imágenes/Pasted image 20260329222637.png",
     "05-Común/Imágenes/Pasted image 20260329222559.png",
