@@ -234,7 +234,7 @@ Las opciones `-P*` (que permiten seleccionar los tipos de ping) pueden combinars
 `-sP` (Sondeo ping)
 
 * Esta opción le indica a Nmap que únicamente realice descubrimiento de sistemas mediante un sondeo ping, y que luego emita un listado de los equipos que respondieron al mismo. No se realizan más sondeos, como un análisis de puertos o detección de sistema operativo.
-* A diferencia del sondeo de lista, el análisis de ping es intrusivo, ya que envía paquetes a los objetivos, pero es usualmente utilizado con el mismo propósito. Permite un reconocimiento liviano de la red objetivo sin llamar mucho la atención. El saber cua
+* A diferencia del sondeo de lista, el análisis de ping es intrusivo, ya que envía paquetes a los objetivos, pero es usualmente utilizado con el mismo propósito. Permite un reconocimiento liviano de la red objetivo sin llamar mucho la atención. El saber cuántos equipos se encuentran activos es de mayor valor para los atacantes que el listado de cada una de las IP y nombres proporcionado por el sondeo de lista.
 
 Nmap usa varias maneras para especificar sus objetivos:
 
