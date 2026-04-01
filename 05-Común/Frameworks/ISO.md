@@ -4,7 +4,6 @@ tags:
   - seguridad
   - vectores-ataque
 ---
-
 ## ¿Qué es?
 
 ISO son las siglas de International Organization for Standardization (Organización Internacional de Normalización). Es un organismo independiente no gubernamental fundado en 1947, compuesto por representantes de los organismos de normalización de 167 países.

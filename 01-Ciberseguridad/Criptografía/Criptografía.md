@@ -15,10 +15,15 @@ Por ejemplo, cuando se manejan tarjetas de crédito, la compañía debe seguir y
 ## Definiciones
 
 * **Plaintext**: Es el mensaje o la información original, legible, antes de que sea encriptada. Puede ser un documento, una imagen, un contenido multimedia o cualquier otra información binaria.
+
 * **Ciphertext**: Es la desordenada, ilegible version del mensaje después de la encriptación. Idealmente, nosotros no podríamos obtener ninguna información sobre el texto plano original, excepto por su tamaño aproximado.
+
 * **Cipher**: Es un algoritmo o método para convertir texto plano en texto cifrado y al revés. Un algoritmo es usualmente desarrollado por un matemático.
+
 * **Key**: Es una cadena de bits que el algoritmo usa para encriptar o desencriptar la información. En general, el algoritmo usado es de conocimiento público; sin embargo, la llave debe mantenerse en secreto a no ser de que sea la llave pública de la [[Criptografía Asimétrica|encriptación asimétrica]].
+
 * **Encryption**: Es el proceso de convertir texto plano en texto cifrado usando un algoritmo y una llave. A diferencia de la llave.
+
 * **Desencryption**: Es el proceso reverso a la encripción, convirtiendo el texto cifrado de vuelta a texto plano usando un algoritmo y una llave.
 
 ## Encripción Simétrica
@@ -32,7 +37,9 @@ Es por eso, que comunicar la llave a las partes interesadas puede ser un desafí
 Algunos ejemplos de este tipo de encripción son el DES (Data Encryption Standard), 3DES (Triple DES) y el AES (Advanced Encryption Standard).
 
 * DES fue adoptado como estándar en 1977 y usa una llave de 56 bits. Con el avance del poder computacional, en 1999, una llave DES era exitosamente quebrada en menos de 24 horas, motivando el cambio al 3DES.
+
 * 3DES es DES pero aplicada tres veces; consecuentemente, el tamaño de la llave es 168 bits, aunque la seguridad efectiva son 112 bits. 3DES fue más una solución ad-hoc cuando DES ya no era considerado seguro. 3DES quedó obsoleto en 2019 y se debió haber reemplazado por AES; sin embargo, aún se pueden encontrar sistemas legacy que lo usen.
+
 * AES fue adoptado como estándar en 2001. Su llave puede ser de 128, 192 o 256 bits.
 
 ## Encriptación Asimétrica

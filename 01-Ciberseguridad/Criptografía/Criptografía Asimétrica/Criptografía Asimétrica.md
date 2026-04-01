@@ -27,9 +27,9 @@ Dentro de los algoritmos de encriptación asimétrica existentes, los más desta
 Los últimos son especialmente utilizados en entornos como [[SSH]].
 ## Firmas Digitales y Certificados
 
-### ¿Qué es?
+### ¿Qué son?
 
-Las firmas digitales son una forma de verificar la autenticidad e [[Seguridad de la Información#Integridad|integridad]] de un mensaje o documento digital. Probando la autenticidad de archivos significa que sabemos quién los creó o modificó. Usando criptografía asimétrica, se puede producir una firma para las claves privadas, la cual se puede verificar usando nuestra clave pública. Solo tú deberías tener acceso a tu clave privada, lo cual prueba que firmaste el archivo. En muchos países modernos, las firmas digitales y físicas tienen el mismo peso legal.
+Las firmas digitales son una forma de verificar la [[Autenticidad]] e [[Seguridad de la Información#Integridad|integridad]] de un mensaje o documento digital. Probando la autenticidad de archivos significa que sabemos quién los creó o modificó. Usando criptografía asimétrica, se puede producir una firma para las claves privadas, la cual se puede verificar usando nuestra clave pública. Solo tú deberías tener acceso a tu clave privada, lo cual prueba que firmaste el archivo. En muchos países modernos, las firmas digitales y físicas tienen el mismo peso legal.
 
 La forma más simple de firma digital es encriptando el documento con la clave privada. Si alguien quiere verificar esta firma, lo desencriptarían con tu clave pública y verificaría que los archivos coincide.
 
@@ -39,13 +39,13 @@ Algunos artículos usan términos como firma electrónica y firma digital indist
 
 Los certificados son una aplicación esencial de la criptografía de clave pública, y también están ligados a las firmas digitales. Un lugar común en el que se usan es HTTPS.
 
-Cómo sabe el navegador web que el servidor con el que se está comunicando es quien dice ser? La respuesta recae en los certificados.
+¿Cómo sabe el navegador web que el servidor con el que se está comunicando es quien dice ser? La respuesta recae en los certificados.
 
-El servidor web tiene un certificado que dice que es la página que dice ser. Los certificados tienen una cadena de confianza, empezando con un root CA (Certificate Authority). Desde el momento de la instalación, su dispositivo, sistema operativo y buscador web automáticamente confía en varios CAs raíz. 
+El servidor web tiene un certificado que dice que es la página que dice ser. Los certificados tienen una cadena de confianza, empezando con un root CA ([[Certificate Authority]]). Desde el momento de la instalación, su dispositivo, sistema operativo y buscador web automáticamente confía en varios CAs raíz. 
 
-Los certificados solo son confiables cuando las CA raíz afirman confiar en la organización que los firmó. En cierto modo, se trata de una cadena; por ejemplo, el certificado está firmado por una organización, la organización es de confianza para una CA, y la CA es de confianza para su navegador. Por lo tanto, su navegador confía en el certificado. En general, existen largas cadenas de confianza. Puede consultar las autoridades de certificación en las que confía Mozilla Firefox aquí (se abre en una pestaña nueva) y en las de Google Chrome aquí (se abre en una pestaña nueva).
+Los certificados solo son confiables cuando las CA raíz afirman confiar en la organización que los firmó. En cierto modo, se trata de una cadena; por ejemplo, el certificado está firmado por una organización, la organización es de confianza para una CA, y la CA es de confianza para su navegador. Por lo tanto, su navegador confía en el certificado. En general, existen largas cadenas de confianza.
 
-Supongamos que tienes un sitio web y quieres usar HTTPS. Este paso requiere un certificado TLS. Puedes obtener uno de las distintas autoridades de certificación por una tarifa anual. Además, puedes obtener tus propios certificados TLS para los dominios que posees usando Let's Encrypt (se abre en una pestaña nueva) de forma gratuita. Si administras un sitio web, vale la pena configurarlo y cambiar a HTTPS, como haría cualquier sitio web moderno.
+Supongamos que tienes un sitio web y quieres usar HTTPS. Este paso requiere un certificado [[TLS]]. Puedes obtener uno de las distintas autoridades de certificación por una tarifa anual. Además, puedes obtener tus propios certificados [[TLS]] para los dominios que posees usando Let's Encrypt (se abre en una pestaña nueva) de forma gratuita. Si administras un sitio web, vale la pena configurarlo y cambiar a HTTPS, como haría cualquier sitio web moderno.
 
 ## PGP Y GPG
 

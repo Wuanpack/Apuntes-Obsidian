@@ -2,7 +2,6 @@
 tags:
   - tryhackme
 ---
-
 1. Antes de instalar OpenVPN, verificar que los paquetes estén actualizados:
 ```bash
 sudo dnf update && sudo dnf upgrade
