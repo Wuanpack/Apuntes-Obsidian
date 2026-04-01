@@ -4,7 +4,6 @@ tags:
   - seguridad
   - vectores-ataque
 ---
-
 ## ¿Qué es?
 
 Desarrollado por el [[Instituto Nacional de Estándares y Tecnología]] de EE.UU. Es el más adoptado globalmente porque es flexible, gratuito y aplicable a cualquier tipo de organización.

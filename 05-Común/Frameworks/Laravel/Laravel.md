@@ -4,7 +4,6 @@ tags:
   - desarrollo
   - frameworks
 ---
-
 ## ¿Qué es?
 
 Laravel es un [[Frameworks|Framework]] de desarrollo web escrito en PHP, creado por Taylor Otwell en 2011. Es actualmente el [[Frameworks|Framework]] PHP más popular del mundo y está diseñado para hacer el [[Desarrollo de Software Web]] más simple, ordenado y rápido siguiendo el patrón MVC (Model-View-Controller).
