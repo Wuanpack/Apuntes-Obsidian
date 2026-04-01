@@ -25,6 +25,7 @@ Se divide en 10 secciones principales:
 ### Especificación de Objetivo
 
 Se pueden indicar nombres de sistema, direcciones IP, redes, etc.
+[[Nmap#Especificación del Objetivo|Más detalles aquí.]]
 
 | **FLAG**                              | **EFECTO**                                   |
 | ------------------------------------- | -------------------------------------------- |
@@ -168,6 +169,26 @@ Nmap informa de las combinaciones de estado open|filtered y closed|filtered cuan
 La tabla de puertos también puede incluir detalles de la versión de la aplicación cuando se ha solicitado detección de versiones. Nmap ofrece información de los protocolos IP soportados, en vez de puertos abiertos, cuando se solicita un análisis de protocolo IP con la opción (-sO).
 
 Además de la tabla de puertos interesantes, Nmap puede dar información adicional sobre los objetivos, incluyendo el nombre de DNS según la resolución inversa de la IP, un listado de sistemas operativos posibles, los tipos de dispositivo y direcciones MAC.
+
+## Especificación del Objetivo
+
+Todo lo que se escriba en la línea de parámetros de Nmap que no sea una opción se considera una especificación del sistema objetivo. Ej: la indicación de sólo una IP, o nombre de sistema, para que sea analizado.
+
+Puede darse la situación de que uno desee analizar una red completa de equipos adyacentes. Nmap soporta el direccionamiento estilo CIDR para estos casos. Por ejemplo: 192.168.10.0/24 o 205.217.153.62/16. La máscara más pequeña permitida es /1 y la más grande es /32.
+
+La notación CIDR es breve pero no siempre es suficientemente flexible. Por ejemplo, puede querer sondear la red 19.168.0.0/16 pero omitir cualquier IP que termine por .0 o por .255 ya que son habitualmente direcciones de difusión. Es posible hacer esto con Nmap mediante el direccionamiento por octetos.
+
+En lugar de especificar una dirección IP normal, puede especificar una lista separada por comas de números o rangos para cada octeto. Por ejemplo, si utiliza 192.168.0-255.1-254 se omitirán todas las direcciones del rango que terminen en .0 o .255. Los rangos no tienen que estar limitados a los últimos octetos. Por ejemplo, si especifica 0-255.0-255.13.37, realizará un sondeo en todo internet con las direcciones IP que terminen en 13.37. Este tipo de muestreo amplio puede ser útil para encuestas en Internet y con fines de investigación.
+
+Sólo puede especificar direcciones IPv6 si utiliza su nombre IPv6 totalmente cualificado o su nombre de sistema. No se soporta el uso de CIDR o rangos de octetos para IPv6 porque raramente son útiles.
+
+Con Nmap puede especificar múltiples sistemas en la línea de órdenes y no tienen que ser del mismo tipo. Por ejemplo, la orden `nmap scanme.nmap.org 192.168.0.0/16 10.0.0,1,3-7.0-255` hace lo que uno esperaría.
+
+Aunque habitualmente se especifican los objetivos en la línea de órdenes puede utilizar las siguientes opciones para controlar la selección de objetivos:
+
+`-iL <archivo_entrada>`
+
+* Toma la especificación de objetivos del archivo *<archivo_entrada>*
 
 ## Descubrimiento de Hosts: Quién está Online
 
