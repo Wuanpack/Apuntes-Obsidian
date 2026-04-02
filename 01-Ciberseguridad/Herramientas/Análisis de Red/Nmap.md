@@ -186,19 +186,72 @@ Con Nmap puede especificar múltiples sistemas en la línea de órdenes y no tie
 
 Aunque habitualmente se especifican los objetivos en la línea de órdenes puede utilizar las siguientes opciones para controlar la selección de objetivos:
 
-`-iL <archivo_entrada>`
+`-iL <archivo_entrada>` (Entrada de una lista)
 
-* Toma la especificación de objetivos del archivo *<archivo_entrada>*
+* Toma la especificación de objetivos del archivo `<archivo_entrada>`. Habitualmente es un tanto molesto especificar una lista de sistemas muy grande en la línea de órdenes, pero es algo que también uno quiere hacer. Para sondear un número elevado de objetivos sólo tiene que generar la lista en un archivo y entregárselo a Nmap con la opción `-il`. 
+* Las entradas de este archivo pueden estar en cualquiera de los formatos aceptados por Nmap en la línea de órdenes (direcciones IP, nombres de sistema, CIDR, IPv6 o rangos de octeto). 
+* Cada elemento debe estar separado por uno o más espacios, tabuladores, o por líneas.
+* Si quiere leer el archivo de la entrada estándar puede especificar un guión (-) como nombre de archivo.
 
-## Descubrimiento de Hosts: Quién está Online
+`-iR <cant. sistemas` (Elegir objetivos al azar)
 
-Nmap usa varias maneras para especificar sus objetivos:
+* Cuando se quieren realizar encuestas que cubran toda Internet uno puede querer elegir objetivos al azar. La opción `<cant. sistemas>` indica a Nmap cuántas direcciones  IP debe generar aleatoriamente. Se filtran de forma automática las direcciones no deseables, incluyendo las direcciones privadas, de multicast o direccionamiento no asignado.
+* Si se utiliza el valor 0, Nmap realizará un análisis que no acabará nunca. Hay que tener en cuenta que a algunos administradores de red puede no gustarle que les analices sus redes, y pueden quejarse. Si realmente está aburrido, puede intentar la orden `nmap -sS -PS80 -iR 0 -p 80` para encontrar servidores web al azar para navegar.
 
-* Rango de IPs usando `-`, si quieres escanear todas las direcciones IP desde 192.168.0.1 hasta 192.168.0.10, puedes escribir `192.168.0.1-10`.
-* Subnet de IPs usando `/`, si quieres escanear una subnet, puedes escribir `192.168.0.1/24`, y esto sería equivalente a 192.168.0.0-255.
-* Hostname: tambien podemos especificar el objetivo por el hostname, por ejemplo, `example.thm`.
+`--exclude <equipo1[,equipo2][,equipo3],...` (Excluir equipo o redes)
 
-Supongamos que queremos descubrir los hosts online de una red. Nmap ofrece la opción `-sn`, que sería un escaneo por ping. Sin embargo, este no es limitado como ping.
+* Indica con una lista separada por comas los objetivos que deben excluirse del análisis. Se excluirán aunque se encuentren dentro de un rango especificado en la línea de órdenes.
+* La lista que se indica utiliza la sintaxis normal de Nmap, por lo que puede incluir nombres de equipos, rangos de red CIDR, rangos de octeto, etc.
+* Esto puede ser útil cuando la red a analizar tiene objetivos que no se deben tocar, como puedan ser servidores de misión crítica, que pueden reaccionar adversamente a un análisis de puertos, o si la red incluye subredes administradas por otras personas.
+
+`--excludefile <archivo>` (Excluir desde una Lista).
+
+* Al igual que `--exclude`, esta función permite excluir objetivos, pero en lugar de utilizar la línea de órdenes toma el listado de un `<archivo>`, que utiliza la misma sintaxis que la opción `-iL`.
+
+## Descubrimiento de Hosts
+
+Uno de los primeros pasos en cualquier misión de reconocimiento de red es el de reducir un conjunto de rangos de direcciones IP en una lista de equipos activos o interesantes. Analizar cada puerto de cada una de las direcciones IP es lento, y usualmente innecesario.
+
+Evidentemente depende del propósito del análisis. Los administradores de red pueden interesarse sólo en equipos que estén ejecutando un cierto servicio, mientras que los auditores de seguridad pueden interesarse en todos y cada uno de los dispositivos que tengan una dirección IP.
+
+Un administrador puede obtener un listado de equipos en su red interna mediante un ping IMCP, mientras que un consultor en seguridad realizando nu ataque externo puede llegar a un conjunto de docenas de sondas en su intento de saltarse las restricciones de los cortafuegos.
+
+Siendo tan diversas las necesidades de descubrimiento de sistemas, Nmap ofrece una variedad de opciones para personalizar las técnicas utilizadas. Al descubrimiento de sistemas (Host Discovery) se lo suele llamar sondeo ping, pero va más allá de la simple solicitud ICMP echo-request de los paquetes asociados al querido y nunca bien ponderado ping.
+
+Los usuarios pueden evitar el paso de ping utilizando un sondeo de lista (`-sL`), o deshabilitando el ping (`-P0`), o enviando combinaciones arbitrarias de sondas TCP SYN/ACK, UDP e ICMP a múltiples puertos de la red remota. El propósito de estas sondas es el de solicitar respuestas que demuestren que una dirección IP se encuentra activa (está siendo utilizada por un equipo o dispositivo de red). En varias redes solo un pequeño porcentaje de direcciones IP se encuentran activos en cierto momento. 
+
+Esto es aprticularmente común en las redes basadas en direccionamiento privado RFC1918, como la 10.0.0.0/8. Dicha red tiene más de 16 millones de direcciones IP, pero se ha visto siendo utilizada por empresas con menos de 1000 máquinas. El descubrimiento de sistemas puede encontrar dichas máquinas en un rango tan grande como el indicado.
+
+Si no se proveen opciones de descubrimiento de sistemas. Nmap envía un paquete TCP ACK al puerto 80 y un ICMP Echo Request a cada máquina objetivo. Una excepción a este comportamiento es cuando se utiliza un análisis ARP, para los objetivos que se encuentren en la red Ethernet local. Para los usuarios de shell UNIX que no posean privilegios, un paquete SYN es enviado en vez del ACK, utilizando la llamada al sistema `connect()`. Estos valores por omisión son el equivalente a las opciones `-PA` y `-PE`. Este descubrimiento de sistemas es generalmente suficiente cuando se analizan redes locales, pero para auditorías de seguridad se recomienda utilizar un conjunto más completo de sondas de descubrimiento.
+
+Las opciones `-P*` (que permiten seleccionar los tipos de ping) pueden combinarse. Puede aumentar sus probabilidades de penetrar cortafuegos estrictos enviando muchos tipos de sondas utilizando diferentes puertos o banderas TCP y códigos ICMP. Recuerde que el ARP discovery (`-PR`) se realiza por omisión contra objetivos de la red Ethernet local incluso si se especifica otra de las opciones `-P*`, porque es generalmente más rápido y efectivo.
+
+`-sL` (Sondeo de lista)
+
+* El sondeo de lista es un tipo de descubrimiento de sistemas que tan solo lista cada equipo de la/s red/es especificada/s, sin enviar paquetes de ningún tipo a los objetivos. Por omisión, Nmap va a realizar una resolución inversa DNS en los equipos, para obtener sus nombres.
+* Adicionalmente, al final, Nmap reporta el número total de direcciones IP. El sondeo de lista es una buena forma de asegurarse de que tenemos las direcciones IP correctas de nuestros objetivos. Si se encontraran nombres de dominios que no reconoces, vale la pena investigar un poco más, para evitar realizar un análisis de red de la empresa equivocada.
+
+`-sP` (Sondeo ping)
+
+* Esta opción le indica a Nmap que únicamente realice descubrimiento de sistemas mediante un sondeo ping, y que luego emita un listado de los equipos que respondieron al mismo. No se realizan más sondeos, como un análisis de puertos o detección de sistema operativo.
+* A diferencia del sondeo de lista, el análisis de ping es intrusivo, ya que envía paquetes a los objetivos, pero es usualmente utilizado con el mismo propósito. Permite un reconocimiento liviano de la red objetivo sin llamar mucho la atención. El saber cuántos equipos se encuentran activos es de mayor valor para los atacantes que el listado de cada una de las IP y nombres proporcionado por el sondeo de lista.
+* De la misma forma, los administradores de sistemas suelen encontrar valiosa esta opción. Puede ser fácilmente utilizada para contabilizar las máquinas disponibles en una red, o monitorizar servidores. A esto se le llama barrido ping, y es más fiable que hacer ping a la dirección de broadcast, ya que algunos equipos no resopnden a este tipo de consultas.
+* Esta opción envía una solicitud de eco ICMP y TCP al puerto 80 por omisión. Cuando un usuario sin privilegios ejecuta Nmap se envía un paquete SYN (utilizado en la llamada `connect()`) al puerto 80 del objetivo. Cuando un usuario privilegiado intenta analizar objetivos en la red Ethernet local se utilizan solicitudes ARP (`-PR`) a no ser que se especifique la opción `--send-ip`.
+* También puede combinarse con cualquiera de las opciones de sondas de descubrimiento (las opciones `-P*`, excepto `-P0`) para disponer de mayor flexibilidad. Si se utiliza cualquiera de las opciones de sondas de descubrimiento y número de puerto, se ignoran las sondas por omisión (ACK y solicitud de eco ICMP). Se recomienda utilizar estas técnicas si hay un cortafuegos con un filtrado estricto entre el sistema que ejecuta Nmap y la red objetivo. Sino se hace así pueden llegar a pasarse por alto ciertos equipos, ya que le cortafuegos anularía las sondas o las respuestas a las mismas.
+
+`P0` (No realizar ping)
+
+* Con esta opción, Nmap no realiza la etapa de descubrimiento. Bajo circunstancias normales, Nmap utiliza dicha etapa para determinar qué máquinas se encuentran activas para hacer un análisis más agresivo. Por omisión, Nmap sólo realiza ese tipo de sondeos, como análisis de puertos, detección de versión o del sistema operativo contra los equipos que están "vivos". 
+* Nmap utilizará funciones de análisis solicitadas contra todas las direcciones IP especificadas. Por lo tanto, si se especificauna red del tamaño de una clase B cuyo espacio de direccionamiento es de 16 bits, en la línea de órdenes, se analizará cada una de las 65.536 direcciones IP. 
+* El segundo carácter de esta opción es un "0", no una "O".
+* Al igual que con el sondeo de lista, se evita el descubrimiento apropiado de sistemas, pero, en vez de detenerse y emitir un listado de objetivos, Nmap continúa y realiza las funciones solicitadas como si cada IP objetivo se encontrara activa.
+
+`PS` (Lista de puertos) (Ping TCP SYN)
+
+* Esta opción envía un paquete TCP vacío con la bandera SYN puesta. El puerto destino por omisión es 80 (se puede configurar el tiempo de compilación cambiando el valor de DEFAULT_TCP_PROBE_PORT en nmap.h), pero se puede añadir un puerto alternativo como parámetro. También se puede especificar una lista de puertos separados por comas (ej: -PS22,23,25,80,223,1050). Si hace esto se enviarán sondas en paralelo a cada uno de los puertos.
+* La bandera SYN indica al sistema remoto que quiere establecer una conexión. Normalmente, si el puerto destino está cerrado se recibirá un paquete RST (de "reset"). Si el puerto está abierto entonces el objetivo responderá con el segundo paso del saludo del three-way handshake TCP con un paquete TCP SYN/ACK. El sistema donde se ejecuta Nmap romperá la conexión que se está estableciendo enviando un paquete RST en lugar de enviar el paquete ACK que completaría el saludo TCP. Nmap no envía este paquete, sino que lo envía el núcleo del sistema donde se ejecuta Nmap respondiendo al paquete SYN/ACK que no esperaba.
+* A Nmap no le importa si el puerto está abierto o cerrado. Si, tal y como se acaba de describir, llega una respuesta RST o SYN/ACK entonces Nmap sabrá que el sistema está disponible y responde.
+* En sistemas Unix, generalmente sólo el usuario privilegiado root puede enviar paquetes TCP crudos. Los usuarios no privilegiados tienen una forma de evitar esa restricción utilizando la llamada al sistema "connect()" contra el puerto destino. Esto hace que se envíe el paquete SYN al sistema, para establecer la conexión. Si la llamada "connect()" devuelve un resultado de éxito rápidamente o un fallo ECONNREFUSED entonces se puede deducir que la pila TCP que tiene bajo ésta ha recibido un SYN/ACK o un RST y que puede marcar el sistema como disponible. El sistema se puede marcar como no disponible si el intento de conexión se mantiene parado hasta que vence un temporizador. Esta es también la forma en la que se gestiona esto en conexiones IPv6 ya que Nmap aún no puede crear paquetes IPv6 crudos.
 
 ### Escaneando una Red "Local"
 
