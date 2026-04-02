@@ -178,6 +178,10 @@
   },
   "active": "841f3b41028aa6cd",
   "lastOpenFiles": [
+    "/01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "/01-Ciberseguridad/Herramientas/Análisis de Red",
+    "/01-Ciberseguridad/Herramientas",
+    "/01-Ciberseguridad",
     "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Hash.md",
@@ -213,16 +217,12 @@
     "/Puertos.md",
     "/Certificate Authority.md",
     "/CVE.md",
-    "/04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
     "/03-Recursos/Conceptos",
     "/03-Recursos",
     "/01-Ciberseguridad/Seguridad",
-    "/01-Ciberseguridad/Herramientas/Análisis de Red",
-    "/01-Ciberseguridad/Herramientas",
     "/01-Ciberseguridad/Redes",
     "/01-Ciberseguridad/Ciberataques",
     "05-Común/Frameworks/Laravel",
-    "05-Común/Imágenes",
-    "05-Común/Frameworks"
+    "05-Común/Imágenes"
   ]
 }
