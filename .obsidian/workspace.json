@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "9e9191988c08e2f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fuentes del Derecho Informático.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fuentes del Derecho Informático"
+            }
+          },
+          {
             "id": "4a6b22a38772a0af",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -243,10 +257,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a72f9b4f9ba064c7",
+  "active": "9e9191988c08e2f3",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "01-Ciberseguridad/Legislación/Derecho Informático.md",
+    "Fuentes del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "03-Recursos/Conceptos/Activo.md",
     "05-Común/Frameworks/Frameworks.md",
     "05-Común/Imágenes/Pasted image 20260329222555.png",
@@ -273,7 +288,6 @@
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
-    "01-Ciberseguridad/Criptografía/Criptografía.md",
     "INDEX.base",
     "05-Común/Imágenes/Pasted image 20260329222655.png",
     "05-Común/Imágenes/Pasted image 20260329222637.png",
