@@ -55,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principios del Derecho Informático.md",
+                "file": "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Principios del Derecho Informático"
+            }
+          },
+          {
+            "id": "36ad44702928188e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Legislación/Derecho Informático.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Derecho Informático"
             }
           },
           {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "derecho",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -271,14 +285,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc1779794b12c52e",
+  "active": "ed1805fea565fd93",
   "lastOpenFiles": [
     "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
-    "Principios del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
+    "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "ISO 27032.md",
     "05-Común/Frameworks/ISO 27001.md",
-    "01-Ciberseguridad/Legislación/Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
     "04-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
     "03-Recursos/Conceptos/Activo.md",
@@ -299,7 +314,6 @@
     "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
     "05-Común/Frameworks/Laravel/Laravel.md",
     "05-Común/Frameworks/CIS Controls.md",
-    "05-Común/Frameworks/MITRE ATT&CK.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
     "INDEX.base",

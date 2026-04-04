@@ -1,5 +1,0 @@
----
-tags:
-  - derecho-informatico
-  - legislacion
----
