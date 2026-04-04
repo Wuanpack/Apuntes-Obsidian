@@ -33,7 +33,7 @@ En ciberseguridad, un framework es un conjunto de políticas, controles y buenas
 
 * [[NIST Cybersecurity Framefork (CSF)|NIST Cybersecurity Framefork (CSF)]] 
 * [[CIS Controls]]
-* [[ISO#ISO 27001|ISO 27001]]
+* [[ISO 27001#ISO 27001|ISO 27001]]
 * [[MITRE ATT&CK]]
 
 Son especialmente útiles debido a que las organizaciones manejan activos digitales valiosos, como datos de clientes, sistemas críticos, propiedad intelectual. Por lo que sin una guía estructurada cada empresa inventaría su propia forma de protegerse, con resultados inconsistentes. Los frameworks resuelven eso dando un lenguaje común y una metodología probada
