@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "Descubrimiento de Hosts"
             }
           }
         ]
@@ -214,6 +214,17 @@
   },
   "active": "2e5e02126879d782",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Especificación del Objetivo.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Técnicas de Sondeo de Puertos.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Estados de Puertos.md",
+    "Sin título 2.md",
+    "Sin título 1.md",
+    "Sin título.md",
+    "Sin título 3.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
+    "Puertos.md",
     "TRABAJOS PEGA.md",
     "Man in The Middle.md",
     "01-Ciberseguridad/Criptografía/Criptografía.md",
@@ -231,17 +242,7 @@
     "ISO 27032.md",
     "05-Común/Frameworks/ISO 27001.md",
     "04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
-    "04-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
-    "03-Recursos/Conceptos/Activo.md",
     "05-Común/Imágenes/Pasted image 20260329222555.png",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
-    "Puertos.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-    "Desarrollo de Software Web.md",
-    "04-Plantillas/Hoja-Comandos.md",
-    "04-Plantillas/Inbox-Rapido.md",
-    "04-Plantillas/CTF-Writeup.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
     "INDEX.base",
@@ -254,7 +255,6 @@
     "01-Ciberseguridad/Ciberataques",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta",
     "01-Ciberseguridad/Herramientas/Análisis de Red",
-    "01-Ciberseguridad/Herramientas/Enumeración",
-    "01-Ciberseguridad/Herramientas/Virtualización"
+    "01-Ciberseguridad/Herramientas/Enumeración"
   ]
 }
