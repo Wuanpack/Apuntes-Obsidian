@@ -303,6 +303,14 @@ Las opciones `-P*` (que permiten seleccionar los tipos de ping) pueden combinars
 `--dns-servers <servidor1[,servidor2],...> (Servidores a utilizar para las consultas DNS)`
 
 * Nmap generalmente determina los servidores DNS en su archivo resolv.conf (UNIX) o del registro (Win32). Puede utilizar esta opción para especificar sus propios servidores. Esta opción no se utiliza si utiliza la opción `--system-dns` o está realizando un sondeo IPv6. La resolución a través de más de un servidor de DNS es generalmente más rápida que la consulta a uno solo.
+
+
+
+
+
+
+
+
 ### Escaneando una Red "Local"
 
 En este contexto, usamos el término "Local" para referirnos a la red a la que estamos directamente conectados, como Ethernet o una red Wifi. En esta primera demostración, escanearemos la red Wifi en la que estamos conectados. 
