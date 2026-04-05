@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "128ca9f86d2e7df1",
+        "id": "b080d9d4c4427b50",
         "type": "tabs",
         "children": [
           {
-            "id": "a24d1591b4b2aed4",
+            "id": "2e5e02126879d782",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Moniker Link (CVE-2024-21413)"
-            }
-          },
-          {
-            "id": "d7090a597d8860c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Criptografía Asimétrica"
-            }
-          },
-          {
-            "id": "8093b9e3849ecfe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-Común/Frameworks/Frameworks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Frameworks"
+              "title": "Nmap"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -243,36 +214,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8093b9e3849ecfe2",
+  "active": "2e5e02126879d782",
   "lastOpenFiles": [
-    "05-Común/Imágenes/Pasted image 20260329222555.png",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "05-Común/Frameworks/Laravel/Laravel.md",
     "05-Común/Frameworks/Frameworks.md",
+    "Pasted image 20260404204910.png",
+    "01-Ciberseguridad/Redes/Firewall.md",
+    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
+    "01-Ciberseguridad/Legislación/Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
+    "ISO 27032.md",
+    "05-Común/Frameworks/ISO 27001.md",
     "04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
+    "04-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
+    "03-Recursos/Conceptos/Activo.md",
+    "05-Común/Imágenes/Pasted image 20260329222555.png",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
     "Puertos.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "Desarrollo de Software Web.md",
     "04-Plantillas/Hoja-Comandos.md",
     "04-Plantillas/Inbox-Rapido.md",
     "04-Plantillas/CTF-Writeup.md",
     "04-Plantillas/Apunte-Clase.md",
     "04-Plantillas/Resumen-Teorico.md",
-    "RCE.md",
-    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
-    "05-Común/Frameworks/Laravel/Laravel.md",
-    "05-Común/Frameworks/CIS Controls.md",
-    "05-Común/Frameworks/ISO.md",
-    "05-Común/Frameworks/MITRE ATT&CK.md",
-    "05-Común/Frameworks/NIST Cybersecurity Framefork (CSF).md",
-    "05-Común/Conectarse a Tryhackme.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
-    "01-Ciberseguridad/Criptografía/Criptografía.md",
-    "Certificate Authority.md",
-    "CVE.md",
     "INDEX.base",
     "05-Común/Imágenes/Pasted image 20260329222655.png",
     "05-Común/Imágenes/Pasted image 20260329222637.png",

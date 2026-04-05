@@ -29,7 +29,7 @@ Entre algunos de sus deberes se encuentran:
 * Desarrollar e implementar capacitación y educación continua sobre concientización sobre seguridad para los usuarios.
 * Liderar operaciones de ciberseguridad e implementar protocolos de recuperación ante desastres y planes de continuidad empresarial teniendo en cuenta la resiliencia empresarial.
 
-Además, el CISO debe estar familiarizado con los principales estándares de seguridad de [[NIST Cybersecurity Framefork (CSF)]] e [[ISO]].
+Además, el CISO debe estar familiarizado con los principales estándares de seguridad de [[NIST Cybersecurity Framefork (CSF)]] e [[ISO 27001]].
 
 Muchos CISO también poseen certificaciones de TI, como las designaciones de Profesional Certificado en Seguridad de Sistemas de Información (CISSP) de (ISC2) o Gerente Certificado de Seguridad de la Información (CISM) de ISACA.
 
@@ -39,7 +39,7 @@ Los [[Frameworks|Frameworks]] o marcos de seguridad de la información son guía
 
 Entre estos marcos podemos encontrar estándares internacionales como:
 
-* [[ISO#ISO 27001|ISO 27001]]
+* [[ISO 27001#ISO 27001|ISO 27001]]
 * [[NIST Cybersecurity Framefork (CSF)|National Insitute Standards and Technology]]
 * [[CIS Controls|Controles de Center Internet Security]]
 

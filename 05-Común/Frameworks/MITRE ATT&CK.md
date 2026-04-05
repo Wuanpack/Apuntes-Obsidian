@@ -10,7 +10,7 @@ MITRE es una organización sin fines de lucro estadounidense que trabaja con el 
 
 Es una base de conocimiento pública que documenta las tácticas, técnicas y procedimientos reales que los atacantes usan en el mundo real, construida a partir del análisis de incidentes reales ocurridos en organizaciones reales.
 
-La diferencia clave con [[ISO#ISO 27001|ISO 27001]] y [[NIST Cybersecurity Framefork (CSF)|NIST]] es que ATT&CK no te dice cómo gestionar la seguridad de una organización, sino cómo piensan y actúan los atacantes.
+La diferencia clave con [[ISO 27001#ISO 27001|ISO 27001]] y [[NIST Cybersecurity Framefork (CSF)|NIST]] es que ATT&CK no te dice cómo gestionar la seguridad de una organización, sino cómo piensan y actúan los atacantes.
 Se organiza en una matriz donde las columnas son las fases de un ataque y las filas son las técnicas específicas utilizadas en cada fase.
 
 1. Reconocimiento.
