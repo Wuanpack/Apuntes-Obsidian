@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
+                "file": "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Descubrimiento de Hosts"
+              "title": "Gobuster"
             }
           }
         ]
@@ -214,10 +214,11 @@
   },
   "active": "2e5e02126879d782",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Tcpdump.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Especificación del Objetivo.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Técnicas de Sondeo de Puertos.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Estados de Puertos.md",
     "Sin título 2.md",
     "Sin título 1.md",
@@ -241,7 +242,6 @@
     "01-Ciberseguridad/Legislación/Derechos Digitales.md",
     "ISO 27032.md",
     "05-Común/Frameworks/ISO 27001.md",
-    "04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
     "05-Común/Imágenes/Pasted image 20260329222555.png",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",

@@ -2,7 +2,6 @@
 tags:
   - herramientas/enumeracion
 ---
-
 ## ¿Qué es?
 
 Gobuster es una herramienta de seguridad de código abierto escrita en Go, utilizada para la fuerza bruta en servidores web mediante técnicas de [[Enumeración]] rápida. Es ampliamente utilizada por pentesters para el reconocimiento en auditorías de seguridad web.

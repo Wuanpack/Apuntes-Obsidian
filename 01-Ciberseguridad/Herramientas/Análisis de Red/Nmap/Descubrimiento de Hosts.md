@@ -2,19 +2,13 @@
 tags:
   - herramientas/analisis-red/nmap
 ---
-Uno de los primeros pasos en cualquier misión de reconocimiento de red es el de reducir un conjunto de rangos de direcciones IP en una lista de equipos activos o interesantes. Analizar cada puerto de cada una de las direcciones IP es lento, y usualmente innecesario.
-
-Evidentemente depende del propósito del análisis. Los administradores de red pueden interesarse sólo en equipos que estén ejecutando un cierto servicio, mientras que los auditores de seguridad pueden interesarse en todos y cada uno de los dispositivos que tengan una dirección IP.
-
-Un administrador puede obtener un listado de equipos en su red interna mediante un ping IMCP, mientras que un consultor en seguridad realizando nu ataque externo puede llegar a un conjunto de docenas de sondas en su intento de saltarse las restricciones de los cortafuegos.
-
-Siendo tan diversas las necesidades de descubrimiento de sistemas, Nmap ofrece una variedad de opciones para personalizar las técnicas utilizadas. Al descubrimiento de sistemas (Host Discovery) se lo suele llamar sondeo ping, pero va más allá de la simple solicitud ICMP echo-request de los paquetes asociados al querido y nunca bien ponderado ping.
+Nmap ofrece una variedad de opciones para personalizar las técnicas utilizadas. Al descubrimiento de sistemas (Host Discovery) se lo suele llamar sondeo ping, pero va más allá de la simple solicitud ICMP echo-request de los paquetes asociados al querido y nunca bien ponderado ping.
 
 Los usuarios pueden evitar el paso de ping utilizando un sondeo de lista (`-sL`), o deshabilitando el ping (`-P0`), o enviando combinaciones arbitrarias de sondas TCP SYN/ACK, UDP e ICMP a múltiples puertos de la red remota. El propósito de estas sondas es el de solicitar respuestas que demuestren que una dirección IP se encuentra activa (está siendo utilizada por un equipo o dispositivo de red). En varias redes solo un pequeño porcentaje de direcciones IP se encuentran activos en cierto momento. 
 
-Esto es aprticularmente común en las redes basadas en direccionamiento privado RFC1918, como la 10.0.0.0/8. Dicha red tiene más de 16 millones de direcciones IP, pero se ha visto siendo utilizada por empresas con menos de 1000 máquinas. El descubrimiento de sistemas puede encontrar dichas máquinas en un rango tan grande como el indicado.
+Esto es particularmente común en las redes basadas en direccionamiento privado RFC1918, como la 10.0.0.0/8. Dicha red tiene más de 16 millones de direcciones IP, pero se ha visto siendo utilizada por empresas con menos de 1000 máquinas. El descubrimiento de sistemas puede encontrar dichas máquinas en un rango tan grande como el indicado.
 
-Si no se proveen opciones de descubrimiento de sistemas. Nmap envía un paquete TCP ACK al puerto 80 y un ICMP Echo Request a cada máquina objetivo. Una excepción a este comportamiento es cuando se utiliza un análisis ARP, para los objetivos que se encuentren en la red Ethernet local. Para los usuarios de shell UNIX que no posean privilegios, un paquete SYN es enviado en vez del ACK, utilizando la llamada al sistema `connect()`. Estos valores por omisión son el equivalente a las opciones `-PA` y `-PE`. Este descubrimiento de sistemas es generalmente suficiente cuando se analizan redes locales, pero para auditorías de seguridad se recomienda utilizar un conjunto más completo de sondas de descubrimiento.
+Si no se proveen opciones de descubrimiento de sistemas. Nmap envía un paquete TCP ACK al puerto 80 y un ICMP Echo Request a cada máquina objetivo. Excepto cuando se usa el análisis ARP, para los objetivos que se encuentren en la red Ethernet local. Para los usuarios de shell UNIX que no posean privilegios, un paquete SYN es enviado en vez del ACK, utilizando la llamada al sistema `connect()`. Estos valores por omisión son el equivalente a las opciones `-PA` y `-PE`. Este descubrimiento de sistemas es generalmente suficiente cuando se analizan redes locales, pero para auditorías de seguridad se recomienda utilizar un conjunto más completo de sondas de descubrimiento.
 
 Las opciones `-P*` (que permiten seleccionar los tipos de ping) pueden combinarse. Puede aumentar sus probabilidades de penetrar cortafuegos estrictos enviando muchos tipos de sondas utilizando diferentes puertos o banderas TCP y códigos ICMP. Recuerde que el ARP discovery (`-PR`) se realiza por omisión contra objetivos de la red Ethernet local incluso si se especifica otra de las opciones `-P*`, porque es generalmente más rápido y efectivo.
 
