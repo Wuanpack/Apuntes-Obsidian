@@ -86,12 +86,10 @@
             "id": "e79297ae4ee9286d",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "05-Común/Imágenes/Pasted image 20260329222555.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260329222555"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -216,6 +214,8 @@
   },
   "active": "2e5e02126879d782",
   "lastOpenFiles": [
+    "TRABAJOS PEGA.md",
+    "Man in The Middle.md",
     "01-Ciberseguridad/Criptografía/Criptografía.md",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
@@ -242,8 +242,6 @@
     "04-Plantillas/Hoja-Comandos.md",
     "04-Plantillas/Inbox-Rapido.md",
     "04-Plantillas/CTF-Writeup.md",
-    "04-Plantillas/Apunte-Clase.md",
-    "04-Plantillas/Resumen-Teorico.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
     "INDEX.base",
