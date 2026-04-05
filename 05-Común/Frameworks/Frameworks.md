@@ -27,6 +27,10 @@ Sin [[Laravel]] se tendría que construir todo desde cero con PHP puro. El frame
 
 Otra ventaja importante de los frameworks, es que facilitan el trabajo en equipo. Al utilizar un framework, los desarrolladores pueden trabajar juntos en un proyecto y compartir el código de manera fácil y eficiente. Además de ayudar a mantener la consistencia y la coherencia en el código, lo que puede ser especialmente útil cuando se trabaja en proyectos a gran escala.
 
+![[Pasted image 20260404204910.png]]
+
+El patrón Modelo-Vista-Controlador (MVC) es un patrón arquitectónico ampliamente utilizado en el desarrollo de software, especialmente en aplicaciones web, para separar la representación de la infromación de la manera en que ésta se maneja y manipula. Esta separación permite una modularidad y un mantenimiento más sencillo del código
+
 ## Framework aplicado a la Ciberseguridad
 
 En ciberseguridad, un framework es un conjunto de políticas, controles y buenas prácticas que le dice a una organización cómo gestionar su seguridad. No es código, es documentación y metodología.

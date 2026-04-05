@@ -48,7 +48,6 @@ Proviene del latín *directum*, que significa "lo que está conforme a la norma,
 
 Es la ciencia que estudia los métodos y técnicas para almacenar, procesar y transmitir información de manera automatizada, en forma digital, empleando sistemas computarizados. Dentro del contexto de esta asignatura, la informática proporciona el marco técnico-operativo que permite al Derecho Informático ejercer su función reguladora sobre la tecnología, los datos y los sistemas que constituyen el ciberespacio.
 
-
 ## Derecho Informático
 
 En 1970, el Dr. Wilhelm Steinmüller denomina Derecho Informático o Derecho de las TIC a todas aquellas situaciones, controversias y/o problemas que no podían ser solucionadas con la aplicación de normal de uso general del derecho tradicional y que requieren un tratamiento jurídico especial por su especificidad.
@@ -101,7 +100,6 @@ El Derecho Informático se articula también con técnicas de ingeniería (segur
 
 
 En síntesis, las características del Derecho Informático se retroalimentan. Su compresión es esencial para diseñar políticas públicas eficaces, redactar contratos tecnológicos sólidos, formar profesionales competentes y garantizar la protección de derechos en un mundo digital. Desde el punto de vista pedagógico y profesional, esto implica priorizar la formación interdisciplinaria, el diálogo entre juristas y tecnólogos, y el diseño de marcos normativos ágiles y basados en principios, capaces de acompañar la velocidad del cambio tecnológico sin perder la protección de los valores fundamentales.
-
 
 ### ¿Cuál es del objetivo principal del Derecho Informático?
 
