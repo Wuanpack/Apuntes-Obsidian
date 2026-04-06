@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uniform Resource Locator.md",
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Uniform Resource Locator"
+              "title": "Nmap"
             }
           }
         ],
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:herramientas/analisis-red/nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -244,9 +244,9 @@
   },
   "active": "41b776b6ea966518",
   "lastOpenFiles": [
+    "Uniform Resource Locator.md",
     "Pasted image 20260406013311.png",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Meterpreter.md",
-    "Uniform Resource Locator.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Metasploit.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
