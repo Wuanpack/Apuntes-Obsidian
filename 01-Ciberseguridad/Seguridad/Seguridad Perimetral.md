@@ -19,7 +19,7 @@ El filtro de contenido, comúnmente, se conoce debido a que a través de [[Proxy
 
 Originalmente, los [[Proxy|servidores proxy]] nacen para acelerar el acceso a internet, guardando copias de los sitios visitados en un caché local en el servidor, evitando que las visitas posteriores dentro de nuestra red tuvieran que ir a buscar a internet nuevamente la página solicitada.
 
-Debemos recordar que hace no muchos años, no todos los sitios web utilizar el protocolo [[HTTPS]], sino que solo utilizaban el protocolo [[HTTP]] a secas, sin cifrar, lo cual permitía que el [[Proxy]] interceptara el tráfico sin cifrar para generar una copia en caché de disco de este.
+Debemos recordar que hace no muchos años, no todos los sitios web utilizar el protocolo [[HTTPS]], sino que solo utilizaban el protocolo [[HyperText Transfer Protocol]] a secas, sin cifrar, lo cual permitía que el [[Proxy]] interceptara el tráfico sin cifrar para generar una copia en caché de disco de este.
 
 ## Contenidos Relacionados
 
