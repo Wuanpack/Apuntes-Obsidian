@@ -77,7 +77,7 @@ Laravel proporciona un enrutador potente y flexible que permite definir rutas de
 
 El componente routing tiene como función dirigir las solicitudes HTTP entrantes a la acción correspondiente del controlador o a una función de cierre (closure), permitiendo gestionar la navegación y la lógica de la aplicación de manera estructurada.
 
-Define qué código se ejecuta según la [[URL]] que visita el usuario. Se configura en `routes/web.php`
+Define qué código se ejecuta según la [[Uniform Resource Locator]] que visita el usuario. Se configura en `routes/web.php`
 
 ```php
 // Cuando el usuario visita /usuarios, ejecuta el método index del controlador

@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "b080d9d4c4427b50",
+        "id": "75df20b35d8ee01f",
         "type": "tabs",
         "children": [
           {
-            "id": "2e5e02126879d782",
+            "id": "fdaa787177a792b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nmap"
+              "title": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones"
+            }
+          },
+          {
+            "id": "aee769fa4467d649",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Burp Proxy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,12 +101,10 @@
             "id": "e79297ae4ee9286d",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "05-Común/Imágenes/Pasted image 20260329222555.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260329222555"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -200,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,49 +228,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e5e02126879d782",
+  "active": "aee769fa4467d649",
   "lastOpenFiles": [
+    "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
+    "Pasted image 20260406224405.png",
+    "Pasted image 20260406224321.png",
+    "Pasted image 20260406223557.png",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
+    "Sin título.md",
+    "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
+    "02-Informatica/SQL/SQL.md",
+    "Pasted image 20260406200829.png",
+    "Pasted image 20260406200225.png",
+    "02-Informatica/Sin título.md",
+    "02-Informatica/SQL",
+    "02-Informatica/JavaScript",
+    "02-Informatica/JavaScript/JavaScript.md",
+    "TLS.md",
+    "Uniform Resource Locator.md",
+    "Sin título 1.md",
+    "Sin título 2.md",
+    "Sin título 3.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+    "TRABAJOS PEGA.md",
+    "Pasted image 20260406050711.png",
+    "Pasted image 20260406050040.png",
+    "Pasted image 20260406013311.png",
+    "Man in The Middle.md",
+    "HyperText Transfer Protocol.md",
+    "5f04259cf9bf5b57aed2c476-1741854427607.svg",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Técnicas de Sondeo de Puertos.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Estados de Puertos.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Especificación del Objetivo.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
     "01-Ciberseguridad/Criptografía/Criptografía.md",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "05-Común/Frameworks/Laravel/Laravel.md",
-    "05-Común/Frameworks/Frameworks.md",
     "Pasted image 20260404204910.png",
-    "01-Ciberseguridad/Redes/Firewall.md",
-    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
-    "01-Ciberseguridad/Legislación/Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
-    "ISO 27032.md",
-    "05-Común/Frameworks/ISO 27001.md",
-    "04-Evaluaciones/Evaluaciones — Universidad Mayor.md",
-    "04-Evaluaciones/Evaluaciones — IP-San-Sebastián.md",
-    "03-Recursos/Conceptos/Activo.md",
-    "05-Común/Imágenes/Pasted image 20260329222555.png",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
-    "Puertos.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Diffie-Hellman Key Exchange.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-    "Desarrollo de Software Web.md",
-    "04-Plantillas/Hoja-Comandos.md",
-    "04-Plantillas/Inbox-Rapido.md",
-    "04-Plantillas/CTF-Writeup.md",
-    "04-Plantillas/Apunte-Clase.md",
-    "04-Plantillas/Resumen-Teorico.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
     "INDEX.base",
-    "05-Común/Imágenes/Pasted image 20260329222655.png",
-    "05-Común/Imágenes/Pasted image 20260329222637.png",
-    "05-Común/Imágenes/Pasted image 20260329222559.png",
-    "05-Común/Imágenes/Pasted image 20260329161654.png",
     "05-Común/Imágenes",
     "01-Ciberseguridad/Herramientas/Pentesting",
-    "01-Ciberseguridad/Ciberataques",
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta",
-    "01-Ciberseguridad/Herramientas/Análisis de Red",
-    "01-Ciberseguridad/Herramientas/Enumeración",
-    "01-Ciberseguridad/Herramientas/Virtualización"
+    "01-Ciberseguridad/Ciberataques"
   ]
 }
