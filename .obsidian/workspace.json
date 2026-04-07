@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
+                "file": "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info"
-            }
-          },
-          {
-            "id": "bf60de3acd4edaed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Burp Suite"
+              "title": "Burp Proxy"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -242,12 +228,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf60de3acd4edaed",
+  "active": "aee769fa4467d649",
   "lastOpenFiles": [
+    "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
+    "Pasted image 20260406224405.png",
+    "Pasted image 20260406224321.png",
+    "Pasted image 20260406223557.png",
     "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
     "Sin título.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
-    "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
     "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "02-Informatica/SQL/SQL.md",
     "Pasted image 20260406200829.png",
@@ -280,15 +270,11 @@
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "05-Común/Frameworks/Laravel/Laravel.md",
     "Pasted image 20260404204910.png",
-    "05-Común/Imágenes/Pasted image 20260329222555.png",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
     "INDEX.base",
-    "05-Común/Imágenes/Pasted image 20260329222655.png",
-    "05-Común/Imágenes/Pasted image 20260329222637.png",
     "05-Común/Imágenes",
     "01-Ciberseguridad/Herramientas/Pentesting",
-    "01-Ciberseguridad/Ciberataques",
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta"
+    "01-Ciberseguridad/Ciberataques"
   ]
 }
