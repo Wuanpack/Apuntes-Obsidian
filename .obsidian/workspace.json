@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "588c5c9bd6f524a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Informatica/SQL/SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQL"
-            }
-          },
-          {
             "id": "fdaa787177a792b1",
             "type": "leaf",
             "state": {
@@ -48,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info"
             }
+          },
+          {
+            "id": "bf60de3acd4edaed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Burp Suite"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,10 +242,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "588c5c9bd6f524a5",
+  "active": "bf60de3acd4edaed",
   "lastOpenFiles": [
-    "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
+    "Sin título.md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
     "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
+    "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "02-Informatica/SQL/SQL.md",
     "Pasted image 20260406200829.png",
     "Pasted image 20260406200225.png",
@@ -275,10 +279,7 @@
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "05-Común/Frameworks/Laravel/Laravel.md",
-    "05-Común/Frameworks/Frameworks.md",
     "Pasted image 20260404204910.png",
-    "01-Ciberseguridad/Redes/Firewall.md",
-    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "05-Común/Imágenes/Pasted image 20260329222555.png",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
