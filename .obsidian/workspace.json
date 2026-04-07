@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "fdaa787177a792b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones"
+            }
+          },
+          {
             "id": "aee769fa4467d649",
             "type": "leaf",
             "state": {
@@ -229,9 +243,10 @@
   },
   "active": "588c5c9bd6f524a5",
   "lastOpenFiles": [
+    "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
-    "Pasted image 20260406200829.png",
     "02-Informatica/SQL/SQL.md",
+    "Pasted image 20260406200829.png",
     "Pasted image 20260406200225.png",
     "02-Informatica/Sin título.md",
     "02-Informatica/SQL",
