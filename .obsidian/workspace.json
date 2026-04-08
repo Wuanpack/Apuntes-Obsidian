@@ -283,8 +283,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,7 +297,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a18f74f80d473697",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "Sin título 1.md",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
