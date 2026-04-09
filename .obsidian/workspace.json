@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
+                "file": "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hydra"
+              "title": "Gobuster"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#criptografia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +160,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "905fcd07cda69d99",
@@ -297,10 +298,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "46eb06468fab7a49",
   "lastOpenFiles": [
-    "Sin título 1.md",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
+    "Sin título 1.md",
     "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
     "01-Ciberseguridad/Legislación/Informática Jurídica.md",
     "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
