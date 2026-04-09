@@ -47,7 +47,7 @@ También podemos usar Hydra para realizar ataques de fuerza bruta a formularios 
 
 Ejemplo de un comando de fuerza bruta en un formulario de inicio de sesión POST:
 
-`hydra -l <username> -P <wordlist> 10.64.166.161 http-psot-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
+`hydra -l <username> -P <wordlist> 10.64.166.161 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
 
 * La página de inicio de sesión es sólo /
 * El `username` es el campo del formulario donde el nombre de usuario debe ser ingresado.
