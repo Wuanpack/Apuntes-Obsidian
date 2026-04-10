@@ -3,7 +3,6 @@ tags:
   - redes
   - seguridad
 ---
-
 ## ¿Qué es?
 
 Un firewall es un dispositivo de seguridad de red que separa una red interna confiable de una red externa considerada no confiable, como Internet. Regula el tráfico de red entrante y saliente basándose en reglas de seguridad preestablecidas.

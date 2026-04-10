@@ -2,7 +2,6 @@
 tags:
   - seguridad
 ---
-
 ## Seguridad de Endpoint
 
 Puede aplicarse a cualquier dispositivo final que contenga un sistema operativo compatible, como es el caso de las estaciones de trabajo que no necesariamente son ocupadas como un punto de trabajo para herramientas productivas que utilizan suites de ofimática o para videollamadas.
