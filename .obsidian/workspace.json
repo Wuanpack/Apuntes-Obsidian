@@ -118,7 +118,6 @@
       {
         "id": "07794e627f4c4e15",
         "type": "tabs",
-        "dimension": 69.29368029739777,
         "children": [
           {
             "id": "ed1805fea565fd93",
@@ -158,23 +157,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
-            }
-          }
-        ]
-      },
-      {
-        "id": "905fcd07cda69d99",
-        "type": "tabs",
-        "dimension": 30.706319702602233,
-        "children": [
-          {
-            "id": "e79297ae4ee9286d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
             }
           }
         ]
@@ -299,10 +281,11 @@
   },
   "active": "a18f74f80d473697",
   "lastOpenFiles": [
+    "Shell.md",
+    "Sin título 2.md",
     "Certificate Authority.md",
     "aquí..md",
     "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
-    "Shell.md",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
     "Sin título 1.md",
     "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
@@ -335,7 +318,6 @@
     "Pasted image 20260406050040.png",
     "Pasted image 20260406013311.png",
     "Man in The Middle.md",
-    "HyperText Transfer Protocol.md",
     "5f04259cf9bf5b57aed2c476-1741854427607.svg",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
     "Pasted image 20260404204910.png",

