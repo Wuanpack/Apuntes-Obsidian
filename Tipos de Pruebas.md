@@ -303,3 +303,107 @@ Las pruebas de aceptación de software son una parte esencial del ciclo de vida 
 
 ## Pruebas de Regresión
 
+Las pruebas de regresión son un tipo de prueba de software que se realiza para verificar que los cambios realizados en el código no hayan introducido nuevos errores o afectado el funcionamiento de las funcionalidades existentes. Estas pruebas son esenciales para garantizar la calidad y confiabilidad del software a lo largo de su ciclo de vida.
+
+### Objetivos
+
+* Detectar errores de regresión: Identificar errores nuevos o reaparición de errores antiguos que se introdujeron como resultado de cambios en el código.
+* Validar el funcionamiento del software: Verificar que las funcionalidades existentes del software continúen funcionando correctamente después de los cambios.
+* Asegurar la calidad del software: Garantizar que el software cumple con los estándares de calidad establecidos y satisface las expectativas de los usuarios.
+* Reducir costos: Prevenir errores a tiempo para evitar costos asociados a la corrección en etapas posteriores del desarrollo.
+
+### Proceso
+
+1. Identificación de casos de prueba: Seleccionar los casos de prueba existentes que cubren las áreas del software afectadas por los cambios.
+2. Ejecución de pruebas: Ejecutar los casos de prueba seleccionados y registrar los resultados objetivos.
+3. Análisis y reporte: Analizar los resultados de las pruebas, identificar errores y generar un informe detallado.
+4. Corrección de errores: Corregir los errores identificados en las pruebas y volver a probar las áreas afectadas.
+5. Re-prueba: Ejecutar nuevamente los casos de prueba para verificar que los errores hayan sido corregidos correctamente.
+6. Lanzamiento: Si las pruebas de regresión no revelan nuevos errores, se procede al lanzamiento de la nueva versión del software.
+
+### Ventajas
+
+* Detección temprana de errores: Permite identificar errores en etapas tempranas del ciclo de desarrollo, cuando son más fáciles y menos costosos de corregir.
+* Mayor cobertura de pruebas: Aumenta la cobertura de pruebas del software, lo que reduce la probabilidad de que se presenten errores en la versión final.
+* Reducción de costos: Disminuye los costos asociados a la corrección de errores en etapas posteriores del desarrollo y la producción.
+* Mejora de la calidad del software: Contribuye a mejorar la calidad general del software y la satisfacción del usuario.
+
+### Desventajas
+
+* Costo inicial: La implementación de pruebas de regresión automatizadas puede requerir una inversión inicial en herramientas y capacitación.
+* Mantenimiento: los scripts de prueba automatizados deben mantenerse actualizados a medida que el software evoluciona.
+* Falsos positivos/negativos: Las pruebas automatizadas pueden generar resultados falsos que requieren análisis adicional.
+* Limitaciones en la cobertura: No garantiza la detección de todos los errores, especialmente aquellos en áreas no cubiertas por las pruebas.
+
+Las pruebas de regresión son una parte fundamental del proceso de desarrollo de software moderno. Al implementar un proceso de pruebas de regresión bien definido y utilizar herramientas adecuadas, las empresas pueden reducir significativamente el riesgo de errores y fallos en el software, lo que a su vez se traduce en un mejor producto final y una mayor satisfacción del cliente.
+
+
+## Pruebas No Funcionales
+
+Las pruebas no funcionales son una categoría esencial dentro del proceso de verificación y validación del software, enfocándose en aspectos cualitativos del sistema. Estas pruebas no se centran en verificar si el sistema realiza tareas específicas según los requisitos funcionales, sino en evaluar cómo se comporta y desempeña el sistema bajo diversas condiciones.
+
+### Objetivo Principal
+
+Asegurar que el software cumpla con los estándares de calidad en términos de rendimiento, usabilidad, fiabilidad, eficiencia y escalabilidad, entre otros atributos importantes.
+
+Al abordar el rendimiento del software, las pruebas no funcionales examinan cómo el sistema responde y opera bajo diferentes niveles de carga y estrés. Este análisis es crucial para determinar la capacidad del sistema de manejar múltiples usuarios simultáneos y grandes volúmenes de datos, garantizando que mantenga un rendimiento adecuado incluso en situaciones extremas.
+
+En cuanto a la usabilidad, estas pruebas se centran en la interacción del usuario con el sistema. Evalúan la facilidad de uso, la intuitividad de la interfaz y la accesibilidad, con el fin de asegurar una experiencia de usuario positiva. Observando a usuarios reales mientras interactúan con el sistema, se pueden identificar problemas de diseño y áreas que necesiten mejoras para aumentar la satisfacción del usuario. La fiabilidad es otro aspecto clave evaluado por las pruebas no funcionales. Aquí, el enfoque está en la capacidad del sistema para operar sin fallos durante períodos prolongados, manejando adecuadamente situaciones de error y recuperándose rápidamente de fallos. Esto garantiza que el software sea robusto y consistente en su funcionamiento diario. 
+
+Las pruebas de eficiencia analizan cómo el software utiliza los recursos del sistema, como la memoria y el CPU. La optimización del uso de estos recursos es fundamental para asegurar que el software no sólo funcione correctamente, si no que también lo haga de forma eficiente, mejorando el rendimiento general y reduciendo el consumo innecesario de recursos. 
+
+La escalabilidad es otro atributo crítico evaluado mediante pruebas no funcionales. Estas pruebas determinan la capacidad del sistema para adaptarse y crecer en respuesta a aumentos en la carga de trabajo, asegurando que pueda manejar un incremento en el número de usuarios o en el volumen de datos sin que se degrade su rendimiento.
+
+Además de estos atributos, las pruebas no funcionales también pueden abordar aspectos como la seguridad, la compatibilidad y la mantenibilidad del software. La evaluación de la seguridad implica verificar que el sistema protege adecuadamente los datos y resiste posibles ataques. La compatibilidad asegura que el software funcione correctamente en diferentes entornos y dispositivos. La mantenibilidad se refiere a la facilidad con la que el software puede ser actualizado y modificado. 
+
+El proceso de pruebas no funcionales implica una planificación meticulosa y la creación de escenarios de prueba que simulen condiciones reales de operación. Se emplean diversas herramientas y técnicas para recolectar datos detallados sobre el comportamiento del sistema, lo cual permite a los evaluadores identificar y solucionar problemas antes de que el software sea desplegado en un entorno de producción.
+
+Las pruebas no funcionales son fundamentales para garantizar que el software no solo cumpla con sus funciones básicas, sino que también ofrezca una experiencia de usuario superior, sea confiable y eficiente en su uso de recursos, y tenga la capacidad de escalar conforme a las necesidades del negocio. Al asegurar estos aspectos de calidad, las pruebas no funcionales juegan un papel crucial en el desarrollo de software robusto y de alto rendimiento, contribuyendo al éxito y sostenibilidad del sistema a largo plazo.
+
+## Pruebas de Seguridad
+
+Las pruebas de seguridad de software han emergido como una respuesta contundente y necesaria ante el creciente y complejo panorama de amenazas que acechan los sistemas informáticos en la era digital. La evolución tecnológica, sin duda alguna,  ha brindado innumerables beneficios y oportunidades, pero también ha engendrado un nuevo escenario en el que los riesgos cibernéticos se multiplican de manera exponencial. En este contexto, los métodos tradicionales de protección ya no son suficientes para hacer frente a las sofisticadas tácticas empleadas por los actores malintencionados.
+
+Hoy en día, las pruebas de seguridad de software no solo se limitan a identificar y corregir vulnerabilidades existentes, sino que también abarcan la evaluación proactiva de la arquitectura y el diseño de los sistemas, así como la validación de su conformidad con estándares y regulaciones de seguridad.
+
+### Proceso
+
+1. El proceso de pruebas de seguridad de software traza un viaje meticuloso hacia la protección digital, estableciendo un marco sólido y estructurado para enfrentar los desafíos cibernéticos con determinación y eficacia. Este proceso, compuesto por una serie de etapas interconectadas y complementarias, se erige como un bastión fundamental en la defensa de la integridad y la confidencialidad de los sistemas informáticos.
+2. Identificación de Amenazas y Vulnerabilidades: En esta fase inicial, se lleva a cabo una exhaustiva exploración del software en busca de posibles amenazas y vulnerabilidades que puedan poner en riesgo su seguridad y estabilidad. Este análisis proactivo permite anticiparse a potenciales riesgos y fortalecer las defensas digitales de manera preventiva.
+3. Evaluación de Riesgos: Una vez identificadas las amenazas y vulnerabilidades, se procede a evaluar el riesgo que representan tanto para el software en sí como la organización en su conjunto. Esta evaluación ponderada permite priorizar las acciones de seguridad y asignar recursos de manera óptima para mitigar los riesgos identificados.
+4. Priorización de Pruebas: Con base en la evaluación de riesgos, se establece un orden de prioridad para la realización de las pruebas de seguridad. Aquellas áreas del software que presenten un mayor riesgo y un impacto potencial más significativo serán sometidas a pruebas más rigurosas y detalladas.
+5. Ejecución de Pruebas: En esta etapa, se llevan a cabo las pruebas de seguridad propiamente dichas, haciendo uso de diversas técnicas y herramientas especializadas. Desde el análisis estático del código hasta las pruebas de penetración y el fuzz testing, se emplean métodos variados para detectar posibles vulnerabilidades y evaluar la robustez del software frente a ataques.
+6. Análisis de Resultados: Una vez completadas las pruebas, se procede a analizar detalladamente los resultados obtenidos, identificando las vulnerabilidades detectadas y evaluando su potencial impacto en la seguridad del sistema. Este análisis crítico sienta las bases para la toma de decisiones informadas en materia de seguridad.
+7. Reporte y Remediación: Se elabora un informe exhaustivo que documenta los hallazgos de las pruebas, incluyendo recomendaciones específicas para la remediación de las vulnerabilidades identificadas. Este informe proporciona una hoja de ruta clara y detallada para abordar las deficiencias de seguridad y fortalecer la protección del software.
+8. Corrección de Vulnerabilidades: Los desarrolladores y responsables de seguridad proceden a corregir las vulnerabilidades identificadas durante las pruebas, implementando las medidas de seguridad necesarias para mitigar los riesgos detectados. Esta fase implica un trabajo colaborativo y coordinado para garantizar una respuesta efectiva y oportuna ante las amenazas.
+9. Re-prueba: Finalmente, se realizan pruebas adicionales para verificar que las vulnerabilidades identificadas hayan sido corregidas de manera adecuada. Esta fase de re-prueba asegura que las medidas de remediación implementadas sean efectivas y que el software se encuentre protegido de manera integral contra posibles ataques.
+
+El proceso de pruebas de seguridad de software traza un itinerario completo y sistemático hacia la protección digital, proporcionando una metodología robusta y eficiente para salvaguardar la integridad y la confidencialidad de los sistemas informáticos en un entorno cibernético cada vez más desafiante y complejo.
+
+### ¿Cómo se trabaja?
+
+Las pruebas de seguridad de software requieren un enfoque meticuloso y sistemático, donde cada paso del proceso en ejecutado con precisión y detalle para garantizar la máxima protección de los sistemas informáticos. Los profesionales de seguridad informática, también conocidos como analistas de seguridad o pentesters, emplean una variedad de herramientas y técnicas especializadas para identificar y mitigar posibles vulnerabilidades. A continuación, se describe en detalle cómo se lleva a cabo este trabajo:
+
+* Escaneo de Vulnerabilidades: El escaneo de vulnerabilidades es una técnica fundamental que consiste en utilizar herramientas automatizadas para examinar el software y detectar posibles puntos débiles. Estas herramientas analizan el código, la configuración y los componentes del sistema en busca de vulnerabilidades conocidas que puedan ser explotadas por atacantes. Los escaneos de vulnerabilidades se realizan regularmente como parte de las prácticas de seguridad continuas y son esenciales para identificar problemas antes de que puedan ser explotados.
+* Pruebas de Penetración (PenTesting): Las pruebas de penetración, son una metodología en la que los profesionales de seguridad intentan simular ataques reales contra el software para identificar y explotar vulnerabilidades de seguridad. Este enfoque práctico y activo permite evaluar la efectividad de las defensas del sistema en un entorno controlado. Los pentesters utilizan una combinación de herramientas automatizadas y técnicas manuales para identificar debilidades en la infraestructura, las aplicaciones y las redes.
+* Análisis de Código Estático y Dinámico: El análisis de código estático y dinámico es crucial para comprender cómo se comporta el software y detectar posibles fallos de seguridad.
+* Análisis de Código Estático: Se refiera a la revisión del código fuente sin ejecutarlo, utilizando herramientas que analizan el código en busca de patrones que puedan indicar vulnerabilidades, como errores de programación, malas prácticas o posibles puntos de entrada para ataques.
+* Análisis de Código Dinámico: Implica la ejecución del software en un entorno controlado y la observación de su comportamiento en tiempo real. Esto permite identificar vulnerabilidades que solo son evidentes cuando el software está en funcionamiento, como fugas de memoria, errores de lógica y problemas de rendimiento que podrían ser explotados por atacantes.
+* Revisión de Arquitectura de Software: La revisión de arquitectura del software implica un examen detallado de la estructura y el diseño del sistema para asegurar que se han implementado correctamente los principios de seguridad desde el inicio del desarrollo. Los profesionales de seguridad revisan cómo se organizan los componentes del software, cómo se comunican entre sí y cómo se gestionan los datos sensibles. Este enfoque ayuda a identificar debilidades estructurales y a asegurar que el software esté construido sobre una base segura y robusta.
+* Auditorías de Seguridad: Las auditorías de seguridad son evaluaciones exhaustivas que revisan todos los aspectos del software y su entorno operativo para asegurar que cumplan con las políticas de seguridad y las regulaciones aplicables. Estas auditorías pueden incluir revisiones de políticas, procedimientos, configuraciones y controles de seguridad. El objetivo es identificar y corregir cualquier deficiencia antes de que puedan se explotadas por atacantes.
+* Simulación de Ataques: La simulación de ataques, también conocida como red teaming, implica la creación de escenarios de ataque realistas para evaluar la capacidad del software y la organización para detectar, responder y recuperarse de incidentes de seguridad. Esta técnica avanzada permite a los profesionales de seguridad identificar debilidades en la respuesta a incidentes y mejorar las estrategias de defense. La simulación de ataques puede abarcar una amplia gama de escenarios, desde ataques de phishing y ransomware hasta la explotación de vulnerabilidades específicas del sistema.
+
+El trabajo de pruebas de seguridad de software es un proceso complejo y multifacético que requiere una combinación de herramientas automatizadas y habilidades técnicas avanzadas. Cada técnica utilizada proporciona una capa adicional de protección, y juntas, estas prácticas forman una defensa integral contra las amenazas cibernéticas. Los profesionales de seguridad deben mantenerse continuamente actualizados sobre las últimas amenazas y técnicas para garantizar que los sistemas se mantengan seguros y protegidos frente a un panorama de amenazas en constante evolución.
+
+### Ventajas
+
+* Identificación Temprana de Vulnerabilidades: Uno de los principales beneficios de realizar pruebas de seguridad de software es la capacidad de detectar y corregir fallos de seguridad e las primeras etapas del desarrollo. Esto previene que los errores sean explotados por individuos malintencionados, disminuyendo el riesgo de incidentes de seguridad. La identificación temprana permite a los desarrolladores abordar problemas antes de que se conviertan en amenazas serias, mejorando así la calidad y la seguridad del producto final.
+* Mejora en la confianza del usuario: Realizar pruebas de seguridad y comunicar su efectividad demuestra un compromiso firme con la protección de los datos y la privacidad de los usuarios. Esta transparencia puede aumentar significativamente la confianza de los clientes en el producto y la empresa, fomentando la lealtad del cliente y la reputación de la marca en el mercado.
+* Cumplimiento Normativo: Las pruebas de seguridad son cruciales para asegurar que el software cumpla con diversas regulaciones y estándares de seguridad, como el GDPR (Reglamento General de Protección de Datos), PCI-DSS (Estándar de Seguridad de Datos de la Industria de Tarjetas de Pago), y HIPAA (Ley de Portabilidad y Responsabilidad de Seguros de Salud). El cumplimiento de estas normas no solo evita sanciones legales y financieras, sino que también protege la integridad y confidencialidad de los datos sensibles.
+* Reducción de Costos a Largo Plazo: Abordar y corregir problemas de seguridad durante la fase de desarrollo es significativamente más económico que solucionarlos después de que el software ha sido lanzado. Los errores detectados en producción pueden resultar en costosos parches de emergencia, interrupciones del servicio, y daños a la reputación de la empresa. Por lo tanto, las pruebas de seguridad proactivas contribuyen a la eficiencia y ahorro de costos a largo plazo.
+
+### Desventajas
+
+* Costo y Tiempo: La implementación de pruebas exhaustivas de seguridad puede ser costosa y llevar mucho tiempo, especialmente en proyectos grandes y complejos. El costo incluye tanto las herramientas necesarias como el tiempo del personal
+
+
