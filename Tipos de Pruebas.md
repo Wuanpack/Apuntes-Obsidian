@@ -460,5 +460,3 @@ A pesar de sus numerosas ventajas, las pruebas de estrés también pueden presen
 
 ## Pruebas de Carga
 
-
-<
