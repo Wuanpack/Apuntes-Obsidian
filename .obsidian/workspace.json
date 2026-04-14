@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +213,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20728f2ee6dc80ca",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "APUNTES ARQ DEL ASEG DE LA INFO,.md",
     "01-Ciberseguridad/Legislación/Marco Regulatorio Internacional.md",
