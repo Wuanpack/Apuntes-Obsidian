@@ -21,7 +21,7 @@ Relaciona los datos existentes sobre un asunto, generalmente, mediante un proces
 
 ### Fuentes Cerradas
 
-Comprende aquellos datos cuyo acceso posee ciertas medidas de autenticacion, por ejemplo, uso de usuarios y contraseñas, con el fin de evitar accesos no autorizados. En síntesis, es información que posee un sistema de seguridad.
+Comprende aquellos datos cuyo acceso posee ciertas medidas de autenticación, por ejemplo, uso de usuarios y contraseñas, con el fin de evitar accesos no autorizados. En síntesis, es información que posee un sistema de seguridad.
 
 Es toda información que se encuentra dentro de una base de datos privada o clasificada, debido a que tratan de datos protegidos y uso confidencial, cuyo acceso requiere un pago o membresía. Este es un caso visible cuando el contenido solo es accesible por medio de un registro o autenticación previa del usuario legítimo.
 
