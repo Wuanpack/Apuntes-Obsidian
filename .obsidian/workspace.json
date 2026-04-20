@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cd7a2e4182e05a62",
+        "id": "8fdfa51af25d312f",
         "type": "tabs",
         "children": [
           {
-            "id": "20728f2ee6dc80ca",
+            "id": "eba69fe1016b8a38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
+                "file": "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQLMap"
+              "title": "Seguridad Defensiva"
+            }
+          },
+          {
+            "id": "f023a274003d67c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Forensics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,11 +228,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20728f2ee6dc80ca",
+  "active": "f023a274003d67c1",
   "lastOpenFiles": [
+    "Pasted image 20260419215815.png",
+    "Pasted image 20260419215200.png",
+    "01-Ciberseguridad/Blue Team/SOC.md",
+    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+    "01-Ciberseguridad/Blue Team",
+    "Pasted image 20260419212234.png",
+    "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
+    "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
     "IS_U1_EF_GRUPO1.docx",
     "02-Informatica/SQL/SQL.md",
-    "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
     "01-Ciberseguridad/Herramientas/Inyección SQL",
     "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
     "03-Recursos/Conceptos/OSINT.md",
@@ -248,18 +270,11 @@
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
     "5f04259cf9bf5b57aed2c476-1741854427607.svg",
     "Pasted image 20260406050711.png",
-    "Pasted image 20260406050040.png",
     "Uniform Resource Locator.md",
-    "Pasted image 20260406013311.png",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Meterpreter.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Metasploit.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-    "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
-    "INDEX.base",
-    "05-Común/Imágenes"
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica"
   ]
 }
