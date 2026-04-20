@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+                "file": "01-Ciberseguridad/Blue Team/Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Forensics"
+              "title": "Logs"
             }
           }
         ],
@@ -90,7 +90,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "905fcd07cda69d99",
@@ -111,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -230,10 +232,14 @@
   },
   "active": "f023a274003d67c1",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "01-Ciberseguridad/Blue Team/Logs.md",
+    "Pasted image 20260419235328.png",
+    "Pasted image 20260419235250.png",
+    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
     "Pasted image 20260419215815.png",
     "Pasted image 20260419215200.png",
     "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
     "01-Ciberseguridad/Blue Team",
     "Pasted image 20260419212234.png",
     "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
@@ -257,7 +263,6 @@
     "Pasted image 20260406224321.png",
     "Pasted image 20260406223557.png",
     "Pasted image 20260406200829.png",
-    "Pasted image 20260406200225.png",
     "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
     "02-Informatica/SQL",
@@ -268,10 +273,7 @@
     "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
     "HyperText Transfer Protocol.md",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
-    "5f04259cf9bf5b57aed2c476-1741854427607.svg",
-    "Pasted image 20260406050711.png",
     "Uniform Resource Locator.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Meterpreter.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
