@@ -26,6 +26,11 @@ hace menos efectivos contra ataques sofisticados
 
 Es un tipo temprano de dispositivo de firewall que sirve como puerta de enlace de una red a otra para una aplicación específica. Los servidores proxy pueden proporcionar funcionalidad adicional, como almacenamiento en caché de contenido y seguridad, al evitar conexiones directas desde fuera de la red. Sin embargo, esto también puede afectar las capacidades de rendimiento y las aplicaciones que pueden soportar.
 
+### Stateless Firewall
+
+Este tipo de firewall opera en la capa 3 y la capa 4 del modelo OSI y trabaja únicamente filtrando los datos basados en reglas predeterminadas sin tomar nota del estado de las conexiones previas. Esto significa que va a coincidir todos los paquetes con las reglas sin importar si son parte de una conexión legítima. 
+
+No mantiene información del estado de las conexiones previas para hacer decisiones para paquetes futuros. Debido a esto, estos firewalls pueden procesar los paquetes de forma más rápida. Sin embargo, estos no pueden aplicar políticas complejas en los datos basados en su relación con las conexiones previas.
 ### Stateful Inspection Firewall
 
 Ahora considerado un firewall tradicional, este tipo de firewall permite o bloquea el tráfico según el estado, el [[Puertos|puerto]] y el protocolo. Monitorea toda la actividad desde la apertura de una conexión hasta su cierra. las decisiones de filtrado se toman en función tanto de las reglas definidas por el administrador como del contexto, que se refiere al uso de información de conexiones anteriores y paquetes que pertenecen a la misma conexión
@@ -53,3 +58,103 @@ Normalmente se implemente como un dispositivo virtual. Se puede alojar localment
 ### Cloud-Native Firewall
 
 Los firewalls nativos de la nube modernizan la forma de proteger las aplicaciones y la infraestructura de carga de trabajo a escala. Con funciones de escalamiento automatizado, los firewalls nativos de la nube permiten que los equipos de operaciones de red y operaciones de seguridad funcionen a velocidades ágiles. Un firewall nativo de la nube admite seguridad ágil y elástica, capacidad multiinquilino y equilibrio de carga inteligente.
+
+## Reglas en Firewalls
+
+Los componentes básicos de las reglas de firewalls se describen a continuación:
+
+* Source address: La dirección IP de la máquina que podría originar el tráfico.
+* Destination address: La dirección IP de la máquina que podría recibir los datos.
+* Puerto: El número de puerto para el tráfico.
+* Protocolo: El protocolo que podría ser usado durante la comunicación.
+* Action: Esto define la acción que se tomaría al identificar cualquier tráfico de esta naturaleza en particular.
+* Direction: Este campo define la aplicabilidad de la regla para tráfico entrante y saliente.
+
+### Tipos de Acciones
+
+El componente "Action" de una regla indica los pasos a tomar después de que un paquete de datos cae bajo la categoría de una regla definida. Tres acciones principales que pueden ser aplicadas a una regla se explican a continuación.
+
+#### Allow
+
+La acción de la regla "Allow" indica que el tráfico particular definido dentro de la regla podría ser permitido.
+
+#### Deny
+
+La acción de la regla "Deny" significa que el tráfico definido dentro de la regla podría ser bloqueado y no permitido. Estas reglas son fundamentales para los equipos de seguridad para denegar tráfico específico proveniente de direcciones IP maliciosas y crear más reglas para reducir la superficie de ataque de la red.
+
+#### Forward
+
+La acción "Forward" redirecciona el tráfico a un segmento de la red distinto usando las reglas de forwarding creados en los firewalls. Esto aplica para los firewalls que proporcionan funcionalidades de routing y actúan como gateways entre diferentes segmentos de red.
+
+### Direccionalidad de Reglas
+
+Los firewalls pueden tener diferentes categorías de reglas, cada una categorizada basada en la direccionalidad del tráfico en las cuales las reglas se han creado.
+
+#### Inboud Rules
+
+Las reglas son categorizadas como inbound rules cuando se aplican sólamente al tráfico entrante.
+
+#### Outbound Rules
+
+Estas reglas solo ese aplican para el tráfico saliente.
+
+#### Forward Rules
+
+Las forwarding rules son creadas para forward tráfico específico dentro de la red.
+
+
+## Windows Defender Firewall
+
+Windows Defender es un firewall built-in introducido por Microsoft en el sistema operativo Windows. Este firewall contiene todas las funcionalidades básicas para crear, permitir o denegar programas específicos o crear reglas personalizadas.
+
+## Linux iptables Firewall
+
+Linux ofrece la funcionalidad de un firewall built-in. 
+
+### Netfilter
+
+Netfilter es el framework dentro de Linux OS con funcionalidades de firewall core, incluyendo filtrado de paquetes, NAT, y seguimiento de conexiones. Este framework sirve como base para varias utilidades de firewall disponibles en Linux para controlar el tráfico de red. Algunas utilidades comunes de firewall que utiliza este framework son:
+
+* iptables: Esta es la utilidad más ampliamente usada en muchas distribuciones Linux. Usa el framework Netfilter que proporciona varias funcionalidades para controlar el tráfico de red.
+* nftables: Es es sucesor de la utilidad "iptables", con un filtrado de paquetes mejorado y capacidades NAT. También está basado en el framework netfilter.
+* firewalld: Esta utilidad también opera en el framework Netfilter y tiene establecidas reglas predefinidas. Trabaja diferente de otros y viene con configuraciones de zona de red pre-built.
+
+### ufw
+
+ufw (Uncomplicated Firewall), como su nombre dice, elimina las complicaciones de hacer reglas en una sintaxis compleja en "iptables" (o sus sucesores) al dar una interfaz más fácil. Es más beginner-friendly. Básicamente, cualquier regla que necesites en "iptables", puedes definirla con algunos comandos sencillos vía ufw, el cual de ahí puede ser configurado con las reglas que desees en "iptables".
+
+Para chequear el estatus del firewall, puedes usar el comando:
+
+```bash
+sudo ufw status
+```
+
+Si aparece inactivo, puedes activarlo usando:
+
+```bash
+sudo ufw enable
+```
+
+Para desactivarlo, reemplaza "enable" por "disable".
+
+Debajo hay una regla creada para permitir todas las conexiones salientes desde una máquina Linux. El comando `default` significa que estamos definiendo esta política como una política predeterminada permitiendo todo el tráfico saliente a no ser que definamos una restricción a cualquier aplicación específica en una regla separada. También puedes hacer una regla para permitir/denegar tráfico entrante en la maquina reemplazando "outgoing" por "incoming":
+
+```bash
+sudo ufw default allow outgoing
+```
+
+Puedes denegar tráfico entrante en cualquier puerto del sistema. Por ejemplo, si queremos denegar tráfico SSH, podríamos hacer `sudo ufw deny 22/tcp`.
+
+Para lsitar todas las reglas activas en un orden numerado, podemos usar el siguiente comando:
+
+```bash
+sudo ufw status numbered
+```
+
+Para eliminar cualquier regla, ejecuta el siguiente comando con el número de la regla a eliminar:
+
+```bash
+sudo ufw delete 2
+```
+
+

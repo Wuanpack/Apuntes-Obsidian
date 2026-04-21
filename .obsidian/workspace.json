@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Logs"
             }
+          },
+          {
+            "id": "682f2b59cd5b1825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,10 +243,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "682f2b59cd5b1825",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
     "01-Ciberseguridad/Blue Team/Logs.md",
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20260421022347.png",
+    "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
+    "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
     "Pasted image 20260419235328.png",
     "Pasted image 20260419235250.png",
     "01-Ciberseguridad/Blue Team/Digital Forensics.md",
@@ -261,7 +279,6 @@
     "Pasted image 20260406224405.png",
     "Pasted image 20260406224321.png",
     "Pasted image 20260406223557.png",
-    "Pasted image 20260406200829.png",
     "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
     "02-Informatica/SQL",
@@ -270,9 +287,6 @@
     "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
-    "HyperText Transfer Protocol.md",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
-    "Uniform Resource Locator.md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit",
     "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
