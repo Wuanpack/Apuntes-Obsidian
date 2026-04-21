@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8ff105de175f4750",
+        "id": "2319757b5b729702",
         "type": "tabs",
         "children": [
           {
-            "id": "c20c1c6ec18b30bd",
+            "id": "e69d7ab6a9664285",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
+                "file": "CyberChef.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Shells"
+              "title": "CyberChef"
             }
           }
         ]
@@ -209,20 +209,30 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Abrir vista gráfica": false
     }
   },
-  "active": "c20c1c6ec18b30bd",
+  "active": "e69d7ab6a9664285",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
+    "01-Ciberseguridad/Vectores de Ataque/DoS.md",
+    "Sin título.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social.md",
+    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
+    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+    "01-Ciberseguridad/Conceptos/RCE.md",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/RSA.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/DSA (Digital Signature Algorithm).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
+    "CyberChef.md",
     "01-Ciberseguridad/Command Line Interface/Shell.md",
     "01-Ciberseguridad/Command Line Interface/PowerShell.md",
-    "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
     "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
-    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "01-Ciberseguridad/Conceptos/Autenticación.md",
     "01-Ciberseguridad/Criptografía/Criptografía.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Command Line Interface",
     "01-Ciberseguridad/Conceptos/Activo.md",
     "01-Ciberseguridad/Conceptos/Uniform Resource Locator.md",
@@ -233,22 +243,12 @@
     "01-Ciberseguridad/Conceptos/CVE.md",
     "03-Recursos/Imágenes/5f04259cf9bf5b57aed2c476-1741854427607.svg",
     "01-Ciberseguridad/Conceptos/RDF (Resource Description Framework).md",
-    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
     "01-Ciberseguridad/Protocolos",
     "INDEX.base",
-    "01-Ciberseguridad/Conceptos/RCE.md",
     "01-Ciberseguridad/Conceptos/TLS.md",
-    "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
-    "02-Informatica/Tipos de Pruebas.md",
-    "TRABAJOS PEGA.md",
-    "Sin título 2.md",
-    "Sin título 1.md",
-    "Sin título.md",
-    "Sin título 3.md",
     "03-Recursos/Imágenes/Pasted image 20260421022347.png",
     "03-Recursos/Imágenes",
     "03-Recursos/Imágenes/Pasted image 20260419215200.png",
-    "02-Informatica/Desarrollo de Software Web.md",
     "03-Recursos/Imágenes/Pasted image 20260419235328.png",
     "03-Recursos/Imágenes/Pasted image 20260419235250.png",
     "03-Recursos/Imágenes/Pasted image 20260419215815.png",
