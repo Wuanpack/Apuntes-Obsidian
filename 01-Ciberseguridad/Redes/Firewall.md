@@ -107,4 +107,54 @@ Las forwarding rules son creadas para forward tráfico específico dentro de la 
 
 Windows Defender es un firewall built-in introducido por Microsoft en el sistema operativo Windows. Este firewall contiene todas las funcionalidades básicas para crear, permitir o denegar programas específicos o crear reglas personalizadas.
 
+## Linux iptables Firewall
+
+Linux ofrece la funcionalidad de un firewall built-in. 
+
+### Netfilter
+
+Netfilter es el framework dentro de Linux OS con funcionalidades de firewall core, incluyendo filtrado de paquetes, NAT, y seguimiento de conexiones. Este framework sirve como base para varias utilidades de firewall disponibles en Linux para controlar el tráfico de red. Algunas utilidades comunes de firewall que utiliza este framework son:
+
+* iptables: Esta es la utilidad más ampliamente usada en muchas distribuciones Linux. Usa el framework Netfilter que proporciona varias funcionalidades para controlar el tráfico de red.
+* nftables: Es es sucesor de la utilidad "iptables", con un filtrado de paquetes mejorado y capacidades NAT. También está basado en el framework netfilter.
+* firewalld: Esta utilidad también opera en el framework Netfilter y tiene establecidas reglas predefinidas. Trabaja diferente de otros y viene con configuraciones de zona de red pre-built.
+
+### ufw
+
+ufw (Uncomplicated Firewall), como su nombre dice, elimina las complicaciones de hacer reglas en una sintaxis compleja en "iptables" (o sus sucesores) al dar una interfaz más fácil. Es más beginner-friendly. Básicamente, cualquier regla que necesites en "iptables", puedes definirla con algunos comandos sencillos vía ufw, el cual de ahí puede ser configurado con las reglas que desees en "iptables".
+
+Para chequear el estatus del firewall, puedes usar el comando:
+
+```bash
+sudo ufw status
+```
+
+Si aparece inactivo, puedes activarlo usando:
+
+```bash
+sudo ufw enable
+```
+
+Para desactivarlo, reemplaza "enable" por "disable".
+
+Debajo hay una regla creada para permitir todas las conexiones salientes desde una máquina Linux. El comando `default` significa que estamos definiendo esta política como una política predeterminada permitiendo todo el tráfico saliente a no ser que definamos una restricción a cualquier aplicación específica en una regla separada. También puedes hacer una regla para permitir/denegar tráfico entrante en la maquina reemplazando "outgoing" por "incoming":
+
+```bash
+sudo ufw default allow outgoing
+```
+
+Puedes denegar tráfico entrante en cualquier puerto del sistema. Por ejemplo, si queremos denegar tráfico SSH, podríamos hacer `sudo ufw deny 22/tcp`.
+
+Para lsitar todas las reglas activas en un orden numerado, podemos usar el siguiente comando:
+
+```bash
+sudo ufw status numbered
+```
+
+Para eliminar cualquier regla, ejecuta el siguiente comando con el número de la regla a eliminar:
+
+```bash
+sudo ufw delete 2
+```
+
 

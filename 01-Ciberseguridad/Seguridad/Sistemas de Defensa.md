@@ -44,5 +44,5 @@ Conceptos relacionados:
 * [[Router|Router (ACL)]]
 * [[NAC]]
 * [[Switch]]
-* [[IDS]]
+* [[Intrusion Detection System (IDS)]]
 * [[IPS]]
