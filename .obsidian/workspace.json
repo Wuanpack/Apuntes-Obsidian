@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+                "file": "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Analysis Platform for Artifacts (CAPA)"
+              "title": "ISO 19249"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "owas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "905fcd07cda69d99",
@@ -213,10 +214,15 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "e69d7ab6a9664285",
+  "active": "46eb06468fab7a49",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Herramientas/CyberChef.md",
+    "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
+    "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
+    "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
+    "INDEX.base",
     "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+    "01-Ciberseguridad/Normas y Frameworks",
+    "01-Ciberseguridad/Herramientas/CyberChef.md",
     "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
     "01-Ciberseguridad/Vectores de Ataque/DoS.md",
     "Sin título.md",
@@ -240,12 +246,8 @@
     "01-Ciberseguridad/Conceptos/Certificate Authority.md",
     "01-Ciberseguridad/Conceptos/Puertos.md",
     "01-Ciberseguridad/Conceptos",
-    "05-Común/Frameworks/ISO 27032.md",
-    "01-Ciberseguridad/Conceptos/CVE.md",
     "03-Recursos/Imágenes/5f04259cf9bf5b57aed2c476-1741854427607.svg",
-    "01-Ciberseguridad/Conceptos/RDF (Resource Description Framework).md",
     "01-Ciberseguridad/Protocolos",
-    "INDEX.base",
     "03-Recursos/Imágenes/Pasted image 20260421022347.png",
     "03-Recursos/Imágenes",
     "03-Recursos/Imágenes/Pasted image 20260419215200.png",
@@ -259,7 +261,6 @@
     "03-Recursos/Imágenes/Pasted image 20260414001552.png",
     "03-Recursos/Imágenes/Pasted image 20260406224405.png",
     "03-Recursos/Imágenes/Pasted image 20260406224321.png",
-    "02-Informatica/SQL",
-    "02-Informatica/JavaScript"
+    "02-Informatica/SQL"
   ]
 }
