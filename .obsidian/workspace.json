@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8fdfa51af25d312f",
+        "id": "8ff105de175f4750",
         "type": "tabs",
         "children": [
           {
-            "id": "eba69fe1016b8a38",
+            "id": "c20c1c6ec18b30bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
+                "file": "01-Ciberseguridad/Conceptos/Activo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrusion Detection System (IDS)"
+              "title": "Activo"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "intrusi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "905fcd07cda69d99",
@@ -213,53 +212,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eba69fe1016b8a38",
+  "active": "ed1805fea565fd93",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
-    "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
-    "01-Ciberseguridad/Seguridad/IPS.md",
-    "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/Logs.md",
-    "conflict-files-obsidian-git.md",
-    "Pasted image 20260421022347.png",
-    "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
-    "Pasted image 20260419235328.png",
-    "Pasted image 20260419235250.png",
-    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
-    "Pasted image 20260419215815.png",
-    "Pasted image 20260419215200.png",
-    "01-Ciberseguridad/Blue Team",
-    "Pasted image 20260419212234.png",
-    "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
-    "IS_U1_EF_GRUPO1.docx",
-    "02-Informatica/SQL/SQL.md",
-    "01-Ciberseguridad/Herramientas/Inyección SQL",
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
-    "03-Recursos/Conceptos/OSINT.md",
-    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social.md",
-    "Tipos de Pruebas.md",
-    "Sin título 3.md",
-    "Pasted image 20260414001552.png",
-    "APUNTES ARQ DEL ASEG DE LA INFO,.md",
-    "01-Ciberseguridad/Legislación/Marco Regulatorio Internacional.md",
+    "01-Ciberseguridad/Conceptos/Uniform Resource Locator.md",
+    "01-Ciberseguridad/Conceptos/Certificate Authority.md",
+    "01-Ciberseguridad/Conceptos/Puertos.md",
+    "01-Ciberseguridad/Conceptos",
+    "05-Común/Frameworks/ISO 27032.md",
+    "01-Ciberseguridad/Conceptos/CVE.md",
+    "03-Recursos/Imágenes/5f04259cf9bf5b57aed2c476-1741854427607.svg",
+    "01-Ciberseguridad/Conceptos/RDF (Resource Description Framework).md",
+    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
+    "01-Ciberseguridad/Protocolos",
+    "INDEX.base",
+    "01-Ciberseguridad/Conceptos/RCE.md",
+    "01-Ciberseguridad/Conceptos/TLS.md",
+    "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
+    "01-Ciberseguridad/Shell.md",
+    "02-Informatica/Tipos de Pruebas.md",
+    "TRABAJOS PEGA.md",
     "Sin título 2.md",
     "Sin título 1.md",
-    "JavaScript.md",
-    "Shell.md",
-    "Pasted image 20260406224405.png",
-    "Pasted image 20260406224321.png",
-    "Pasted image 20260406223557.png",
+    "Sin título.md",
+    "Sin título 3.md",
+    "03-Recursos/Imágenes/Pasted image 20260421022347.png",
+    "03-Recursos/Imágenes",
+    "03-Recursos/Imágenes/Pasted image 20260419215200.png",
+    "02-Informatica/Desarrollo de Software Web.md",
+    "APUNTES ARQ DEL ASEG DE LA INFO,.md",
     "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
     "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
+    "05-Común/Frameworks/Laravel/Laravel.md",
+    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
+    "01-Ciberseguridad/Conceptos/Web Semántica.md",
+    "01-Ciberseguridad/Conceptos/Pop Up.md",
+    "03-Recursos/Imágenes/Pasted image 20260419235328.png",
+    "03-Recursos/Imágenes/Pasted image 20260419235250.png",
+    "03-Recursos/Imágenes/Pasted image 20260419215815.png",
+    "01-Ciberseguridad/Blue Team",
+    "03-Recursos/Imágenes/Pasted image 20260419212234.png",
+    "IS_U1_EF_GRUPO1.docx",
+    "01-Ciberseguridad/Herramientas/Inyección SQL",
+    "03-Recursos/Imágenes/Pasted image 20260414001552.png",
+    "03-Recursos/Imágenes/Pasted image 20260406224405.png",
+    "03-Recursos/Imágenes/Pasted image 20260406224321.png",
     "02-Informatica/SQL",
-    "02-Informatica/JavaScript/JavaScript.md",
     "02-Informatica/JavaScript",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
-    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica"
+    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite"
   ]
 }

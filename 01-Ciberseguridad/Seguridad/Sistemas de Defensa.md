@@ -45,4 +45,4 @@ Conceptos relacionados:
 * [[NAC]]
 * [[Switch]]
 * [[Intrusion Detection System (IDS)]]
-* [[IPS]]
+* [[Intrusion Prevention System (IPS)]]
