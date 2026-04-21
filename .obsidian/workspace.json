@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberChef.md",
+                "file": "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CyberChef"
+              "title": "Common Analysis Platform for Artifacts (CAPA)"
             }
           }
         ]
@@ -215,6 +215,8 @@
   },
   "active": "e69d7ab6a9664285",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Herramientas/CyberChef.md",
+    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
     "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
     "01-Ciberseguridad/Vectores de Ataque/DoS.md",
     "Sin título.md",
@@ -227,7 +229,6 @@
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/DSA (Digital Signature Algorithm).md",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
-    "CyberChef.md",
     "01-Ciberseguridad/Command Line Interface/Shell.md",
     "01-Ciberseguridad/Command Line Interface/PowerShell.md",
     "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
@@ -245,7 +246,6 @@
     "01-Ciberseguridad/Conceptos/RDF (Resource Description Framework).md",
     "01-Ciberseguridad/Protocolos",
     "INDEX.base",
-    "01-Ciberseguridad/Conceptos/TLS.md",
     "03-Recursos/Imágenes/Pasted image 20260421022347.png",
     "03-Recursos/Imágenes",
     "03-Recursos/Imágenes/Pasted image 20260419215200.png",

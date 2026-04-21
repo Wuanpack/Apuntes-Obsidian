@@ -80,10 +80,3 @@ Las características incluyen:
 | From UNIX Timestamp | Convierte un timestamp UNIX a un datetime string                                     |
 | To UNIX Timestamp   | Parsea un datetime string en UTC y lo retorna con el correspondiente UNIX timestamp. |
 Un UNIX timestamp es un valor de 32-bit que representa el número de segundos desde el 1 de enero de 1970 UTC (la época UNIX).
-
-## Data Format
-
-
-|     |     |
-| --- | --- |
-|     |     |
