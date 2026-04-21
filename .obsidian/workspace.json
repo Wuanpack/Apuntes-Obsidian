@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Conceptos/Activo.md",
+                "file": "01-Ciberseguridad/Command Line Interface/PowerShell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Activo"
+              "title": "PowerShell"
             }
           }
         ]
@@ -212,8 +212,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed1805fea565fd93",
+  "active": "c20c1c6ec18b30bd",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "01-Ciberseguridad/Command Line Interface/PowerShell.md",
+    "01-Ciberseguridad/Command Line Interface/Shell.md",
+    "01-Ciberseguridad/Conceptos/Autenticación.md",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
+    "01-Ciberseguridad/Command Line Interface",
+    "01-Ciberseguridad/Conceptos/Activo.md",
     "01-Ciberseguridad/Conceptos/Uniform Resource Locator.md",
     "01-Ciberseguridad/Conceptos/Certificate Authority.md",
     "01-Ciberseguridad/Conceptos/Puertos.md",
@@ -228,7 +236,6 @@
     "01-Ciberseguridad/Conceptos/RCE.md",
     "01-Ciberseguridad/Conceptos/TLS.md",
     "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
-    "01-Ciberseguridad/Shell.md",
     "02-Informatica/Tipos de Pruebas.md",
     "TRABAJOS PEGA.md",
     "Sin título 2.md",
@@ -241,11 +248,6 @@
     "02-Informatica/Desarrollo de Software Web.md",
     "APUNTES ARQ DEL ASEG DE LA INFO,.md",
     "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
-    "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
-    "05-Común/Frameworks/Laravel/Laravel.md",
-    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
-    "01-Ciberseguridad/Conceptos/Web Semántica.md",
-    "01-Ciberseguridad/Conceptos/Pop Up.md",
     "03-Recursos/Imágenes/Pasted image 20260419235328.png",
     "03-Recursos/Imágenes/Pasted image 20260419235250.png",
     "03-Recursos/Imágenes/Pasted image 20260419215815.png",
@@ -257,7 +259,6 @@
     "03-Recursos/Imágenes/Pasted image 20260406224405.png",
     "03-Recursos/Imágenes/Pasted image 20260406224321.png",
     "02-Informatica/SQL",
-    "02-Informatica/JavaScript",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite"
+    "02-Informatica/JavaScript"
   ]
 }
