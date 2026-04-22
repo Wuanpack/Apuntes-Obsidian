@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+                "file": "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Analysis Platform for Artifacts (CAPA)"
+              "title": "REMnux"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "905fcd07cda69d99",
@@ -213,21 +212,24 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "73eece430b4df6d3",
   "lastOpenFiles": [
-    "Pasted image 20260421225040.png",
+    "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",
+    "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
+    "01-Ciberseguridad/Sistemas Operativos",
+    "03-Recursos/Imágenes/Pasted image 20260421205942.png",
+    "03-Recursos/Imágenes/Pasted image 20260421225040.png",
+    "03-Recursos/Imágenes/Pasted image 20260421211132.png",
+    "03-Recursos/Imágenes/Pasted image 20260421210715.png",
+    "03-Recursos/Imágenes/Pasted image 20260421210306.png",
+    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
     "01-Ciberseguridad/Command Line Interface/Shell.md",
     "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
     "01-Ciberseguridad/Conceptos/Activo.md",
     "01-Ciberseguridad/Conceptos/Autenticidad.md",
     "01-Ciberseguridad/Conceptos/Ciberdelincuentes.md",
-    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
-    "Pasted image 20260421214447.png",
-    "Pasted image 20260421214056.png",
-    "Pasted image 20260421211132.png",
-    "Pasted image 20260421210715.png",
-    "Pasted image 20260421210306.png",
-    "Pasted image 20260421205942.png",
+    "03-Recursos/Imágenes/Pasted image 20260421214447.png",
+    "03-Recursos/Imágenes/Pasted image 20260421214056.png",
     "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
     "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
     "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
@@ -248,7 +250,6 @@
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Command Line Interface/PowerShell.md",
     "01-Ciberseguridad/Conceptos/Autenticación.md",
-    "01-Ciberseguridad/Criptografía/Criptografía.md",
     "01-Ciberseguridad/Command Line Interface",
     "01-Ciberseguridad/Conceptos",
     "03-Recursos/Imágenes/5f04259cf9bf5b57aed2c476-1741854427607.svg",
@@ -256,10 +257,8 @@
     "03-Recursos/Imágenes/Pasted image 20260421022347.png",
     "03-Recursos/Imágenes",
     "03-Recursos/Imágenes/Pasted image 20260419215200.png",
-    "03-Recursos/Imágenes/Pasted image 20260419235328.png",
     "01-Ciberseguridad/Blue Team",
     "IS_U1_EF_GRUPO1.docx",
-    "01-Ciberseguridad/Herramientas/Inyección SQL",
-    "02-Informatica/SQL"
+    "01-Ciberseguridad/Herramientas/Inyección SQL"
   ]
 }
