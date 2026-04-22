@@ -18,7 +18,7 @@ NOTA: Los resultados obtenidos pueden variar, esto es meramente como guía.
 
 Este proceso puede llevar algunos minutos.
 
-## Diseccionando los resultados de CAPA 1: Información General, MITRE y MAEC
+## Diseccionando los resultados de CAPA (1): Información General, MITRE y MAEC
 
 Vamos a diseccionar el output por bloques. El primer bloque contiene información básica sobre el archivo. Incluye:
 
@@ -75,7 +75,7 @@ Cuando CAPA cataloga un archivo con el valor MAEC "downloader", indica que el ar
 * Ejecutar etapas secundarias.
 * Recuperar archivos de configuración.
 
-## Diseccionando los resultados de CAPA 2: Malware Behavior Catalogue
+## Diseccionando los resultados de CAPA (2): Malware Behavior Catalogue
 
 ### Malware Behavior Catalogue (MBC)
 
@@ -188,7 +188,7 @@ Por último, revisemos los MÉTODOS. A continuación se muestran algunos método
 | Method        | Base64      | El malware puede codificar datos utilizando Base64.                                                                   |
 | Identifier    | C0026.001   | El identificador transmite información sobre un comportamiento. También sirve como etiqueta.                          |
 
-## Diseccionando los resultados de CAPA 2: Namespaces
+## Diseccionando los resultados de CAPA (3): Namespaces
 
 ![[Pasted image 20260421214447.png]]
 
@@ -228,6 +228,52 @@ CAPA utiliza espacios de nombres para agrupar elementos con el mismo propósito.
 ### Ejemplo
 
 
-| Top-Level Namespace (TLN) | Namespaces | Rule YAML File | Explanation |
-| ------------------------- | ---------- | -------------- | ----------- |
-| Anti-Analysis             |            |                |             |
+| Top-Level Namespace (TLN) | Namespaces           | Rule YAML File                                                                                                  | Explanation                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------- | -------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Anti-Analysis             | anti-vm/vm-detection | reference-anti-vm-strings-targeting-virtualbox.yml  <br>  <br>reference-anti-vm-strings-targeting-virtualpc.yml | El espacio de nombres "anti-vm/vm-detection" contiene reglas para detectar entornos de máquinas virtuales (VM). Estas reglas se centran en identificar cadenas o patrones específicos que el malware suele utilizar para detectar máquinas virtuales en ejecución. Mediante estas reglas, CAPA puede identificar si el malware busca claves de registro específicas de VMware, la presencia de herramientas de VMware u otros elementos relacionados con las máquinas virtuales. |
+|                           | obfuscation          | obfuscated-with-dotfuscator.yml  <br>  <br>obfuscated-with-smartassembly.yml                                    | El malware suele utilizar técnicas de ofuscación para dificultar el análisis. Estas incluyen métodos como el cifrado de cadenas, la ofuscación de código, el empaquetado y trucos anti-depuración. El espacio de nombres de ofuscación aborda estas técnicas, que ocultan u oscurecen el verdadero propósito del código.                                                                                                                                                         |
+
+## Diseccionando los resultados de CAPA (4): Capability
+
+A continuación hay una tabla con la Capability y sus TLN relacionados, namespaces, y las reglas asociadas con el archivo yaml.
+
+
+| Capability                                     | Top-Level Namespace (TLN) | Namespaces            | Rule YAML file                                                            |
+| ---------------------------------------------- | ------------------------- | --------------------- | ------------------------------------------------------------------------- |
+| reference anti-VM strings                      | Anti-Analysis             | anti-vm/vm-detection  | reference-anti-vm-strings.yml                                             |
+| reference anti-VM strings targeting VMWare     | Anti-Analysis             | anti-vm/vm-detection  | reference-anti-vm-strings-targeting-vmware.yml                            |
+| reference anti-VM strings targeting VirtualBox | Anti-Analysis             | anti-vm/vm-detection  | reference-anti-vm-strings-targeting-virtualbox.yml                        |
+| reference HTTP User-Agent string               | Communication             | http/client           | reference-http-user-agent-string.yml                                      |
+| check HTTP status code                         | Communication             | http                  | check-http-status-code.yml                                                |
+| reference Base64 string                        | Data Manipulation         | encoding/base64       | reference-base64-string.yml                                               |
+| encode data using XOR                          | Data Manipulation         | encoding/XOR          | encode-data-using-xor.yml                                                 |
+| contain a thread local storage (.tls) section  | Executable                | pe/section/tls        | contain-a-thread-local-storage-tls-section.yml                            |
+| get common file path                           | Host-Interaction          | file-system           | get-common-file-path.yml                                                  |
+| create directory                               | Host-Interaction          | file-system/create    | create-directory.yml                                                      |
+| delete file                                    | Host-Interaction          | file-system/delete    | delete-file.yml                                                           |
+| read file on Windows                           | Host-Interaction          | file-system/read      | read-file-on-windows.yml                                                  |
+| write file on Windows                          | Host-Interaction          | file-system/write     | write-file-on-windows.yml                                                 |
+| get thread local storage value                 | Host-Interaction          | process               | get-thread-local-storage-value.yml                                        |
+| allocate or change RWX memory                  | Host-Interaction          | process/inject        | allocate-or-change-rwx-memory.yml                                         |
+| create process on Windows                      | Host-Interaction          | process create        | create-process-on-windows.yml                                             |
+| reference cryptocurrency strings               | Impact                    | impact/cryptocurrency | reference-cryptocurrency-strings.yml                                      |
+| link function at runtime on Windows            | Linking                   | runtime-linking       | link-function-at-runtime-on-windows.yml                                   |
+| parse PE header                                | load-code                 | load-code/pe          | parse-pe-header.yml  <br>  <br>resolve-function-by-parsing-pe-exports.yml |
+| resolve function by parsing PE exports         | load-code                 | load-code/pe          | resolve-function-by-parsing-pe-exports.yml                                |
+| run PowerShell expression                      | load-code                 | load-code/PowerShell  | run-powershell-expression.yml                                             |
+| schedule task via at                           | persistence               | scheduled-tasks       | schedule-task-via-at.yml                                                  |
+| schedule task via schtasks                     | persistence               | scheduled-tasks       | schedule-task-via-schtasks.yml                                            |
+
+### Ejemplo 
+
+![[Pasted image 20260421225040.png]]
+
+Explicación
+
+| Label                   | Value                           | Explanation                                                                                                                                                                                                                                                    |
+| ----------------------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Capability              | **reference base64 string**     | Malware has the capability to encode data using a base64 scheme.                                                                                                                                                                                               |
+| Top-Level Namespace     | **data-manipulation**           | contains a set of rules that govern the behaviors involved in altering data within executable files. This aspect can be considered the “data transformation” component of malware behaviour, encompassing actions such as String Encryption and Data Encoding. |
+| Namespace               | **encoding/base64**             | this namespace consists of rules for encoding and decoding data using Base64 and XOR                                                                                                                                                                           |
+| Rule YAML File Matched? | **reference-base64-string.yml** | Remember that the capability's name is also the rule's name with an additional dash (-) character between spaces.                                                                                                                                              |
+
