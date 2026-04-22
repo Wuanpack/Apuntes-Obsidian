@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +213,7 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "73eece430b4df6d3",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "Pasted image 20260421225040.png",
     "01-Ciberseguridad/Command Line Interface/Shell.md",
