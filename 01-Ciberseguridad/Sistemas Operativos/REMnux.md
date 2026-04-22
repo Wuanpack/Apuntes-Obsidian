@@ -131,3 +131,49 @@ Los comandos de Volatility son ejecutados para identificar y extraer artefactos 
 
 ### Preprocessing con Volatility
 
+En este caso, vamos a usar la versión Volatility 3. Sin embargo, no vamos a ahondar mucho en investigación y análisis, sino que familiarizaros con la herramienta y ver cómo funciona.
+
+Ejecuta los comandos como se indica y espera los resultados. Estos son algunos parámetros o plugins que vamos a usar. Nos vamos a enfocar en los plugins Windows:
+
+* windows.pstree.PsTree: Este complemento enumera los procesos en un árbol según su ID de proceso padre.
+* windows.pslist.PsList: Este complemento se utiliza para listar todos los procesos actualmente activos en la máquina.
+* windows.cmdline.CmdLine: Este complemento se utiliza para listar los argumentos de la línea de comandos del proceso.
+* windows.filescan.FileScan: Este complemento busca objetos de archivo en una imagen de memoria específica de Windows. Los resultados tienen más de 1400 líneas.
+* windows.dlllist.DllList: Este complemento muestra los módulos cargados en una imagen de memoria de Windows específica. Debido a una limitación de texto, este complemento no tendrá un icono de "Ver resultados".
+* windows.malfind.Malfind: Este complemento se utiliza para listar rangos de memoria de procesos que potencialmente contienen código inyectado. No habrá ningún icono de "Ver resultados" para este debido a la limitación de texto.
+* windows.psscan.PsScan: Este complemento se utiliza para buscar procesos presentes en una imagen de memoria de Windows específica.
+
+Usos:
+
+`vol3 -f ARCHIVO PLUGIN`
+
+Ejemplo:
+
+`vol3 -f wcry.mem windows.pstree.PsTree`
+
+Ahora, tienes los complementos ejecutándose individualmente y viendo el resultado. Lo que harás ahora es procesar esto en lote. Realiza una instrucción de bucle.
+
+```bash
+root@10.67.151.152:/home/ubuntu/Desktop/tasks/Wcry_memory_image$ for plugin in windows.malfind.Malfind windows.psscan.PsScan windows.pstree.PsTree windows.pslist.PsList windows.cmdline.CmdLine windows.filescan.FileScan windows.dlllist.DllList; do vol3 -q -f wcry.mem $plugin > wcry.$plugin.txt; done
+```
+
+* Creamos la variable llamada `$plugin` con los valores por cada complemento de volatility.
+* Luego se ejecutaron los parámetros vol3 `-q`, lo que significa modo silencioso o no muestra el progreso en la terminal.
+* Y `-f`, que significa leer desde la captura de memoria.
+* El `plugin > wcry.plugin.done;` significa ejecutar volatility con los plugins y generar un archivo con wcry al principio del texto, seguido del nombre de los plugins y con la extensión `.txt`. Repetir hasta que se utilice el valor de la variable $plugin.
+
+Después de ejecutar el comando, no verá ninguna salida en la terminal; verá archivos dentro del mismo directorio donde ejecutó el comando.
+
+### Preprocessing With Strings
+
+A continuación, preprocesaremos la imagen de memoria con la utilidad strings de Linux. Extraeremos las cadenas ASCII, little-endian de 16 bits y big-endian de 16 bits. Vea el comando a continuación.
+
+```bash
+root@10.67.151.152:/home/ubuntu/Desktop/tasks/Wcry_memory_image$ strings wcry.mem > wcry.strings.ascii.txt root@10.67.151.152:/home/ubuntu/Desktop/tasks/Wcry_memory_image$ strings -e l wcry.mem > wcry.strings.unicode_little_endian.txt root@10.67.151.152:/home/ubuntu/Desktop/tasks/Wcry_memory_image$ strings -e b wcry.mem > wcry.strings.unicode_big_endian.txt
+```
+
+El comando `strings` extrae texto ASCII imprimible. La opción `el` indica a `strings` que extraiga cadenas de 16 bits en formato little-endian. La opción `eb` indica a `strings` que extraiga cadenas de 16 bits en formato big-endian. Los tres formatos de cadena pueden proporcionar información útil sobre el sistema que se está investigando.
+
+Deberías obtener el mismo resultado que se muestra a continuación.
+
+![[Pasted image 20260422190855.png]]
