@@ -71,9 +71,6 @@ Sysinternals Suite es una colección de utilidades de sistema avanzadas diseñad
 
 ## Herramientas Comúnmente Usadas
 
-Para lo siguiente, nos vamos a centrar en estas herramientas básicas usadas para investigaciones iniciales:
-
-
 | Herramienta      | Valor Investigativo                                                                                                                                                                              |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Procmon          | Una herramienta útil para el seguimiento de la actividad del sistema, especialmente en lo que respecta a la investigación de malware, la resolución de problemas y las investigaciones forenses. |
@@ -84,30 +81,31 @@ Para lo siguiente, nos vamos a centrar en estas herramientas básicas usadas par
 | PEStudio         | Análisis estático o estudio de las propiedades de los archivos ejecutables sin ejecutarlos.                                                                                                      |
 | FLOSS            | Extrae y desofusca todas las cadenas de texto de los programas maliciosos utilizando técnicas avanzadas de análisis estático.                                                                    |
 
-## Process Monitor (Procmon)
+### Process Monitor (Procmon)
 
 Una herramienta de Windows poderosa diseñada para ayudar a registrar problemas con las aplicaciones del sistema. Permite ver, registrar, y mantener un seguimiento del sistema y la actividad de los archivos de Windows en tiempo real. Process Monitor es de ayuda para seguir actividades del sistema, especialmente acerca de investigación de malware, troubleshooting, e investigaciones forense. Realiza un seguimiento en tiempo real del sistema de archivos, el registro y la actividad de subprocesos/procesos.
 
-## Process Explorer (Procexp)
+### Process Explorer (Procexp)
 
 Process Explorer ofrece información detallada sobre los procesos activos que se ejecutan en su ordenador. Le permite profundizar en el funcionamiento interno de su sistema, proporcionando una lista completa de los procesos que se están ejecutando actualmente y sus cuentas de usuario vinculadas. Si alguna vez ha tenido curiosidad por saber qué programa está accediendo a un archivo o carpeta específicos, Process Explorer puede proporcionarle esa información.
 
-## HxD
+### HxD
 
 HxD es un editor hexadecimal rápido y flexible para editar archivos, memoria y unidades de cualquier capacidad. Se puede aplicar a la investigación forense, la recuperación de datos, la depuración y la manipulación precisa de datos binarios. Entre sus características principales se incluyen la visualización del contenido de archivos y memoria, la edición, la búsqueda y la comparación de datos hexadecimales. Veamos cómo funciona la herramienta.
 
-## CFF Explorer
+### CFF Explorer
 
 Con la ayuda de la información completa de archivos de CFF Explorer, los investigadores pueden generar hashes de archivos para verificar su integridad, autenticar el origen de los archivos del sistema y validar su validez (por ejemplo, buscando alteraciones inusuales). Esto es importante saberlo al analizar malware, ya que el código peligroso puede estar oculto en archivos del sistema alterados.
 
-## Wireshark
+### Wireshark
 
 En lo que respecta al análisis del tráfico de red, Wireshark es una herramienta poderosa que los investigadores pueden usar para rastrear conexiones sospechosas, examinar protocolos y detectar posibles ataques o exfiltración de datos. En este caso, TLSv1.2 sugiere una conexión segura y cifrada que puede enmascarar actividades maliciosas o proteger el tráfico legítimo.
 
-## PEStudio
+### PEStudio
 
 El análisis estático, o el estudio de las propiedades de los archivos ejecutables sin ejecutarlos, se realiza con PEstudio. Esta función resulta útil en diversas situaciones. PEstudio ofrece información variada sobre un archivo sin poner en riesgo la ejecución, lo que ayuda a identificar ejecutables sospechosos o potencialmente dañinos.
 
-## FLOSS
+### FLOSS
 
 Utilizando técnicas avanzadas de análisis estático, FLARE Obfuscated String Solver (FLOSS, anteriormente FireEye Labs Obfuscated String Solver) extrae y desofusca automáticamente todas las cadenas de los programas maliciosos. Al igual que strings.exe, puede mejorar el análisis estático básico de binarios desconocidos. FLOSS también incluye más scripts de Python en el directorio de scripts, que se pueden usar para cargar la salida del script en otros programas como IDA Pro o Binary Ninja.
+
