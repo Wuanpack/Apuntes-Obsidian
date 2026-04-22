@@ -198,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,6 +215,9 @@
   },
   "active": "73eece430b4df6d3",
   "lastOpenFiles": [
+    "Pasted image 20260422175259.png",
+    "Pasted image 20260422175228.png",
+    "Pasted image 20260422175147.png",
     "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",
     "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
     "01-Ciberseguridad/Sistemas Operativos",
@@ -249,14 +253,11 @@
     "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/DSA (Digital Signature Algorithm).md",
     "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Command Line Interface/PowerShell.md",
-    "01-Ciberseguridad/Conceptos/Autenticación.md",
     "01-Ciberseguridad/Command Line Interface",
     "01-Ciberseguridad/Conceptos",
     "03-Recursos/Imágenes/5f04259cf9bf5b57aed2c476-1741854427607.svg",
     "01-Ciberseguridad/Protocolos",
-    "03-Recursos/Imágenes/Pasted image 20260421022347.png",
     "03-Recursos/Imágenes",
-    "03-Recursos/Imágenes/Pasted image 20260419215200.png",
     "01-Ciberseguridad/Blue Team",
     "IS_U1_EF_GRUPO1.docx",
     "01-Ciberseguridad/Herramientas/Inyección SQL"
