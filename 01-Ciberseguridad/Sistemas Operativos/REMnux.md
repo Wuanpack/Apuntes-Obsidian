@@ -125,3 +125,9 @@ Estos son los registros de cuando la herramienta se estaba ejecutando. Podemos v
 
 ## Memory Investigation: Evidence Preprocessing
 
+Una de las prácticas investigativas más comunes en Digital Forensics es el preprocesamiento de evidencia. Esto involucra ejecutar herramientas y guardar los resultados en texto o formato JSON. El analista a menudo depende de herramientas como Volatility cuando lidia con imágenes de memoria como evidencia. Esta herramienta también está incluida en REMnux VM. 
+
+Los comandos de Volatility son ejecutados para identificar y extraer artefactos específicos de imágenes de memoria, y el resultado de la salida puede ser guardada en archivos de texto para examinación.
+
+### Preprocessing con Volatility
+
