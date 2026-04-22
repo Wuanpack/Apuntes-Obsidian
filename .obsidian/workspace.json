@@ -11,12 +11,14 @@
             "id": "73eece430b4df6d3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "03-Recursos/Imágenes/Pasted image 20260422190855.png"
+                "file": "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260422190855"
+              "icon": "lucide-file",
+              "title": "REMnux"
             }
           }
         ]
@@ -210,11 +212,11 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "ed1805fea565fd93",
+  "active": "73eece430b4df6d3",
   "lastOpenFiles": [
+    "03-Recursos/Imágenes/Pasted image 20260422190855.png",
     "03-Recursos/Imágenes/Pasted image 20260422175147.png",
     "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
-    "03-Recursos/Imágenes/Pasted image 20260422190855.png",
     "03-Recursos/Imágenes/Pasted image 20260422175259.png",
     "03-Recursos/Imágenes/Pasted image 20260422175228.png",
     "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",

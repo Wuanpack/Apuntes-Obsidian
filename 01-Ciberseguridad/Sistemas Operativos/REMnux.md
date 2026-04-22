@@ -177,3 +177,6 @@ El comando `strings` extrae texto ASCII imprimible. La opción `el` indica a `st
 Deberías obtener el mismo resultado que se muestra a continuación.
 
 ![[Pasted image 20260422190855.png]]
+
+Ahora, esto está listo para el análisis, pero recuerde, nuestro objetivo en esta tarea es preprocesar la evidencia para que cualquier analista que la investigue pueda agilizar las búsquedas y el análisis.
+
