@@ -1,3 +1,8 @@
+---
+tags:
+  - sistemas-operativos/linux
+---
+
 ## Tipos de Linux Shells
 
 Para ver los shell disponibles, podemos ejecutar `echo $SHELL`.

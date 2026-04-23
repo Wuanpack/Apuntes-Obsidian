@@ -1,10 +1,15 @@
+---
+tags:
+  - blue-team/digital-forensics
+  - blue-team/roles
+---
 ## ¿Qué es?
 
 La ciencia forense es la aplicación de métodos y procedimientos para investigar y resolver delitos. La rama de la ciencia forense que investiga los delitos cibernéticos se conoce como informática forense. Un delito cibernético es cualquier actividad delictiva realizada en o mediante un dispositivo digital. Se utilizan diversas herramientas y técnicas para investigar a fondo los dispositivos digitales después de un delito, con el fin de encontrar y analizar pruebas para las acciones legales necesarias.
 
 ## Metodología
 
-El equipo de informática forense tiene varios casos que requieren diferentes herramientas y técnicas. Sin embargo, el National Institute of Standards and Technology (NIST) defina un procedimiento general por cada caso. El NIST trabaja definiendo marcos de trabajo para diferentes áreas de la tecnología, incluyendo la ciberseguridad, donde introducen el proceso de digital forensics en cuatro fases.
+El equipo de informática forense tiene varios casos que requieren diferentes herramientas y técnicas. Sin embargo, el [[NIST Cybersecurity Framefork (CSF)]] define un procedimiento general por cada caso. El [[NIST Cybersecurity Framefork (CSF)|NIST]] trabaja definiendo marcos de trabajo para diferentes áreas de la tecnología, incluyendo la ciberseguridad, donde introducen el proceso de digital forensics en cuatro fases.
 
 ![[Pasted image 20260419215200.png]]
 

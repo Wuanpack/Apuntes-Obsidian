@@ -1,3 +1,8 @@
+---
+tags:
+  - sistemas-operativos/windows
+---
+
 Los comandos en PowerShell son conocidos como `cmdlets` (pronunciado `command-lets`). Siguen una convención de nomenclatura consistente en verbo-sustantivo.
 
 Esta estructura hace fácil de entender qué hace cada `cmdlet`. El `Verb` describe la acción, y `Noun` especifica el objeto al cual se le realiza la acción.

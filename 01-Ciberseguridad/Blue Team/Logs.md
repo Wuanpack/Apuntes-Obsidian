@@ -1,3 +1,8 @@
+---
+tags:
+  - blue-team/digital-forensics
+---
+
 Los registros son las huellas digitales que deja cualquier actividad. Los siguientes son algunas áreas clave donde los registros juegan un rol integral.
 
 

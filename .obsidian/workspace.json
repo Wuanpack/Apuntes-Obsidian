@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
+                "file": "01-Ciberseguridad/Blue Team/Digital Forensics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FlareVM"
+              "title": "Digital Forensics"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "capa",
+                "query": "nist",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,8 +214,26 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Herramientas/ToolKits",
+    "01-Ciberseguridad/Normas y Frameworks/NIST Cybersecurity Framefork (CSF).md",
+    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+    "NIST CNational Institute of Standards and Technology (NIST).md",
+    "01-Ciberseguridad/Conceptos/Certificate Authority.md",
+    "01-Ciberseguridad/Conceptos/Autenticidad.md",
+    "01-Ciberseguridad/Conceptos/Autenticación.md",
+    "01-Ciberseguridad/Conceptos/Activo.md",
+    "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
+    "01-Ciberseguridad/Command Line Interface/Shell.md",
+    "01-Ciberseguridad/Command Line Interface/PowerShell.md",
+    "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "01-Ciberseguridad/Blue Team/SOC.md",
+    "01-Ciberseguridad/Blue Team/Logs.md",
+    "01-Ciberseguridad/Blue Team/Intrusion Prevention System (IPS).md",
+    "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
     "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
+    "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
     "03-Recursos/Imágenes/Pasted image 20260422190855.png",
     "03-Recursos/Imágenes/Pasted image 20260422175147.png",
@@ -229,10 +247,6 @@
     "03-Recursos/Imágenes/Pasted image 20260421210715.png",
     "03-Recursos/Imágenes/Pasted image 20260421210306.png",
     "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
-    "01-Ciberseguridad/Command Line Interface/Shell.md",
-    "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
-    "01-Ciberseguridad/Conceptos/Activo.md",
-    "01-Ciberseguridad/Conceptos/Autenticidad.md",
     "01-Ciberseguridad/Conceptos/Ciberdelincuentes.md",
     "03-Recursos/Imágenes/Pasted image 20260421214447.png",
     "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
@@ -240,25 +254,11 @@
     "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
     "INDEX.base",
     "01-Ciberseguridad/Normas y Frameworks",
-    "01-Ciberseguridad/Herramientas/CyberChef.md",
-    "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
-    "01-Ciberseguridad/Vectores de Ataque/DoS.md",
-    "Sin título.md",
-    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social.md",
-    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
-    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
-    "01-Ciberseguridad/Conceptos/RCE.md",
-    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/RSA.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Criptografía Asimétrica.md",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/DSA (Digital Signature Algorithm).md",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
     "01-Ciberseguridad/Command Line Interface",
     "01-Ciberseguridad/Conceptos",
     "01-Ciberseguridad/Protocolos",
     "03-Recursos/Imágenes",
     "01-Ciberseguridad/Blue Team",
-    "IS_U1_EF_GRUPO1.docx",
-    "01-Ciberseguridad/Herramientas/Inyección SQL"
+    "IS_U1_EF_GRUPO1.docx"
   ]
 }

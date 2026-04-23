@@ -1,3 +1,8 @@
+---
+tags:
+  - sistemas-operativos/linux
+---
+
 ## ¿Qué es?
 
 Un Shell es un software que nos permite interactuar con un Sistema Operativo. Puede tener una interfaz gráfica, pero usualmente es una interfaz por líneas de comandos.

@@ -1,3 +1,8 @@
+---
+tags:
+  - blue-team/roles
+---
+
 ## ¿Qué es?
 
 Un Security Operations Center (SOC) es una instalación dedicada operada por un equipo de seguridad especializado. Este equipo apunta al monitoreo continuo de la red de una organización y recursos para identificar actividad sospechosa para prevenir daños. Este equipo trabaja las 24 horas del día, los 7 días de la semana.

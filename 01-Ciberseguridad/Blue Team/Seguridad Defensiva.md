@@ -1,3 +1,9 @@
+---
+tags:
+  - blue-team
+  - blue-team/roles
+---
+
 ## Security Operations Center (SOC)
 
 Un Security Operations Center es un equipo de profesionales de ciberseguridad que monitorean la red y sus sistemas para detectar eventos de ciberseguridad maliciosos. Algunas de las áreas de interés principales para un SOC son:

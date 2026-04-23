@@ -1,3 +1,9 @@
+---
+tags:
+  - "#blue-team/incident-response"
+  - blue-team/roles
+---
+
 Cuando una solución de seguridad encuentra un evento o un grupo de eventos asociados con una posible actividad dañina, dispara una alerta. El equipo de seguridad analiza estas alertas. Algunas de estas pueden ser Falsos positivos, mientras que otros pueden ser Verdaderos Positivos.
 
 ## Tipos de Incidentes
