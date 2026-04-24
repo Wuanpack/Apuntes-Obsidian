@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 
 Una vulnerabilidad es una debilidad en los programas software o en el hardware que un atacante puede aprovechar para comprometer el dispositivo digital. 
 

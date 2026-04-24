@@ -2,7 +2,9 @@
 tags:
   - ingenieria-social/tecnicas-basadas-en-humanos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 La suplantación de identidad es un tipo de amenaza de ciberseguridad que se dirige a los usuarios directamente a través de correo electrónico, texto o mensajes directos. Durante una de estas estafas, el atacante se hará pasar por un contacto confiable para robar datos como inicios de sesión, números de cuenta e información de tarjetas de crédito.

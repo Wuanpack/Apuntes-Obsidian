@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 REMnux Vm es una distribución especializada de Linux. Incluye herramientas como Volatility, YARA, Wireshark, oledump e INetSim. También proporciona entorno tipo sandbox para diseccionar software potencialmente maliciosos sin comprometer el sistema primario.
 
 ## Análisis de Archivos

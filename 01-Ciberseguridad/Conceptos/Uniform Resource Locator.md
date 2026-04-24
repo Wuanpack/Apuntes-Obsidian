@@ -1,3 +1,7 @@
+## Índice
+```table-of-contents
+```
+
 Un Uniform Resource Locator (URL) es una dirección web que te permite acceder a todo tipo de contenido online, ya sea una página web, una foto, u otro tipo de medio. Guía a tu buscador web al lugar correcto en el Internet.
 
 ### Anatomía de una URL

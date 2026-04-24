@@ -2,7 +2,9 @@
 tags:
   - ingenieria-social
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Es una metodología de ataque no convencional, basada en el engaño y la manipulación de usuarios, para obtener información confidencial de empresas o individuos.

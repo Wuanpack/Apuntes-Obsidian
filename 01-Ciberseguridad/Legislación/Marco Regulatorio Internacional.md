@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 El Derecho Internacional constituye la rama del ordenamiento jurídico que regula las relaciones entre Estados y también, de forma complementaria, entre otros sujetos de relevancia internacional, tales como organizaciones internacionales y, en ciertos casos, individuos.
 
 ## Derecho Internacional Público

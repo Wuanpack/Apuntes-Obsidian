@@ -2,6 +2,7 @@
 tags:
   - herramientas/analisis-red/nmap
 ---
+
 Nmap ofrece una variedad de opciones para personalizar las técnicas utilizadas. Al descubrimiento de sistemas (Host Discovery) se lo suele llamar sondeo ping, pero va más allá de la simple solicitud ICMP echo-request de los paquetes asociados al querido y nunca bien ponderado ping.
 
 Los usuarios pueden evitar el paso de ping utilizando un sondeo de lista (`-sL`), o deshabilitando el ping (`-P0`), o enviando combinaciones arbitrarias de sondas TCP SYN/ACK, UDP e ICMP a múltiples puertos de la red remota. El propósito de estas sondas es el de solicitar respuestas que demuestren que una dirección IP se encuentra activa (está siendo utilizada por un equipo o dispositivo de red). En varias redes solo un pequeño porcentaje de direcciones IP se encuentran activos en cierto momento. 

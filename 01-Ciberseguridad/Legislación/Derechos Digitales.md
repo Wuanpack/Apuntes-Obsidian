@@ -3,6 +3,9 @@ tags:
   - derecho-informatico
   - legislacion
 ---
+## Índice
+```table-of-contents
+```
 En este mundo interconectado y digitalizado, en el cual han surgido amenazas y conflictos entre partes que interactúan en este espacio virtual, se ha hecho necesario que la ley también deba adaptarse a estos cambios para amparar y dar protección a quienes pudiesen ver afectados sus derechos. De esta forma, se genera que se reconozcan nuevos derechos para permitir que se resguarde y regule el acceso a la información en forma segura para sus usuarios.
 
 En este contexto, los derechos digitales están asociados a que las personas puedan acceder a los medios del mismo tipo utilizando las TIC para interactuar, resguardando la libertad de expresión, la protección de datos personales y protección de la información que se generen.

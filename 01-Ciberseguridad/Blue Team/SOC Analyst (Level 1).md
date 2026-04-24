@@ -2,6 +2,9 @@
 tags:
   - blue-team/roles/SOC
 ---
+## Índice
+```table-of-contents
+```
 ## Función
 
 Como un analista de seguridad junior, también llamado SOC Level 1 Analyst, trabajas en un equipo [[SOC]] 24/7 y mayormente revisas alertas de seguridad junto a tus colegas.
@@ -109,4 +112,39 @@ Los analistas SOC L1 son la primera línea de defensa, y son los quienes trabaja
 
 
 ![[Pasted image 20260424175829.png]]
+
+
+## Reporte de Alertas
+
+Primero, el analista L1 recive las alertas en un SIEM, EDR, o una plataforma de gestión de tickets. La mayoría de las alertas son cerradas como Falsos Positivos o son manejadas en el nivel L1, pero las complejas y amenazantes son enviadas a L2 para remediar la mayoría de brechas.
+
+### Reportando Alertas
+
+Antes de cerrar o pasar una alerta a L2, podrías tener que reportarla. Dependiendo de los estándares del equipo y la severidad de la alerta, en vez de un comentario de alerta corto, te podrían requerir documentar tu investigación en detalle, garantizando que toda la evidencia relevante está incluida. Esto es especialmente importante para True Positives, los cuales requieren escalar.
+
+### Alert Escalation
+
+Si la alerta True Positive requiere acciones adicionales o investigación profunda, remitirlo al analista L2 para una revisión adicional siguiendo los procedimientos acordados. Ahí es donde tu informe de alertas resulta útil, ya que L2 lo utilizará para obtener el contexto inicial y gastar menos en el análisis desde cero.
+
+### Comunicación
+
+También es posible que necesite comunicarse con otros departamentos durante o después del análisis. Por ejemplo, pregunte al equipo de TI si confirman la concesión de privilegios administrativos a algunos usuarios o póngase en contacto con Recursos Humanos para obtener más información sobre el empleado recién contratado.
+
+
+## Guía de Reportes
+
+
+| Alert Response Purpose                    | Explanation                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Proporcionar contexto para la escalada.   | Un informe bien redactado ahorra mucho tiempo a los analistas de nivel 2. Además, les ayuda a comprender rápidamente lo que sucedió.                                                                  |
+| Guarde los hallazgos para los registros.  | Los registros SIEM sin procesar se almacenan durante 3 a 12 meses, pero las alertas se conservan indefinidamente. Por lo tanto, es mejor mantener todo el contexto dentro de la alerta, por si acaso. |
+| Mejorar las habilidades de investigación. | Si no puedes explicarlo de forma sencilla, no lo entiendes lo suficientemente bien. Redactar informes es una excelente manera de mejorar las habilidades de nivel 1 resumiendo las alertas.           |
+
+Es recomendable seguir el acercamiento de las 5 Ws e incluir al menos estos elementos en el reporte:
+
+* Who
+* What
+* When
+* Where
+* Why
 

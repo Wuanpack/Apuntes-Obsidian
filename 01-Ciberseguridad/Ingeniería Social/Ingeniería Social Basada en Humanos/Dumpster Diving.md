@@ -2,7 +2,9 @@
 tags:
   - ingenieria-social/tecnicas-basadas-en-humanos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Consiste en investigar la "basura" de una persona u organización para encontrar información que pueda ser utilizada para atacar una red informática.

@@ -2,7 +2,9 @@
 tags:
   - conceptos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Es la confluencia de la inteligencia artificial y las tecnologías web que propone introducir descripciones explícitas sobre el significado de los recursos, para así permitir que las propias máquinas tengan un cierto nivel de comprensión sobre la web.

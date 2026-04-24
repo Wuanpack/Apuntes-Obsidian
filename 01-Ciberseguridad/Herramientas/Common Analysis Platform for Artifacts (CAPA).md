@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 CAPA es una herramienta desarrollada por el equipo FireEye Mandiant. Está diseñado para identificar las capacidades presentes en archivos ejecutables como Portable Executables (PE), ELF binaries, .NET modules, shellcode, e incluso reportes sandbox.

@@ -2,7 +2,9 @@
 tags:
   - seguridad
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 La seguridad perimetral es la encargada de proteger nuestra red local de ataques provenientes de internet, aunque no siempre es el caso, ya que podemos proteger cualquier red desde otra. Para este fin es que definimos nuestra [[LAN]] como un verdadero perímetro de seguridad, a fin de evitar que ingresen conexiones no deseadas. 

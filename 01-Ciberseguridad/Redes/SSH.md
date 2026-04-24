@@ -6,7 +6,9 @@ tags:
   - seguridad
   - criptografia/criptografia-asimetrica
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 ED22519 es el algoritmo de clave pública usado para la generación de firmas digital. Cuando intentamos una conexión y aparece esto:

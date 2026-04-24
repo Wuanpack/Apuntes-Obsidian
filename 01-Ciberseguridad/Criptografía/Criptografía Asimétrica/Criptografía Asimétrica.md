@@ -4,6 +4,9 @@ tags:
   - seguridad
   - redes
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 La encriptación asimétrica es el proceso de usar una clave pública de par de llaves pública/privada para encriptar texto plano y, luego, usar la clave privada correspondiente para desencriptar el cifrado. La encriptación asimétrica depende de la criptografía asimétrica, también denominada criptografía de clave pública.
