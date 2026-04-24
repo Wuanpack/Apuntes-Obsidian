@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Nmap"
+              "title": "Enlaces entrantes de SOC Analyst (Level 1)"
             }
           },
           {
@@ -206,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -224,7 +224,7 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "61234cf2154ed17a",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "Pasted image 20260423213247.png",
     "Pasted image 20260423213041.png",
