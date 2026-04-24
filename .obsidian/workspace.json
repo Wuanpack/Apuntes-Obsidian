@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b07b65589fb0f2d8",
+        "id": "00a4cacb18d2eb12",
         "type": "tabs",
         "children": [
           {
-            "id": "f27aff7bf09ff3b1",
+            "id": "61234cf2154ed17a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "soc level 1",
+                "query": "SOC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Nmap"
+              "title": "Enlaces entrantes de SOC Analyst (Level 1)"
             }
           },
           {
@@ -193,14 +192,25 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8d97448339ccd34f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para SOC Analyst (Level 1)"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,57 +220,57 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Abrir vista gráfica": false
     }
   },
-  "active": "f27aff7bf09ff3b1",
+  "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Shell.md",
+    "Pasted image 20260424175829.png",
+    "Pasted image 20260424174737.png",
+    "Pasted image 20260423213247.png",
+    "Pasted image 20260423213041.png",
+    "Pasted image 20260423212440.png",
+    "Pasted image 20260423212235.png",
+    "01-Ciberseguridad/Blue Team/SOC.md",
+    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
+    "Sin título.md",
     "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Windows Command Line (CMD).md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/PowerShell.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Linux Shells.md",
     "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
-    "01-Ciberseguridad/Sistemas Operativos",
-    "01-Ciberseguridad/Normas y Frameworks/NIST Cybersecurity Framefork (CSF).md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
-    "01-Ciberseguridad/Normas y Frameworks/MITRE ATT&CK.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
-    "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",
-    "01-Ciberseguridad/Normas y Frameworks",
+    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
+    "01-Ciberseguridad/Redes/Firewall.md",
+    "01-Ciberseguridad/Redes/SSH.md",
+    "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
+    "01-Ciberseguridad/Legislación/Derecho Informático.md",
+    "01-Ciberseguridad/Ingeniería Social/OSINT.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Suplantación de Identidad.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Shoulder Surfing.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Ingeniería Social Inversa.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Dumpster Diving.md",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/RSA.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Payment Card Industry Data Security Standard (PCI DSS).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Hash.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Elliptic Curve Cryptography (ECC).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ED25519-SK (ED25519 with Security Key).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ED22519.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ECDSA-SK (ECDSA with Security Key).md",
+    "01-Ciberseguridad/Herramientas/ToolKits",
     "03-Recursos/Imágenes/Pasted image 20260422190855.png",
-    "03-Recursos/Imágenes/Pasted image 20260421214447.png",
-    "03-Recursos/Imágenes/Pasted image 20260419212234.png",
+    "03-Recursos/Imágenes/Pasted image 20260422175147.png",
     "03-Recursos/Imágenes/Pasted image 20260422175259.png",
     "03-Recursos/Imágenes/Pasted image 20260422175228.png",
-    "03-Recursos/Imágenes/Pasted image 20260422175147.png",
-    "03-Recursos/Imágenes/Pasted image 20260414001552.png",
-    "03-Recursos/Imágenes/Pasted image 20260421225040.png",
-    "03-Recursos/Imágenes/Pasted image 20260421214056.png",
-    "03-Recursos/Imágenes/Pasted image 20260421211132.png",
-    "03-Recursos/Imágenes",
-    "01-Ciberseguridad/Conceptos/Web Semántica.md",
-    "01-Ciberseguridad/Conceptos/Uniform Resource Locator.md",
-    "01-Ciberseguridad/Conceptos/Enumeración.md",
+    "01-Ciberseguridad/Sistemas Operativos",
+    "03-Recursos/Imágenes/Pasted image 20260421205942.png",
+    "INDEX.base",
+    "01-Ciberseguridad/Normas y Frameworks",
+    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
     "01-Ciberseguridad/Conceptos",
-    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
-    "01-Ciberseguridad/Blue Team/Intrusion Prevention System (IPS).md",
-    "conflict-files-obsidian-git.md",
-    "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
-    "01-Ciberseguridad/Seguridad/Sin título.md",
-    "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
-    "01-Ciberseguridad/Redes/Firewall.md",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
-    "IS_U1_EF_GRUPO1.docx",
-    "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
-    "01-Ciberseguridad/Herramientas/Inyección SQL",
-    "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "01-Ciberseguridad/Protocolos",
+    "03-Recursos/Imágenes",
     "01-Ciberseguridad/Blue Team",
-    "02-Informatica/SQL",
-    "02-Informatica/JavaScript"
+    "IS_U1_EF_GRUPO1.docx"
   ]
 }

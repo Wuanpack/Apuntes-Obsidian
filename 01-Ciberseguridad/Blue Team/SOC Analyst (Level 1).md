@@ -89,3 +89,24 @@ Los analistas SOC L1 son la primera línea de defensa, y son los quienes trabaja
 * SOC L2 Analysts: Reciben las alertas escaladas por los analistas L1 y realizan un análisis profundo y remediación.
 * SOC Engineers: Asegura que las alertas contienen suficiente información requerida para una clasificación eficiente de estas.
 * SOC Manager: Trackea la velocidad y calidad de la clasificación de alertas para asegurarse que los ataques reales no se vayan a perder.
+
+### Propiedades de las Alertas
+
+![[Pasted image 20260424174737.png]]
+
+
+
+| N°  | Propiedad         | Descripción                                                                                                                                | Ejemplos                                                                                                                         |
+| --- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Alert Time        | Muestra el tiempo de la creación de la alerta. La alerta usualmente se dispara unos minutos después del evento.                            | - Alert Time: March 21, 15:35<br>- Event Time: March 21, 15:32                                                                   |
+| 2   | Alert Name        | Provee un sumario de qué pasó, basado en el nombre de la regla de detección.                                                               | - Unusual Login Location<br>- Email Marked as Phishing<br>- Windows RDP Bruteforce<br>- Potential Data Exfiltration              |
+| 3   | Alert Severity    | Defina la urgencia de la alerta, inicialmente establecida por ingenieros de detección, pero puede ser alterada si el analista lo necesita. | - (🟢) Low / Informational<br>- (🟡) Medium / Moderate<br>- (🟠) High / Severe<br>- (🔴) Critical / Urgent                       |
+| 4   | Alert Status      | Informa si alguien está trabajando en la alerta o si se ha realizado la clasificación.                                                     | - (🆕) New / Unassigned<br>- (🔄) In Progress / Pending<br>- (✅) Closed / Resolved<br>- And often other custom statuses          |
+| 5   | Alert Verdict     | También llamado alerta de clasificación, explica si la alerta es una amenaza real o sólo ruido.                                            | - (🔴) True Positive / Real Threat<br>- (🟢) False Positive / No Threat<br>- And often other custom verdicts                     |
+| 6   | Alert Assignee    | Muestra al analista que fue asignado o si se asignó a si mismo para revisar una alerta.                                                    | - Assignee can sometimes be called alert owner<br>    <br>- Assignee takes responsibility for their alerts                       |
+| 7   | Alert Description | Explica de qué se trata la alerta, usualmente en tres secciones a la derecha.                                                              | - The logic of the alert generating rule<br>- Why this activity can indicate an attack<br>- Optionally, how to triage this alert |
+| 8   | Alert Fields      | Proporciona comentarios de analistas SOC y valores en los cuales la alerta fue disparada.                                                  | - Affected Hostname<br>- Entered Commandline<br>- And many more, depending on the alert                                          |
+
+
+![[Pasted image 20260424175829.png]]
+
