@@ -148,3 +148,52 @@ Es recomendable seguir el acercamiento de las 5 Ws e incluir al menos estos elem
 * Where
 * Why
 
+## SOC Workbooks and Lookups
+
+## Identity Inventory
+
+El inventario de identidad es un catálogo de empleados de la corporación, servicios, y sus detalles como privilegios, contactos, y roles dentro de la compañía.
+
+### Ejemplo de Identidades
+
+
+| Full Name     | Username     | Email                 | Role                     | Location   | Access           |
+| ------------- | ------------ | --------------------- | ------------------------ | ---------- | ---------------- |
+| Gregory Baker | G.Baker      | g.baker@tryhatme.thm  | Chief Financial Officer  | Europe, UK | VPN, HQ, FINANCE |
+| Raymond Lund  | R.Lund       | r.lund@tryhatme.thm   | US Financial Adviser     | US, Texas  | VPN, FINANCE     |
+| Kate Danner   | K.Danner     | k.danner@tryhatme.thm | Chief Technology Officer | Europe, UK | VPN, DA, HQ, AWS |
+| svc-veeam-06  | svc-veeam-06 | N/A                   | Backup Service Account   | N/A        | VEEAM, DMZ, HQ   |
+| svc-nginx-pp  | svc-nginx-pp | N/A                   | Web App Service Account  | N/A        | DMZ              |
+
+## Fuentes de Identidades
+
+
+| Solución         | Ejemplos               | Descripción                                                                                                                               |
+| ---------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Active Directory | On-prem AD, Entra ID   | Active Directory (AD) es una base de datos de identidades y es utilizada habitualmente por los centros de operaciones de seguridad (SOC). |
+| SSO Providers    | Okta, Google Workspace | Alternativa en la nube para AD, una forma sencilla de gestionar y buscar usuarios.                                                        |
+| HR Systems       | BambooHR, SAP, HiBob   | Limitado solo a empleados, pero generalmente proporciona datos completos de los empleados.                                                |
+| Custom Solution  | CSV or Excel Sheets    | Es común que los equipos de TI o de seguridad mantengan sus propias soluciones.                                                           |
+
+## Inventario de Assets
+
+Es la lista de todos los recursos computacionales dentro del entorno IT de una organización. "Asset" es un término vago y también puede referirse a software, hardware, o empleados, en esta caso sólo nos vamos a enfocar en estaciones de trabajo.
+
+### Ejemplo de Assets
+
+| Hostname    | Location      | IP Address   | OS                  | Owner           | Purpose                                         |
+| ----------- | ------------- | ------------ | ------------------- | --------------- | ----------------------------------------------- |
+| HQ-FINFS-02 | UK Datacenter | 172.16.15.86 | Windows Server 2022 | Central IT      | Servidor de archivos para registros financieros |
+| HQ-ADDC-01  | UK Datacenter | 172.16.15.10 | Windows Server 2019 | Central IT      | Controlador de dominio AD principal             |
+| PQ-891D     | London Office | 192.168.5.13 | Windows 11 Pro      | Tech Support    | PC estacionario para contadores                 |
+| L007694     | Remote        | N/A          | MacOS 13            | A.Kelly, DevOps | Laptop Corporativa                              |
+| L005325     | Remote        | N/A          | MacOS13             | J.Eldridge, HR  | Laptop Corporativa                              |
+
+## Fuentes de Assets
+
+| Solución         | Ejemplos             | Descripción                                                                                  |
+| ---------------- | -------------------- | -------------------------------------------------------------------------------------------- |
+| Active Directory | On-prem AD, Entra ID | AD no es solo una identidad, sino también una base de datos de inventario de activos sólida. |
+| SIEM o EDR       | Elasitc, CrowdStrike | Algunos agentes SIEM o EDR recopilan información sobre los hosts monitorizados.              |
+| MDM Solution     | MS Intune, Jamf MDM  | Una clase específica de soluciones creadas para listar y administrar activos.                |
+| Custom Solution  | CSV or Excel Sheets  | Al igual que con el inventario de identidades, las soluciones personalizadas son comunes.    |
