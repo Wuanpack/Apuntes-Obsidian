@@ -62,3 +62,30 @@ No todas las organizaciones tienen la expertiz para operar un SOC por su cuenta 
 | Working Pace              | Usualmente tienes turnos calmados sin mucha presión de tiempo.                       | Su turno generalmente comienza con una cola de alertas urgentes para analizar.     |
 | Herramientas de Seguridad | Trabajas con algunas herramientas, pero necesitas conocerlas muy bien.               | Tienes que trabajar con sesenta herramientas y plataformas de seguridad distintas. |
 | Práctica de Incidentes    | El año pasado, pudiste observar y aprender de tan solo dos importantes ciberataques. | Todas las semanas, lidias con ataques y brechas, y puedes aprender de ellas.       |
+
+## Alert Triage
+
+### From Events to Alerts
+
+Primero, un evento debe ocurrir, como un inicio de sesión, proceso de ejecución, o la descarga de un archivo. Luego, el sistema, como el OS, firewall, o un proveedor cloud debe registrar este evento. Después de esto, todos los registros del sistema deben entregarse a la solución de seguridad como SIEM o EDR. El equipo SOC puede recibir millones de registros por día desde miles de sistemas diferentes.
+
+Alerta, es una notificación generada por la solución de seguridad cuando un evento específico o secuencia de eventos ocurren, es lo que salva a los analistas [[SOC]] de revisar registros manualmente al recalcar solo los eventos anómalos. 
+
+Con las alertas, los analistas pueden categorizar solo docenas de alertas por día en vez de millones de registros.
+
+
+| Solution     | Ejemplos                 | Descripción                                                                                               |
+| ------------ | ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Sistema SIEM | Splunk ES, Elastic       | SIEM tiene un gestor de alertas sólido que son una elección perfecta para la mayoría que equipos [[SOC]]. |
+| EDR o NDR    | MS Defender, CrowdStrike | Mientras EDR y NDR proporciona sus propios dashboards de alertsa, es preferido usar un SIEM o un SOAR.    |
+| Sistema SOAR | Splunk SOAR, Cortex SOAR | Los equipos grandes [[SOC]] pueden usar SOAR para agregar o centralizar alertas de múltiples soluciones.  |
+| Sistema ITSM | Jira, TheHive            | Algunos equipos pueden tener un gestor de tickets custom (ITSM) usando una solución dedicada.             |
+
+### L1 Role in Alert Triage
+
+Los analistas SOC L1 son la primera línea de defensa, y son los quienes trabajan con las alertas la mayoría del tiempo. Dependiendo de varios factores, los analistas L1 podrían recibir de cero a cientos de alertas por día, donde cada una puede revelar un ciberataque. Aun así, todos en el equipo SOC de alguna manera están involucrados con la categorización de alertas:
+
+* SOC L1 Analysts: Revisan las alertas, distinguen las buenas e las malas, y notifica a los analistas L2 en caso de una amenaza real.
+* SOC L2 Analysts: Reciben las alertas escaladas por los analistas L1 y realizan un análisis profundo y remediación.
+* SOC Engineers: Asegura que las alertas contienen suficiente información requerida para una clasificación eficiente de estas.
+* SOC Manager: Trackea la velocidad y calidad de la clasificación de alertas para asegurarse que los ataques reales no se vayan a perder.
