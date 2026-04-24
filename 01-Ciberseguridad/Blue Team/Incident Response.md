@@ -3,6 +3,7 @@ tags:
   - "#blue-team/incident-response"
   - blue-team/roles
 ---
+## ¿Qué es?
 
 Cuando una solución de seguridad encuentra un evento o un grupo de eventos asociados con una posible actividad dañina, dispara una alerta. El equipo de seguridad analiza estas alertas. Algunas de estas pueden ser Falsos positivos, mientras que otros pueden ser Verdaderos Positivos.
 
@@ -10,9 +11,9 @@ Cuando una solución de seguridad encuentra un evento o un grupo de eventos asoc
 
 Las personas usualmente catalogan cada actividad dañina asociada con el mundo digital a un intento de hacking. Esto quizás puede ser correcto, pero es muy genérico en términos de ciberseguridad. Los incidentes de seguridad pueden ser de diferentes tipos. Estos tipos puede ocurrir de manera independiente o en conjunto dentro de la misma víctima.
 
-### Malware Infections
+### [[Malware]] Infections
 
-Un Malware es un programa malicioso que puede dañar el sistema, red, o aplicación. La mayoría de incidentes son asociados con infecciones de malware. Existen distintos tipos de malware, cada uno con un potencial único para causar daño. Las infecciones por malware son mayormente causadas por archivos que pueden ser texto, documentos, ejecutables, etc.
+Un Malware es un programa malicioso que puede dañar el sistema, red, o aplicación. La mayoría de incidentes son asociados con infecciones de [[malware]]. Existen distintos tipos de [[malware]], cada uno con un potencial único para causar daño. Las infecciones por [[malware]] son mayormente causadas por archivos que pueden ser texto, documentos, ejecutables, etc.
 
 ### Security Breaches
 

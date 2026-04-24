@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Forensics"
+              "title": "SOC Analyst (Level 1)"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nist",
+                "query": "SOC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,9 +192,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8d97448339ccd34f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para SOC Analyst (Level 1)"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -214,47 +226,47 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Normas y Frameworks/NIST Cybersecurity Framefork (CSF).md",
-    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
-    "NIST CNational Institute of Standards and Technology (NIST).md",
-    "01-Ciberseguridad/Conceptos/Certificate Authority.md",
-    "01-Ciberseguridad/Conceptos/Autenticidad.md",
-    "01-Ciberseguridad/Conceptos/Autenticación.md",
-    "01-Ciberseguridad/Conceptos/Activo.md",
-    "01-Ciberseguridad/Command Line Interface/Windows Comando Line (CMD).md",
-    "01-Ciberseguridad/Command Line Interface/Shell.md",
-    "01-Ciberseguridad/Command Line Interface/PowerShell.md",
-    "01-Ciberseguridad/Command Line Interface/Linux Shells.md",
-    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
-    "01-Ciberseguridad/Blue Team/Seguridad Defensiva.md",
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "Pasted image 20260423213247.png",
+    "Pasted image 20260423213041.png",
+    "Pasted image 20260423212440.png",
+    "Pasted image 20260423212235.png",
     "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/Logs.md",
-    "01-Ciberseguridad/Blue Team/Intrusion Prevention System (IPS).md",
-    "01-Ciberseguridad/Blue Team/Intrusion Detection System (IDS).md",
-    "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
-    "01-Ciberseguridad/Herramientas/ToolKits",
+    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
+    "Sin título.md",
+    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Windows Command Line (CMD).md",
     "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
+    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
+    "01-Ciberseguridad/Redes/Firewall.md",
+    "01-Ciberseguridad/Redes/SSH.md",
+    "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
+    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
+    "01-Ciberseguridad/Legislación/Derecho Informático.md",
+    "01-Ciberseguridad/Ingeniería Social/OSINT.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Suplantación de Identidad.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Shoulder Surfing.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Ingeniería Social Inversa.md",
+    "01-Ciberseguridad/Ingeniería Social/Ingeniería Social Basada en Humanos/Dumpster Diving.md",
+    "01-Ciberseguridad/Criptografía/Criptografía.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Simétrica/Criptografía Simétrica.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/RSA.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Payment Card Industry Data Security Standard (PCI DSS).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Hash.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/Elliptic Curve Cryptography (ECC).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ED25519-SK (ED25519 with Security Key).md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ED22519.md",
+    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica/ECDSA-SK (ECDSA with Security Key).md",
+    "01-Ciberseguridad/Herramientas/ToolKits",
     "03-Recursos/Imágenes/Pasted image 20260422190855.png",
     "03-Recursos/Imágenes/Pasted image 20260422175147.png",
     "03-Recursos/Imágenes/Pasted image 20260422175259.png",
     "03-Recursos/Imágenes/Pasted image 20260422175228.png",
-    "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",
     "01-Ciberseguridad/Sistemas Operativos",
     "03-Recursos/Imágenes/Pasted image 20260421205942.png",
     "03-Recursos/Imágenes/Pasted image 20260421225040.png",
     "03-Recursos/Imágenes/Pasted image 20260421211132.png",
-    "03-Recursos/Imágenes/Pasted image 20260421210715.png",
-    "03-Recursos/Imágenes/Pasted image 20260421210306.png",
-    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
-    "01-Ciberseguridad/Conceptos/Ciberdelincuentes.md",
-    "03-Recursos/Imágenes/Pasted image 20260421214447.png",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
     "INDEX.base",
     "01-Ciberseguridad/Normas y Frameworks",
-    "01-Ciberseguridad/Command Line Interface",
+    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
     "01-Ciberseguridad/Conceptos",
     "01-Ciberseguridad/Protocolos",
     "03-Recursos/Imágenes",

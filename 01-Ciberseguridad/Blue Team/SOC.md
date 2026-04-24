@@ -1,8 +1,7 @@
 ---
 tags:
-  - blue-team/roles
+  - blue-team/roles/SOC
 ---
-
 ## ¿Qué es?
 
 Un Security Operations Center (SOC) es una instalación dedicada operada por un equipo de seguridad especializado. Este equipo apunta al monitoreo continuo de la red de una organización y recursos para identificar actividad sospechosa para prevenir daños. Este equipo trabaja las 24 horas del día, los 7 días de la semana.
@@ -31,7 +30,7 @@ Mas allá de la evolución en la automatización de la mayoría de las tareas de
 ![[Pasted image 20260419212234.png]]
 
 
-* SOC Analyst (Level 1): Cualquier cosa detectada por una solución de seguridad pasaría a través de este analista primero. Estos son los primeros en responder cualquier detección. Los analistas de nivel 1 del SOC realizan una clasificación básica de alertas para determinar si una detección específica es perjudicial. También informan de estas detecciones a través de los canales adecuados.
+* [[SOC Analyst (Level 1)]]: Cualquier cosa detectada por una solución de seguridad pasaría a través de este analista primero. Estos son los primeros en responder cualquier detección. Los analistas de nivel 1 del SOC realizan una clasificación básica de alertas para determinar si una detección específica es perjudicial. También informan de estas detecciones a través de los canales adecuados.
 * SOC Analyst (Level 2): Si bien el Nivel 1 realiza el análisis de primer nivel, algunas detecciones pueden requerir una investigación más profunda. Los analistas de Nivel 2 les ayudan a profundizar en las investigaciones y a correlacionar los datos de múltiples fuentes para realizar un análisis adecuado.
 * SOC Analyst (Level 3): Los analistas de nivel 3 son profesionales experimentados que buscan proactivamente indicadores de amenazas y brindan apoyo en las actividades de respuesta a incidentes. Las detecciones de gravedad crítica reportadas por los analistas de nivel 1 y 2 suelen corresponder a incidentes de seguridad que requieren respuestas detalladas, incluyendo contención, erradicación y recuperación. Aquí es donde la experiencia de los analistas de nivel 3 resulta fundamental.
 * Security Engineer: Todos los analistas trabajan en soluciones de seguridad. Estas soluciones necesitan desplegarse y configurarse. Los Ingenieros de Seguridad depliegan y configuran estas soluciones de seguridad para asegurar una operación suave.
