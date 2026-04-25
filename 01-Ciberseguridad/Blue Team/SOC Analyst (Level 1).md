@@ -197,3 +197,71 @@ Es la lista de todos los recursos computacionales dentro del entorno IT de una o
 | SIEM o EDR       | Elasitc, CrowdStrike | Algunos agentes SIEM o EDR recopilan información sobre los hosts monitorizados.              |
 | MDM Solution     | MS Intune, Jamf MDM  | Una clase específica de soluciones creadas para listar y administrar activos.                |
 | Custom Solution  | CSV or Excel Sheets  | Al igual que con el inventario de identidades, las soluciones personalizadas son comunes.    |
+
+## SOC Workbooks
+
+Un workbook SOC, también llamado playbook, runbook o workflow, es una documento estructurado que define los pasos requeridos para investigar y remediar amenazas específicas de forma eficiente y consistente.
+
+Como los analistas L1 son considerados especialistas junior y no se espera que clasifiquen todos los escenarios de ataque posible a la perfección, los analistas senior a menudo preparan workbooks para apoyar a sus compañeros con menos experiencia. 
+
+### Workbook Example
+
+![[Pasted image 20260425124009.png]]
+
+El diagrama es un ejemplo típico de un workbook de investigación apuntado a ayudar a los analistas L1 a clasificar alertas sobre correos, webs, o inicios de sesión VPN atípicos. La mayoría de diagramas de workbooks son suplementados con una guía textual detallada y enlaces para los recursos mencionados. También, nota como el workbook está dividido en tres grupos lógicos. Al seguir los siguientes pasos en el orden correcto, puedes garantizar una clasificaci+on de alertas de alta calidad y eliminar casos donde el veredicto está hecho sin evidencia suficiente:
+
+1. Enrichment: Usa Inteligencia de Amenazas e identidad de inventario para obtener información sobre el usuario afectado.
+2. Investigación: Usando los datos recolectados y los registros SIEM, haz tu veredicto si el inicio de sesión es esperado.
+3. Escalation: Escala la alerta a L2 o comunica el inicio de sesión con el usuario si es necesario.
+
+
+## Metrics and Objectives
+
+### Core Metrics
+
+
+| Métrica               | Fórmula                                | Medidas                                         |
+| --------------------- | -------------------------------------- | ----------------------------------------------- |
+| Alerts Count          | AC = Total Count of Alerts Received    | Carga de trabajo total de los analistas del SOC |
+| False Positive Rate   | FPR = False Positives / Total Alerts   | Nivel de sonido en las alertas                  |
+| Alert Escalation Rate | AER = Escalated Alerts / Total Alerts  | Experiencia de los analistas L1                 |
+| Threat Detection Rate | TDR = Detected Threats / Total Threats | Confiabilidad en el equipo SOC                  |
+
+#### Alerts Count
+
+Imagina empezar el turno y ver 80 alertas sin resolver en queue. Es definitivamente abrumador y propenso a perder amenazas reales detrás de el ruido spam. Por otra parte, considera una semana entera sin alertas. Suena mejor a primera vista, pero también preocupante, ya que puede indicar que hay una falta de visibilidad del SIEM, llevando a brechas no detectadas. La métrica ideal varía dependiendo del tamaño de la compañía, pero en general, una buena métrica es de 5 a 30 alertas por día por analista L1.
+
+#### False Positive Rate
+
+Si 75 de 80 alertas (94%) resultaron ser falsos positivos, como ruido del sistema o actividad típica de TI, eso es una mala señal para su equipo. Con más ruido, los analistas tienden a volverse menos vigilantes y es más probable que pasen por alto la amenaza y traten todas las alertas como "un spam más". Una tasa de falsos positivos del 0% es un ideal inalcanzable, pero el 80% o más es un problema grave, que generalmente se soluciona ajustando las herramientas y las reglas de detección, lo que a menudo se denomina "corrección de falsos positivos".
+
+#### Alert Escalation Rate
+
+Los analistas de nivel 2 dependen de los de nivel 1 para filtrar el ruido y escalar solo las alertas amenazantes y procesables. Al mismo tiempo, como analista de nivel 1, no conviene ser demasiado confiado y priorizar alertas que no se comprenden completamente sin la ayuda de un analista senior. La tasa de escalada de alertas resulta útil para evaluar la experiencia e independencia de los analistas de nivel 1 y la frecuencia con la que deciden escalar la alerta. Por lo general, se busca que sea inferior al 50%, o mejor aún, inferior al 20%.
+
+#### Threat Detection RAte
+
+Imagina que, de seis ataques previstos para 2025, tu equipo SOC detectó y previno cuatro, pasó por alto el quinto debido a una regla de detección defectuosa y el sexto porque uno de los analistas de nivel 1 clasificó erróneamente la brecha como falso positivo.
+
+La métrica resultante es TDR = 4 / 6 = 67%, lo cual es un resultado muy malo. La tasa de detección de amenazas siempre debe ser del 100%, ya que cada amenaza no detectada puede tener consecuencias devastadoras, como la infección por ransomware y la exfiltración de datos.
+
+### Triage Metrics
+
+Recuerda que una alerta por sí misma no va a parar la brecha, y es importante recibir la alerta a tiempo, priorizarla y responder al ataque antes de que los atacantes logren sus objetivos.
+
+Los requisitos para garantizar una detección y remediación rápidas de la amenaza se agrupan comúnmente en un Service Level Agreement (SLA), un documento firmado entre el equipo interno del SOC y la dirección de su empresa, o por el proveedor de servicios gestionados del SOC (MSSP) y sus clientes.
+
+El acuerdo generalmente requiere una detección rápida de amenazas (medida por MTTD), un acuse de recibo oportuno de la alerta por parte de los analistas L1 (medido por MTTA) y, finalmente, una respuesta rápida a la amenaza, como aislar el dispositivo o proteger la cuenta comprometida (medido por MTTR).
+
+![[Pasted image 20260425130901.png]]
+
+### Tabla de Referencia
+
+
+| Métrica                         | Common SLA | Descripción                                                                                          |
+| ------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------- |
+| SOC Team Availability           | 24/7       | Horario de trabajo del equipo SOC, a menudo de lunes a viernes (8/5) o en modo 24/7.                 |
+| Mean Time to Detect (MTTD)      | 5 minutos  | Tiempo promedio entre el ataque y su detección por las herramientas del SOC.                         |
+| Mean Time to Acknowledge (MTTA) | 10 minutos | Tiempo promedio que tardan los analistas de nivel 1 en comenzar la clasificación de la nueva alerta. |
+| Mean Time to Respond (MTTR)     | 60 minutos | Tiempo promedio que tarda el SOC en detener la propagación de la brecha de seguridad.                |
+
