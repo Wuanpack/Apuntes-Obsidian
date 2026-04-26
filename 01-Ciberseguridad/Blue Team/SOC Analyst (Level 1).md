@@ -30,14 +30,14 @@ El Blue Team trata sobre seguridad defensiva, lo que significa que constantement
 
 * L1 Analysts: Miembros junior que clasifican las alertas y pasan los casos complejos al nivel L2.
 * L2 Analysts: Miembros con experiencia que investigan los ataques más avanzados.
-* Engineers: Expertos en configuración de herramientas de seguridad, como EDR o SIEM.
+* Engineers: Expertos en configuración de herramientas de seguridad, como [[Endpoint Detection and Response (EDR)]] o SIEM.
 * Manager: Persona que gestiona el equipo [[SOC]] por completo.
 
 ### Cyber Incident Response Team (CIRT)
 
 ![[Pasted image 20260423213041.png]]
 
-Si la expertiz [[SOC]] no es suficiente o el incidente se va de control, urgentemente llamas a los "bomberos" (CIRT), también llamados CSIRT o CERT. Estos miembros debería tener un conocimiento amplio de amenazas cibernéticas y manejar brechas sin depender de herramientas como EDR o SIEM. El trabajo CIRT es estresante y responsable, pero también recompensante. 
+Si la expertiz [[SOC]] no es suficiente o el incidente se va de control, urgentemente llamas a los "bomberos" (CIRT), también llamados CSIRT o CERT. Estos miembros debería tener un conocimiento amplio de amenazas cibernéticas y manejar brechas sin depender de herramientas como [[Endpoint Detection and Response (EDR)]] o SIEM. El trabajo CIRT es estresante y responsable, pero también recompensante. 
 
 ### Specialized Defensive Roles
 
@@ -70,19 +70,19 @@ No todas las organizaciones tienen la expertiz para operar un SOC por su cuenta 
 
 ### From Events to Alerts
 
-Primero, un evento debe ocurrir, como un inicio de sesión, proceso de ejecución, o la descarga de un archivo. Luego, el sistema, como el OS, firewall, o un proveedor cloud debe registrar este evento. Después de esto, todos los registros del sistema deben entregarse a la solución de seguridad como SIEM o EDR. El equipo SOC puede recibir millones de registros por día desde miles de sistemas diferentes.
+Primero, un evento debe ocurrir, como un inicio de sesión, proceso de ejecución, o la descarga de un archivo. Luego, el sistema, como el OS, firewall, o un proveedor cloud debe registrar este evento. Después de esto, todos los registros del sistema deben entregarse a la solución de seguridad como SIEM o [[Endpoint Detection and Response (EDR)]]. El equipo SOC puede recibir millones de registros por día desde miles de sistemas diferentes.
 
 Alerta, es una notificación generada por la solución de seguridad cuando un evento específico o secuencia de eventos ocurren, es lo que salva a los analistas [[SOC]] de revisar registros manualmente al recalcar solo los eventos anómalos. 
 
 Con las alertas, los analistas pueden categorizar solo docenas de alertas por día en vez de millones de registros.
 
 
-| Solution     | Ejemplos                 | Descripción                                                                                               |
-| ------------ | ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| Sistema SIEM | Splunk ES, Elastic       | SIEM tiene un gestor de alertas sólido que son una elección perfecta para la mayoría que equipos [[SOC]]. |
-| EDR o NDR    | MS Defender, CrowdStrike | Mientras EDR y NDR proporciona sus propios dashboards de alertsa, es preferido usar un SIEM o un SOAR.    |
-| Sistema SOAR | Splunk SOAR, Cortex SOAR | Los equipos grandes [[SOC]] pueden usar SOAR para agregar o centralizar alertas de múltiples soluciones.  |
-| Sistema ITSM | Jira, TheHive            | Algunos equipos pueden tener un gestor de tickets custom (ITSM) usando una solución dedicada.             |
+| Solution      | Ejemplos                 | Descripción                                                                                                |
+| ------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| Sistema SIEM  | Splunk ES, Elastic       | SIEM tiene un gestor de alertas sólido que son una elección perfecta para la mayoría que equipos [[SOC]].  |
+| [[Endpoint Detection and Response (EDR)]] o NDR | MS Defender, CrowdStrike | Mientras [[Endpoint Detection and Response (EDR)]] y NDR proporciona sus propios dashboards de alertsa, es preferido usar un SIEM o un SOAR. |
+| Sistema SOAR  | Splunk SOAR, Cortex SOAR | Los equipos grandes [[SOC]] pueden usar SOAR para agregar o centralizar alertas de múltiples soluciones.   |
+| Sistema ITSM  | Jira, TheHive            | Algunos equipos pueden tener un gestor de tickets custom (ITSM) usando una solución dedicada.              |
 
 ### L1 Role in Alert Triage
 
@@ -116,7 +116,7 @@ Los analistas SOC L1 son la primera línea de defensa, y son los quienes trabaja
 
 ## Reporte de Alertas
 
-Primero, el analista L1 recive las alertas en un SIEM, EDR, o una plataforma de gestión de tickets. La mayoría de las alertas son cerradas como Falsos Positivos o son manejadas en el nivel L1, pero las complejas y amenazantes son enviadas a L2 para remediar la mayoría de brechas.
+Primero, el analista L1 recive las alertas en un SIEM, [[Endpoint Detection and Response (EDR)]], o una plataforma de gestión de tickets. La mayoría de las alertas son cerradas como Falsos Positivos o son manejadas en el nivel L1, pero las complejas y amenazantes son enviadas a L2 para remediar la mayoría de brechas.
 
 ### Reportando Alertas
 
@@ -194,7 +194,7 @@ Es la lista de todos los recursos computacionales dentro del entorno IT de una o
 | Solución         | Ejemplos             | Descripción                                                                                  |
 | ---------------- | -------------------- | -------------------------------------------------------------------------------------------- |
 | Active Directory | On-prem AD, Entra ID | AD no es solo una identidad, sino también una base de datos de inventario de activos sólida. |
-| SIEM o EDR       | Elasitc, CrowdStrike | Algunos agentes SIEM o EDR recopilan información sobre los hosts monitorizados.              |
+| SIEM o [[Endpoint Detection and Response (EDR)]]   | Elasitc, CrowdStrike | Algunos agentes SIEM o [[Endpoint Detection and Response (EDR)]] recopilan información sobre los hosts monitorizados.          |
 | MDM Solution     | MS Intune, Jamf MDM  | Una clase específica de soluciones creadas para listar y administrar activos.                |
 | Custom Solution  | CSV or Excel Sheets  | Al igual que con el inventario de identidades, las soluciones personalizadas son comunes.    |
 

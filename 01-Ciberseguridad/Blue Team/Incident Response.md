@@ -54,7 +54,7 @@ Es difícil ver comportamientos anormales e identificar incidentes manualmente. 
 
 * SIEM: Recolecta todos los logs importantes en una locación centralizada y los correlaciona para identificar incidentes.
 * AV: Antivirus detecta programas maliciosos conocidos en un sistema y regularmente escanea el sistema por estos.
-* EDR: Es desplegado en cada sistema, los protege contra algunas amenazas de nivel avanzado. Esta solución también puede contener y erradicar la amenaza.
+* [[Endpoint Detection and Response (EDR)]]: Es desplegado en cada sistema, los protege contra algunas amenazas de nivel avanzado. Esta solución también puede contener y erradicar la amenaza.
 
 Una vez identificados los incidentes, deben seguirse ciertos procedimientos, entre ellos investigar el alcance del ataque, tomar las medidas necesarias para prevenir daños mayores y eliminarlo de raíz.
 
