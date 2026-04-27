@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
+                "file": "01-Ciberseguridad/Herramientas/SIEM/Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Endpoint Detection and Response (EDR)"
+              "title": "Splunk"
             }
           }
         ]
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -227,21 +226,27 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
+    "Pasted image 20260427200835.png",
+    "Pasted image 20260427200743.png",
+    "Pasted image 20260427200452.png",
+    "Pasted image 20260427200443.png",
+    "Pasted image 20260427200130.png",
+    "Pasted image 20260427195336.png",
+    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+    "01-Ciberseguridad/Herramientas/SIEM/Splunk.md",
+    "01-Ciberseguridad/Herramientas/SIEM",
+    "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
+    "01-Ciberseguridad/Herramientas/Sin título.md",
     "Pasted image 20260427171401.png",
     "Pasted image 20260426223846.png",
     "Pasted image 20260426222757.png",
     "Pasted image 20260426222617.png",
     "Pasted image 20260426152826.png",
-    "Pasted image 20260426152432.png",
     "Sin título.md",
-    "03-Recursos/Imágenes/Pasted image 20260423212235.png",
-    "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
     "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
     "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
     "01-Ciberseguridad/Blue Team/SOC.md",
     "01-Ciberseguridad/Blue Team/Incident Response.md",
-    "03-Recursos/Imágenes/Pasted image 20260425130901.png",
-    "03-Recursos/Imágenes/Pasted image 20260425124009.png",
     "INDEX.base",
     "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
     "05-Común/Frameworks/Laravel/Laravel.md",
@@ -259,11 +264,6 @@
     "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
     "01-Ciberseguridad/Vectores de Ataque/Malware.md",
     "01-Ciberseguridad/Vectores de Ataque/DoS.md",
-    "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
-    "01-Ciberseguridad/Seguridad/SGSI.md",
-    "01-Ciberseguridad/Seguridad/Seguridad Perimetral.md",
-    "03-Recursos/Imágenes/Pasted image 20260424175829.png",
-    "03-Recursos/Imágenes/Pasted image 20260424174737.png",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks",
@@ -271,7 +271,6 @@
     "01-Ciberseguridad/Conceptos",
     "01-Ciberseguridad/Protocolos",
     "03-Recursos/Imágenes",
-    "01-Ciberseguridad/Blue Team",
-    "IS_U1_EF_GRUPO1.docx"
+    "01-Ciberseguridad/Blue Team"
   ]
 }
