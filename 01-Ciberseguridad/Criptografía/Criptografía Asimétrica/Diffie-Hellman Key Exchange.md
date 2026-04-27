@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 El intercambio de llaves apunta a establecer un secreto compartido entre dos partes. Este método permite a las dos partes establecer un secreto compartido a través de un canal de comunicación inseguro sin requerir un secreto compartido pre existente y sin un observador que pueda obtener esta llave. Consecuentemente, esta llave puede ser usada para encripción simétrica en las comunicaciones siguientes.

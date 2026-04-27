@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 La informática es la disciplina asociada al tratamiento automático de la información, y se relaciona con el desarrollo de la tecnología y el manejo de grandes volúmenes de información y datos.
 
 Distintos autores han estudiado la Informática Jurídica, Altmark (1987), la define como "La aplicación concreta de la informática al Derecho comprende los sistemas de archivo de documentación jurídica, de asistencia en las tareas administrativas de apoyo a las actividades jurídicas y la construcción de modelos de apoyo a la actividad jurídica y la construcción de modelos para la comprensión del sistema jurídico."

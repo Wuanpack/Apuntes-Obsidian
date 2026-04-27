@@ -3,6 +3,9 @@ tags:
   - legislacion
   - derecho-informatico
 ---
+## Índice
+```table-of-contents
+```
 Genéricamente, hace mención a las formas en que se expresa el Derecho positivo (normas jurídicas). Este concepto es atribuido a Karl Von Savigny, jurista alemán que sostenía que el derecho siempre se originaba de una fuente y esta fuente provenía del espíritu del pueblo o sociedad.
 
 Se entiende, entonces, como fuentes del derecho a aquellos modos como se originan y establecen las normas que integran el ordenamiento jurídico positivo (normas escritas). Con ellas se busca establecer cuáles son los factores que inciden en la creación de las normas jurídicas aplicables al Derecho, en este caso particular del Derecho Informático, siendo estas de carácter formal y material.

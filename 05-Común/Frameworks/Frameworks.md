@@ -4,6 +4,9 @@ tags:
   - desarrollo
   - seguridad
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Un Framework puede definirse como una estructura o plataforma de desarrollo que proporciona a los desarrolladores herramientas y bibliotecas para facilitar la creación y el mantenimiento de aplicaciones. Es decir, establece una arquitectura básica sobre la cual se pueden construir diferentes tipos de aplicaciones.

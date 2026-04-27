@@ -3,6 +3,9 @@ tags:
   - criptografia
   - seguridad
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Una función criptográfica hash, usualmente conocida como hash, es un algoritmo matemático que transforma cualquier bloque arbitrario de datos en una nueva serie de carácteres con una longitud fija. Independientemente de la longitud de los datos de entrada, el valor hash de salida tendrá siempre la misma longitud.

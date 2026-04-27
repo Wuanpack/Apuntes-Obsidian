@@ -2,7 +2,9 @@
 tags:
   - cloud
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es la computación en nube?
 
 De acuerdo con el [[NIST Cybersecurity Framefork (CSF)|National Institute of Standards and Technology (NIST)]], este define la computación en la nube como un modelo que permite un acceso conveniente a la red bajo demanda, a un conjunto compartido de recursos informáticos configurables tales como: redes, servidores, almacenamiento, aplicaciones y otros servicios que se pueden aprovisionar y liberar rápidamente con un mínimo esfuerzo en gestión o interacción con el proveedor de servicios.

@@ -1,4 +1,6 @@
 [
   "obsidian-style-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "automatic-table-of-contents",
+  "colored-tags"
 ]

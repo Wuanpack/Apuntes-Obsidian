@@ -2,7 +2,9 @@
 tags:
   - ingenieria-social/tecnicas-basadas-en-humanos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Un ataque de ingeniería social inversa es una variante de un ataque de [[Ingeniería Social]]. También busca manipular a la persona objetivo para que actúe de una determinada forma, pero la razón por la que se denomina "inversa" es porque no es el atacante quien busca a la víctima, sino al revés.

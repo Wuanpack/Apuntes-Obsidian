@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 JavaScript (JS) es un lenguaje de scripting popular que le permite a los desarrolladores web añadir características interactivas a sitios web que contengan HTML y CSS. Una vez los elementos HTML son creados, se les puede crear interactividad como validacion, acciones OnClick, animaciones, etc, a través de JS. 
 
 ## Variables

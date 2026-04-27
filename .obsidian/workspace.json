@@ -4,109 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "75df20b35d8ee01f",
+        "id": "00a4cacb18d2eb12",
         "type": "tabs",
         "children": [
           {
-            "id": "fdaa787177a792b1",
+            "id": "61234cf2154ed17a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
+                "file": "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones"
-            }
-          },
-          {
-            "id": "aee769fa4467d649",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Legislación/Derecho Informático.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Derecho Informático"
-            }
-          },
-          {
-            "id": "300f9fe5dd5ce36b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Legislación/Derechos Digitales.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Derechos Digitales"
-            }
-          },
-          {
-            "id": "689ce31643b6cc87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fuentes del Derecho Informático"
-            }
-          },
-          {
-            "id": "0aa7acae8b9d0cbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Legislación/Informática Jurídica.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Informática Jurídica"
-            }
-          },
-          {
-            "id": "e46f9216f1154780",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Principios del Derecho Informático"
-            }
-          },
-          {
-            "id": "a18f74f80d473697",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Shell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Shell"
+              "title": "Endpoint Detection and Response (EDR)"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,6 +33,7 @@
       {
         "id": "07794e627f4c4e15",
         "type": "tabs",
+        "dimension": 69.29368029739777,
         "children": [
           {
             "id": "ed1805fea565fd93",
@@ -138,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shell",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,6 +73,23 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
+            }
+          }
+        ]
+      },
+      {
+        "id": "905fcd07cda69d99",
+        "type": "tabs",
+        "dimension": 30.706319702602233,
+        "children": [
+          {
+            "id": "e79297ae4ee9286d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -179,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Nmap"
+              "title": "Enlaces entrantes de SOC Analyst (Level 1)"
             }
           },
           {
@@ -259,6 +192,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8d97448339ccd34f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para SOC Analyst (Level 1)"
+            }
           }
         ],
         "currentTab": 5
@@ -275,57 +220,57 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Abrir vista gráfica": false
     }
   },
-  "active": "a18f74f80d473697",
+  "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "Shell.md",
-    "Sin título 2.md",
-    "Certificate Authority.md",
-    "aquí..md",
-    "01-Ciberseguridad/Herramientas/Enumeración/Gobuster.md",
-    "01-Ciberseguridad/Herramientas/Fuerza-Bruta/Hydra.md",
-    "Sin título 1.md",
-    "01-Ciberseguridad/Legislación/Principios del Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Informática Jurídica.md",
-    "01-Ciberseguridad/Legislación/Fuentes del Derecho Informático.md",
-    "01-Ciberseguridad/Legislación/Derechos Digitales.md",
-    "01-Ciberseguridad/Legislación/Derecho Informático.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Proxy.md",
-    "Apuntes 2da Clase Arquitectura del Aseguramiento de la Info.md",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite/Burp Suite.md",
-    "Pasted image 20260406224405.png",
-    "Pasted image 20260406224321.png",
-    "Pasted image 20260406223557.png",
-    "01-Ciberseguridad/Herramientas/Pentesting/Burp Suite",
+    "Pasted image 20260426223846.png",
+    "Pasted image 20260426222757.png",
+    "Pasted image 20260426222617.png",
+    "Pasted image 20260426152826.png",
+    "Pasted image 20260426152432.png",
     "Sin título.md",
-    "Apuntes 2da clase Testing Aplicado al Desarrollo de Aplicaciones.md",
-    "02-Informatica/SQL/SQL.md",
-    "Pasted image 20260406200829.png",
-    "Pasted image 20260406200225.png",
-    "02-Informatica/Sin título.md",
-    "02-Informatica/SQL",
-    "02-Informatica/JavaScript",
-    "02-Informatica/JavaScript/JavaScript.md",
-    "TLS.md",
-    "Uniform Resource Locator.md",
-    "Sin título 3.md",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
-    "TRABAJOS PEGA.md",
-    "Pasted image 20260406050711.png",
-    "Pasted image 20260406050040.png",
-    "Pasted image 20260406013311.png",
-    "Man in The Middle.md",
-    "5f04259cf9bf5b57aed2c476-1741854427607.svg",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap",
-    "Pasted image 20260404204910.png",
-    "01-Ciberseguridad/Criptografía/Criptografía Asimétrica",
-    "01-Ciberseguridad/Criptografía/Criptografía Simétrica",
+    "03-Recursos/Imágenes/Pasted image 20260423212235.png",
+    "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
+    "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
+    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
+    "01-Ciberseguridad/Blue Team/SOC.md",
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "03-Recursos/Imágenes/Pasted image 20260425130901.png",
+    "03-Recursos/Imágenes/Pasted image 20260425124009.png",
     "INDEX.base",
-    "05-Común/Imágenes",
-    "01-Ciberseguridad/Herramientas/Pentesting",
-    "01-Ciberseguridad/Ciberataques"
+    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
+    "05-Común/Frameworks/Laravel/Laravel.md",
+    "05-Común/Frameworks/Frameworks.md",
+    "02-Informatica/Tipos de Pruebas.md",
+    "02-Informatica/Desarrollo de Software Web.md",
+    "02-Informatica/SQL/SQL.md",
+    "02-Informatica/JavaScript/JavaScript.md",
+    "02-Informatica/Cloud/Introducción Cloud.md",
+    "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
+    "01-Ciberseguridad/Vectores de Ataque/Virus.md",
+    "01-Ciberseguridad/Vectores de Ataque/Troyanos.md",
+    "01-Ciberseguridad/Vectores de Ataque/Spam.md",
+    "01-Ciberseguridad/Vectores de Ataque/Phishing.md",
+    "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
+    "01-Ciberseguridad/Vectores de Ataque/Malware.md",
+    "01-Ciberseguridad/Vectores de Ataque/DoS.md",
+    "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
+    "01-Ciberseguridad/Seguridad/SGSI.md",
+    "01-Ciberseguridad/Seguridad/Seguridad Perimetral.md",
+    "03-Recursos/Imágenes/Pasted image 20260424175829.png",
+    "03-Recursos/Imágenes/Pasted image 20260424174737.png",
+    "03-Recursos/Imágenes/Pasted image 20260423213247.png",
+    "01-Ciberseguridad/Herramientas/ToolKits",
+    "01-Ciberseguridad/Sistemas Operativos",
+    "01-Ciberseguridad/Normas y Frameworks",
+    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
+    "01-Ciberseguridad/Conceptos",
+    "01-Ciberseguridad/Protocolos",
+    "03-Recursos/Imágenes",
+    "01-Ciberseguridad/Blue Team",
+    "IS_U1_EF_GRUPO1.docx"
   ]
 }

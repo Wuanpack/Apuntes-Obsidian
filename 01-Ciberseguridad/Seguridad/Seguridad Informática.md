@@ -2,7 +2,9 @@
 tags:
   - seguridad
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Consiste en la implantación de un conjunto de medidas técnicas destinadas para preservar la [[Seguridad de la Información#Confidencialidad|confidencialidad]], [[Seguridad de la Información#Integridad|integridad]] y la [[Seguridad de la Información#Disponibilidad|disponibilidad]] de la información, pudiendo además abarcar otros principios como la autenticidad, la responsabilidad, la fiabilidad y el no repudio, recurriendo a configuraciones seguras, aplicación de protección y auditorías.

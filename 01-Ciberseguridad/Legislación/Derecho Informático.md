@@ -3,6 +3,9 @@ tags:
   - legislacion
   - derecho-informatico
 ---
+## Índice
+```table-of-contents
+```
 ## Ciberespacio
 
 Término ideado por William Gibson en 2984 en su libro *Neuromancer*, que hace referencia a un espacio virtual compuesto por computadoras y usuarios que se encuentran conectados a nivel mundial.
