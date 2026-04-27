@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -210,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +228,7 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
+    "Pasted image 20260427171401.png",
     "Pasted image 20260426223846.png",
     "Pasted image 20260426222757.png",
     "Pasted image 20260426222617.png",
@@ -262,7 +265,6 @@
     "01-Ciberseguridad/Seguridad/Seguridad Perimetral.md",
     "03-Recursos/Imágenes/Pasted image 20260424175829.png",
     "03-Recursos/Imágenes/Pasted image 20260424174737.png",
-    "03-Recursos/Imágenes/Pasted image 20260423213247.png",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks",

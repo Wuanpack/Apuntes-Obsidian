@@ -84,4 +84,57 @@ Su trabajo es mantenerse en el endpoint y monitorear todas las actividades. La i
 
 ### EDR Console
 
-Todos los datos detallados enviados por los agentes EDR es correlacionada y analizada a través de lógica compleja y algoritmos de machine learning.
+Todos los datos detallados enviados por los agentes EDR es correlacionada y analizada a través de lógica compleja y algoritmos de machine learning. La información de threat intelligence se coincide con los datos colectados. El EDR es solamente el cerebro conectando los puntos. Estos puntos se conectan para formar una detección, a menudo llamada alerta.
+
+![[Pasted image 20260427171401.png]]
+
+### ¿Qué pasa después de la detección?
+
+Cuando una detección ocurre, es responsabilidad del analista SOC tomar conocimiento de la alerta y priorizarla. La priorización se hace fácilmente con el EDR en sí mismo. Ofrece niveles de gravedad a todas las alertas (Critical, High, Medium, Low, Informational). 
+
+Para la investigación, una vez la alerta es cliqueada, el analista puede ver los detalles de la detección. Esto incluye todos los archivos ejecutados, procesos ejecutados, intentos de conexión fallida, modificaciones de registros, y mucho más. 
+
+
+## EDR Telemetry
+
+Aprendimos sobre los EDR agents, los cuales colectan datos desde sus endpoints y los empujan a la consola EDR. Estos datos se conocen como telemetría. La telemetría es la caja negra de un endpoint con todo lo necesario para detección e investigación.
+
+### Collected Telemetry
+
+Usualmente, muchas actividades están ocurriendo en los endpoints, de los cuales la mayoría son legítimos. A menudo es difícil diferencial entre actividad maliciosa y regular. Mientras más datos se colecten, mejores juicios se pueden hacer.
+
+## Detection and Response Capabilities
+
+### Detection
+
+Basado en la telemetría recibida por los endpoints, algunas técnicas de detección avanzadas son aplicadas a estos datos. Algunas de estas técnicas incluyen:
+
+* Behavioral Detection:
+	* En vez de solamente coincidir las firmas con amenazas conocidas, observa el comportamiento completo de un archivo. Las amenazas avanzadas construyen su malware para parecer limpio y usar procesos legítimos para llevar a cabo su ataque, el EDR captura este comportamiento.
+* Anomaly Detection:
+	* Con el tiempo, el EDR comprende el comportamiento de referencia de los endpoints. Cualquier actividad que se desvíe de este comportamiento va a ser señalado. Durante cualquier actividad maliciosa, el comportamiento del endpoint se desvía de lo normal. EDR lo detecta. A veces, esto puede generar falsos positivos. Sin embargo, con el contexto completo que ofrece, el analista puede identificar su legitimidad.
+* IOC matching: 
+	* Los EDR cuentan con algunas integraciones de campo de inteligencia de amenazas muy sólidas. Excepto en el caso de los ataques de día cero, la mayoría de los ataques tienen indicadores publicados en el feed de inteligencia de amenazas.
+* [[MITRE ATT&CK]] Mapping:
+	* Cualquier actividad señalada por el EDR no solo va a ser marcada como maliciosa o sospechosa, sino que también va a ser mapeada con la [[MITRE ATT&CK]] Tactic and Technique (attack stage) en que estaba la actividad en particular.
+* Machine Learning Algorithms:
+	* Los actores de amenazas avanzadas intentan evadir las defensas tanto como sea posible, y sus actividades a veces pueden evadir técnicas de detección avanzada. Los EDRs modernos tienen modelos de machine learning entrenados mediante un amplio conjunto de datos de comportamientos normales y maliciosos.
+
+### Response
+
+El paso siguiente después de cualquier detección es la respuesta. EDR ofrece respuestas manuales y automatizadas. Puedes hacer políticas para bloquear comportamientos maliciosos de forma automática. Sin embargo, las respuestas manuales te dan un rango amplio de capacidades de respuesta:
+
+* Aislar Host:
+	* Durante cualquier actividad maliciosa en un endpoint, puedes aislar ese endpoint de la red a través del EDR. La mayoría de ataques empiezan desde un solo endpoint y se mueven lateralmente a otros endpoints para comprometer la red completa. Aislar el endpoint infectado a tiempo puede evitar que esto pase.
+* Terminate Process:
+	* No todas las actividades maliciosas requieres aislación de host. Algunos hosts ejecutan operaciones core de negocios, y aislarnos puede causar más pérdidas que la actividad maliciosa. En esos casos, terminar el proceso es suficiente para neutralizar la actividad maliciosa. 
+* Quarantine:
+	* Si un archivo malicioso viene al endpoint, puede ser puesto en cuarentena. La cuarentena asegura que el archivo que el archivo es movido a una locación aislada donde no pueda ser ejecutado. Ahí los analistas pueden revisar el archivo para restaurarlo o removerlo permanentemente.
+* Acceso Remoto:
+	* Los analistas pueden también acceder remotamente al shell de cualquier endpoint. Esto se suele hacer cuando la respuesta integrada del EDR no es suficiente para tomar medidas sobre una actividad específica. Por medio del acceso remoto, los analistas ganan una visibilidad más profundo dentro del sistema o tomar acciones personalizadas dentro de los endpoints. 
+* Artefacts Collection:
+	* A veces, el analista podría necesitar extraer algunos datos de los endpoints para investigación forense detallada o reportar para acciones legales. Los analistas pueden extraer artefactos importante de los endpoints sin acceder físicamente al dispositivo. Los artefactos extraídos más comunes son:
+		* Memory Dump.
+		* Event Logs.
+		* Specific Folder Contents.
+		* Registry Hives.
