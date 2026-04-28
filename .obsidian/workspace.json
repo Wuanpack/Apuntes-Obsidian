@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+                "file": "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Forensics"
+              "title": "Security Orchestration, Automation, and Response (SOAR)"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "CVE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,10 +225,12 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Metasploit.md",
     "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
     "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
     "Pasted image 20260427233205.png",
     "Pasted image 20260427233022.png",
@@ -266,8 +268,6 @@
     "02-Informatica/Cloud/Introducción Cloud.md",
     "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
     "01-Ciberseguridad/Vectores de Ataque/Virus.md",
-    "01-Ciberseguridad/Vectores de Ataque/Troyanos.md",
-    "01-Ciberseguridad/Vectores de Ataque/Spam.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks",
