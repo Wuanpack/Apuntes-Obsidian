@@ -155,3 +155,12 @@ En la búsqueda basada en campos, vamos a proporcionar el nombre del campo y el 
 
 ## Creando Visualizaciones
 
+La pestaña de visualización nos permite visualizar los datos en diferentes formatos, como tablas, gráficos circulares, gráficos de barras, etc. Esta tarea de visualización utilizará las múltiples opciones que ofrece esta pestaña para crear visualizaciones sencillas y presentables.
+
+### Crear Visualización
+
+Hay varias maneras de navegar por la pestaña de visualización. Una manera es cliquear en cualquier campo en la pestaña Discover y cliquear en la visualización como se muestra a continuación:
+
+![[334ed7c0a1e727de35844174434fd4fc.gif]]
+
+### Opción de Correlación
