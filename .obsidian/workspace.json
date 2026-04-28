@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/SIEM/Splunk.md",
+                "file": "01-Ciberseguridad/Herramientas/SIEM/Elastic Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Splunk"
+              "title": "Elastic Stack"
             }
           }
         ]
@@ -226,22 +226,23 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "Pasted image 20260427205316.png",
-    "Pasted image 20260427200835.png",
-    "Pasted image 20260427200743.png",
-    "Pasted image 20260427200452.png",
-    "Pasted image 20260427200443.png",
-    "Pasted image 20260427200130.png",
-    "Pasted image 20260427195336.png",
-    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+    "ed538dabafffd64020b51f88fabce8f9.gif",
+    "Pasted image 20260427213410.png",
+    "Pasted image 20260427213348.png",
+    "f8f4399d7fbfc14c0a6659da697af1db.gif",
+    "Pasted image 20260427213313.png",
+    "Pasted image 20260427213242.png",
+    "Pasted image 20260427212317.png",
+    "Pasted image 20260427211553.png",
+    "Pasted image 20260427211249.png",
+    "Pasted image 20260427211159.png",
+    "Pasted image 20260427211022.png",
     "01-Ciberseguridad/Herramientas/SIEM/Splunk.md",
+    "01-Ciberseguridad/Herramientas/SIEM/Elastic Stack.md",
+    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
     "01-Ciberseguridad/Herramientas/SIEM",
     "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
     "01-Ciberseguridad/Herramientas/Sin título.md",
-    "Pasted image 20260427171401.png",
-    "Pasted image 20260426223846.png",
-    "Pasted image 20260426222757.png",
-    "Pasted image 20260426222617.png",
     "Sin título.md",
     "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
     "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
@@ -263,7 +264,6 @@
     "01-Ciberseguridad/Vectores de Ataque/Phishing.md",
     "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
     "01-Ciberseguridad/Vectores de Ataque/Malware.md",
-    "01-Ciberseguridad/Vectores de Ataque/DoS.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks",
