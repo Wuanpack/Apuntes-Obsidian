@@ -125,3 +125,33 @@ Por defecto, los registros se muestran en formato sin procesar. Podemos hacer cl
 
 También puedes guardar el formato de la tabla una vez creada. De esta forma, se mostrarán los mismos campos cada vez que un usuario inicie sesión en el panel de control.
 
+## KQL Overview
+
+En la Search Bar del Discover Tab podemos encontrar cualquier cosa, para ello existe un lenguaje especial que usaremos dentro de la barra de búsqueda para realizar nuestras búsquedas. KQL (Kibana Query Language) es un lenguaje de consulta para búsquedas usado para buscar documentos/logs ingeridos en Elasticseach
+
+![[Pasted image 20260427222057.png]]
+
+
+Con KQL, podemos buscar registros de dos maneras distintas:
+
+* Free text search
+* Field-based search
+
+### Free Text Search
+
+La Free Text Seach permite a los usuarios buscar registros basados solamente en texto. Esto significa que una simple búsqueda del término `security` va a retornar todos los documentos que contienen este término, independientemente del campo. 
+
+KQL busca por el término/palabra completa en los documentos, eso quiere decir que si buscamos `United States`, nos van a aparecer registros, pero si buscamos `United` no nos aparecerá nada. Para ello, KQL permite el uso de `*` para coincidir partes de la palabra. Es decir, que si buscamos `United*` nos aparecerían los mismos registros que la primera vez.
+
+### Operadores Lógicos (AND | OR | NOT)
+
+* AND: Crea una búsqueda que incluye dos términos
+* OR: Usa este operador para obtener los resultados de cualquiera de los 2 términos.
+* NOT: Remueve un término en particular de los resultados de búsqueda.
+
+### Field-based Search
+
+En la búsqueda basada en campos, vamos a proporcionar el nombre del campo y el valor que estamos buscando en los registros. Esta búsqueda tiene una sintaxis especial tipo `Field: Value`. Usa un dos puntos como separador entre el campo y el valor. 
+
+## Creando Visualizaciones
+
