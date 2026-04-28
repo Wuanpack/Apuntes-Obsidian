@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/SIEM/Elastic Stack.md",
+                "file": "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elastic Stack"
+              "title": "Security Orchestration, Automation, and Response (SOAR)"
             }
           }
         ]
@@ -210,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,22 +227,29 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "334ed7c0a1e727de35844174434fd4fc.gif",
-    "01-Ciberseguridad/Herramientas/SIEM/Elastic Stack.md",
-    "Pasted image 20260427222057.png",
-    "ed538dabafffd64020b51f88fabce8f9.gif",
-    "Pasted image 20260427213410.png",
-    "Pasted image 20260427213348.png",
-    "f8f4399d7fbfc14c0a6659da697af1db.gif",
-    "Pasted image 20260427213313.png",
-    "Pasted image 20260427213242.png",
-    "Pasted image 20260427212317.png",
-    "Pasted image 20260427211553.png",
-    "Pasted image 20260427211249.png",
-    "01-Ciberseguridad/Herramientas/SIEM/Splunk.md",
+    "Pasted image 20260427233205.png",
+    "Pasted image 20260427233022.png",
+    "Pasted image 20260427232251.png",
+    "Pasted image 20260427231414.png",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/Endpoint Detection and Response (EDR).md",
+    "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
+    "03-Recursos/Gifs/f8f4399d7fbfc14c0a6659da697af1db.gif",
+    "03-Recursos/Gifs",
+    "03-Recursos/Imágenes/Pasted image 20260427225145.png",
+    "05-Común/Frameworks/Frameworks.md",
+    "01-Ciberseguridad/Protocolos/SSH.md",
+    "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Splunk.md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Elastic Stack.md",
+    "01-Ciberseguridad/Blue Team/Soluciones de Seguridad",
+    "03-Recursos/Gifs/05016a6cc1c12d40b90ce9d290525378.gif",
+    "03-Recursos/Imágenes/Pasted image 20260427225103.png",
+    "03-Recursos/Imágenes/Pasted image 20260427225045.png",
+    "03-Recursos/Gifs/334ed7c0a1e727de35844174434fd4fc.gif",
+    "03-Recursos/Imágenes/Pasted image 20260427222057.png",
     "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
-    "01-Ciberseguridad/Herramientas/SIEM",
-    "01-Ciberseguridad/Blue Team/Endpoint Detection and Response (EDR).md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM",
     "01-Ciberseguridad/Herramientas/Sin título.md",
     "Sin título.md",
     "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
@@ -251,7 +259,6 @@
     "INDEX.base",
     "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
     "05-Común/Frameworks/Laravel/Laravel.md",
-    "05-Común/Frameworks/Frameworks.md",
     "02-Informatica/Tipos de Pruebas.md",
     "02-Informatica/Desarrollo de Software Web.md",
     "02-Informatica/SQL/SQL.md",
@@ -261,16 +268,10 @@
     "01-Ciberseguridad/Vectores de Ataque/Virus.md",
     "01-Ciberseguridad/Vectores de Ataque/Troyanos.md",
     "01-Ciberseguridad/Vectores de Ataque/Spam.md",
-    "01-Ciberseguridad/Vectores de Ataque/Phishing.md",
-    "01-Ciberseguridad/Vectores de Ataque/Man in The Middle.md",
-    "01-Ciberseguridad/Vectores de Ataque/Malware.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks",
     "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
-    "01-Ciberseguridad/Conceptos",
-    "01-Ciberseguridad/Protocolos",
-    "03-Recursos/Imágenes",
-    "01-Ciberseguridad/Blue Team"
+    "01-Ciberseguridad/Conceptos"
   ]
 }
