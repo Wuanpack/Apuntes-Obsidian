@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:blue-team/digital-forensics",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,7 +225,7 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "46eb06468fab7a49",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "01-Ciberseguridad/Blue Team/Incident Response.md",
     "01-Ciberseguridad/Blue Team/Digital Forensics.md",
