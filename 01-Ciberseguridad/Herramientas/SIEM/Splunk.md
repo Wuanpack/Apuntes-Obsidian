@@ -69,3 +69,13 @@ Este panel muestra las aplicaciones instaladas para la instancia Splunk. La app 
 Este panel contiene enlaces rápidos para añadir datos a la instancia Splunk, añadir nuevas apps Splunk, y acceder a la documentación de Splunk.
 
 ![[Pasted image 20260427200835.png]]
+
+
+## Añadiendo Datos
+
+Splunk puede ingerir cualquier dato. De acuerdo a la documentación de Splunk, cuando los datos son añadidos a Splunk, los datos son procesados y transformados en una serie de eventos individuales. Las fuentes de datos pueden ser registros de eventos, registros de sitios web, registros de firewall, etc. Las fuentes de datos son agrupados en categorías.
+
+Lista de la documentación de Splunk detallando cada categoría de fuente de datos:
+
+![[Pasted image 20260427205316.png]]
+
