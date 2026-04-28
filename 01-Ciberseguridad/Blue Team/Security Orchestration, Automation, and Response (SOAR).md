@@ -99,5 +99,3 @@ Este manual analizará los detalles de la vulnerabilidad CVE, evaluará su umbra
 ![[Pasted image 20260427233205.png]]
 
 
-
-Establecido en 1999 por la corporación MITRE, el sistema CVE buscaba abordar una necesidad creciente en el mundo de la ciberseguridad. A medida que aumentaban las vulnerabilidades en el software y el firmware, surgió el problema de que diferentes organizaciones e investigadores las denominaban de maneras distintas. Esta inconsistencia generó confusión e ineficiencias en la comunicación sobre las amenazas.
