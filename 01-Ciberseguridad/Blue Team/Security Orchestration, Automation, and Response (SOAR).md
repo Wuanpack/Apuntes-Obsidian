@@ -98,5 +98,3 @@ Este manual analizará los detalles de la vulnerabilidad CVE, evaluará su umbra
 
 ![[Pasted image 20260427233205.png]]
 
-
-para ayudar a las organizaciones a evaluar y priorizar adecuadamente sus procesos de gestión de vulnerabilidades.
