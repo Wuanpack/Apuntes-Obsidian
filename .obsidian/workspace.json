@@ -216,6 +216,10 @@
   },
   "active": "f27aff7bf09ff3b1",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
+    "01-Ciberseguridad/Protocolos",
+    "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
+    "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
     "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Shell.md",
     "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Windows Command Line (CMD).md",
@@ -257,10 +261,6 @@
     "IS_U1_EF_GRUPO1.docx",
     "01-Ciberseguridad/Herramientas/Inyección SQL/SQLMap.md",
     "01-Ciberseguridad/Herramientas/Inyección SQL",
-    "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/Incident Response.md",
-    "01-Ciberseguridad/Blue Team",
-    "02-Informatica/SQL",
-    "02-Informatica/JavaScript"
+    "01-Ciberseguridad/Blue Team"
   ]
 }
