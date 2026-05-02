@@ -1,2 +1,0 @@
-De igual manera, la implementación de controles básicos como el bloqueo automático de sesiones, el uso de redes seguras y la verificación de dispositivos antes de acceder a información corporativa, contribuye a fortalecer la seguridad en entornos cotidianos. Estas prácticas, aunque simples, reducen significativamente la exposición a amenazas y refuerzan el rol activo de los usuarios en la protección de los activos de información.
-
