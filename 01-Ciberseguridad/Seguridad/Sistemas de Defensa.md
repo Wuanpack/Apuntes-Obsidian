@@ -2,6 +2,9 @@
 tags:
   - seguridad
 ---
+## Índice
+```table-of-contents
+```
 ## Seguridad de Endpoint
 
 Puede aplicarse a cualquier dispositivo final que contenga un sistema operativo compatible, como es el caso de las estaciones de trabajo que no necesariamente son ocupadas como un punto de trabajo para herramientas productivas que utilizan suites de ofimática o para videollamadas.
@@ -16,11 +19,11 @@ Estas firmas son utilizadas para permitir o denegar el inicio de un ejecutable, 
 
 Actualmente, el antivirus es conocido como Endpoint Protection Platform (EPP).
 
-## Endpoint Detection and Response (EDR)
+## Endpoint Detection and Response ([[Endpoint Detection and Response (EDR)]])
 
-Los EDR nacen ante la necesidad de poder cubrir de mejor forma la superficie de ataque de un [[Malware]]. Para un antivirus, al ser un sistema de firmas, si la amenaza cambia ligeramente de forma, esta ya no es la amenaza inicial; si la amenaza modificada no se encuentra en las firmas y no hemos actualizado estas, la emnaza probablemente se ejecutará con éxito; mientras que con una solución de EDR, esta podría ser reconocida, tanto por comportamiento, o por su [[Hash|hash]], llamado Indicador de Compromiso (IoC).
+Los [[Endpoint Detection and Response (EDR)]] nacen ante la necesidad de poder cubrir de mejor forma la superficie de ataque de un [[Malware]]. Para un antivirus, al ser un sistema de firmas, si la amenaza cambia ligeramente de forma, esta ya no es la amenaza inicial; si la amenaza modificada no se encuentra en las firmas y no hemos actualizado estas, la emnaza probablemente se ejecutará con éxito; mientras que con una solución de [[Endpoint Detection and Response (EDR)]], esta podría ser reconocida, tanto por comportamiento, o por su [[Hash|hash]], llamado Indicador de Compromiso (IoC).
 
-Adicionalmente, los EDR detienen ataques también a base de Inteligencia Artificial, aprendiendo sobre una amenaza, ejecutando también en un entorno aislado para determinar a qué tipo de amenaza corresponde. Finalmente, este sistema permite realizar investigaciones en profundidad sobre los ataques que han sido contenidos.
+Adicionalmente, los [[Endpoint Detection and Response (EDR)]] detienen ataques también a base de Inteligencia Artificial, aprendiendo sobre una amenaza, ejecutando también en un entorno aislado para determinar a qué tipo de amenaza corresponde. Finalmente, este sistema permite realizar investigaciones en profundidad sobre los ataques que han sido contenidos.
 
 ## HIPS
 

@@ -2,6 +2,9 @@
 tags:
   - herramientas/fuerza-bruta
 ---
+## Índice
+```table-of-contents
+```
 Hydra es un programa de fuerza bruta para descifrar contraseñas en línea, una herramienta rápida para "hackear" contraseñas de inicio de sesión en sistemas.
 
 Puede recorrer una lista y realizar fuerza bruta en servicios de autenticación.

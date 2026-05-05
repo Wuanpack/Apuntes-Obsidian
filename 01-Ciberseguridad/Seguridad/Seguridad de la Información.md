@@ -2,7 +2,9 @@
 tags:
   - seguridad
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Se puede definir como un conjunto de medidas técnicas, organizativas y legales que permiten a la organización asegurar la [[Seguridad de la Información#Confidencialidad|confidencialidad]], [[Seguridad de la Información#Integridad|integridad]] y [[Seguridad de la Información#Disponibilidad|disponibilidad]] de su sistema de información, apostando a los análisis de riesgos, normativa y políticas de seguridad, orientados a un ámbito estratégico.

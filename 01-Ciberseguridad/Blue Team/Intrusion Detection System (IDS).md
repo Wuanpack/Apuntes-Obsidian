@@ -2,6 +2,9 @@
 tags:
   - blue-team/IDS-IPS
 ---
+## Índice
+```table-of-contents
+```
 
 Si un atacante logra bypassear un firewall por una conexión que se ve legítima y luego realiza cualquier actividad maliciosa dentro de la red, debería haber algo para detectarlo en un tiempo apropiado. Para este propósito tenemos una solución llamada Intrusion Detection System (IDS).
 

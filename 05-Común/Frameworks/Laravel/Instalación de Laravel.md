@@ -4,6 +4,9 @@ tags:
   - frameworks
   - desarrollo
 ---
+## Índice
+```table-of-contents
+```
 ## Windows
 
 ### 1. Instalar PHP

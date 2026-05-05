@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 CyberChef es una aplicación basada en web intuitiva y simple diseñada para ayudar con varias tareas de "cyber" operaciones dentro del buscador web. Es como una navaja suiza para datos, como tener una caja de herramientas con muchas herramientas designadas para realizar tareas específicas- 

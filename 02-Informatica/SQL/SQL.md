@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 Las bases de datos son una colección organizada de información estructurada o datos que son fácilmente accesibles y pueden ser manipulados o analizados.
 
 ## Tipos de Bases de Datos

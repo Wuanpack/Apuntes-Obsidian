@@ -3,6 +3,9 @@ tags:
   - derecho-informatico
   - legislacion
 ---
+## Índice
+```table-of-contents
+```
 ## Principios del Derecho
 
 Enunciados que informan o dan a conocer el funcionamiento de las normas legales, siendo considerados como parte del ordenamiento jurídico de un país, aunque no estén expresamente incluidos en las leyes o constitución de este. Son utilizados para crear normas o marco referencial cuando se requieran interpretaciones de estas.

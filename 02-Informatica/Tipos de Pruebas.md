@@ -2,6 +2,9 @@
 tags:
   - testing-aplicado-al-desarrollo-de-sistemas
 ---
+## Índice
+```table-of-contents
+```
 Las pruebas de software son un proceso fundamental para garantizar la calidad y confiabilidad del software. A lo largo de los años, las pruebas de software han evolucionado para adaptarse a los avances tecnológicos y las cambiantes demandas del mercado. Este resumen describe los niveles y tipos de pruebas de software, así como las metodologías, beneficios y desafíos de las pruebas de caja blanca.
 
 ## [[Niveles de Pruebas]]

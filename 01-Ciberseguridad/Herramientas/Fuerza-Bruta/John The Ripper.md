@@ -6,6 +6,9 @@ tags:
   - vectores-ataque
   - herramientas/fuerza-bruta
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 John the Ripper es una herramienta de descifrado de hashes muy conocida, apreciada y versátil. Combina una velocidad de descifrado rápida con una extraordinaria gama de tipos de hash compatibles.

@@ -3,6 +3,9 @@ tags:
   - redes
   - herramientas/analisis-red/nmap
 ---
+## Índice
+```table-of-contents
+```
 ## Lista de Opciones
 
 A continuación se encuentra un listado con las opciones más habituales, aunque no se encuentran las opciones menos conocidas. La última versión de este listado se puede encontrar en [https://nmap.org/data/nmap.usage.txt](https://nmap.org/data/nmap.usage.txt).

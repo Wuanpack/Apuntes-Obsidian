@@ -2,7 +2,9 @@
 tags:
   - cloud
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es la computación en nube?
 
 De acuerdo con el [[NIST Cybersecurity Framefork (CSF)|National Institute of Standards and Technology (NIST)]], este define la computación en la nube como un modelo que permite un acceso conveniente a la red bajo demanda, a un conjunto compartido de recursos informáticos configurables tales como: redes, servidores, almacenamiento, aplicaciones y otros servicios que se pueden aprovisionar y liberar rápidamente con un mínimo esfuerzo en gestión o interacción con el proveedor de servicios.
@@ -91,3 +93,7 @@ Permite al consumidor aprovisionar procesamiento de CPU, almacenamiento, redes y
 2. Migración y aprovisionamiento detallados: Son necesarios para evitar copiar gigabytes de datos cuando es necesario desactivar un servidor físico por mantenimiento planificado o no planificado, por ejemplo, para cambiar su memoria o ventiladores. En este caso, se toman instantáneas periódicas de una [[Virt-Manager|máquina virtual]] para ayudar con una migración rápida, pero es necesario asegurarse de que estas instantáneas de memoria estén protegidas para evitar comprometer la información de un usuario en la nube.
 3. Standards and open-source solutions for Cloud SW infraestructure: Se necesita soporte, ya que actualmente la mayoría de proveedores de nube de nivel comercial utlizan sus representaciones de datos internas. En caso de que un proveedor se declare en quiebra o el cliente desee migrar sus datos a otro proveedor, es importante que la información se almacene de manera que pueda ser leída por otros con las claves de seguridad necesarias.
 4. Sincronización de datos Offline vs. Online: Ya que internet o el servicio eléctrico rara vez están garantizados las 24 horas del día, los 7 días de la semana en los mercados emergentes. Por lo tanto, los usuarios quieren utilizar dispositivos que vayan más allá de los navegadores de Internet que se ejecutan en clientes ligeros, que pueden almacenar copias locales de aplicaciones y datos que pueden ejecutarse usando un suministro de energía ininterrumpido y, al restablecerse el servicio público, pueden sincronizarse con la base de datos de los proveedores de la nube.
+
+
+![[Pasted image 20260503164440.png]]
+

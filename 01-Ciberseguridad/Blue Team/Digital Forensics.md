@@ -3,6 +3,9 @@ tags:
   - blue-team/digital-forensics
   - blue-team/roles
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 La ciencia forense es la aplicación de métodos y procedimientos para investigar y resolver delitos. La rama de la ciencia forense que investiga los delitos cibernéticos se conoce como informática forense. Un delito cibernético es cualquier actividad delictiva realizada en o mediante un dispositivo digital. Se utilizan diversas herramientas y técnicas para investigar a fondo los dispositivos digitales después de un delito, con el fin de encontrar y analizar pruebas para las acciones legales necesarias.

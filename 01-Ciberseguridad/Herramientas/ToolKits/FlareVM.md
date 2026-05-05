@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 FlareVM, o "Forensics, Logic Analysis, and Reverse Engineering", destaca como una colección completa y cuidadosamente seleccionada de herramientas especializadas diseñadas exclusivamente para satisfacer las necesidades específicas de ingenieros inversos, analistas de malware, respondedores a incidentes, investigadores forenses y probadores de penetración.
 
 Este conjunto de herramientas, creado por expertos del equipo FLARE de FireEye, es una poderosa ayuda para desentrañar misterios digitales, comprender el comportamiento del malware y profundizar en los detalles complejos de los archivos ejecutables.

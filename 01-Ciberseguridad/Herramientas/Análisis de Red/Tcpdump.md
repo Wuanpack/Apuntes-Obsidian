@@ -3,6 +3,9 @@ tags:
   - herramientas/analisis-red
   - redes
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Tcpdump es una utilidad de línea de comandos (CLI) que permite capturar y analizar el tráfico de red que pasa por el sistema. A menudo se utiliza para ayudar a solucionar problemas de red, así como herramienta de seguridad.

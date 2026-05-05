@@ -2,6 +2,9 @@
 tags:
   - blue-team/roles/SOC
 ---
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Un Security Operations Center (SOC) es una instalación dedicada operada por un equipo de seguridad especializado. Este equipo apunta al monitoreo continuo de la red de una organización y recursos para identificar actividad sospechosa para prevenir daños. Este equipo trabaja las 24 horas del día, los 7 días de la semana.
@@ -69,7 +72,7 @@ Teniendo la Gente correcta y los Procesos en su lugar nunca sería suficiente si
 Una red de organización consiste de muchos dispositivos y aplicaciones. Como equipo de seguridad, individualmente detectar y responder a amenazas en cada dispositivo o aplicación podría requerir un esfuerzo o recursos significantes. Las soluciones de seguridad centralizan toda la información de los dispositivos o aplicaciones presente en una red y automatizan las capacidades de detección y respuesta.
 
 * SIEM: Security Information and Event Management (SIEM) es una herramienta popular usada en casi todos los entornos SOC. Esta herramienta colecicona registros desde varios dispositivos de red, referidos como log sources. Las reglas de detección son configuradas en la solución SIEM, la cual contiene lógica para identificar actividad sospechosa. La solución SIEM nos proporciona las detecciones tras correlacionarlas con múltiples fuentes de registro y nos alerta en caso de coincidencia con alguna de las reglas. Las soluciones SIEM modernas van más allá de este análisis de detección basado en reglas, proporcionándonos análisis del comportamiento del usuario y capacidad de inteligencia sobre amenazas. Los algoritmos de aprendizaje automático respaldan esto para mejorar las capacidades de detección. NOTA: La solución SIEM solo nos proporciona capacidades de Detección en un entorno SOC.
-* EDR: Endpoint Detection and Response (EDR) proporciona al equipo SOC con visibilidad histórica y en tiempo real de las actividades de los dispositivos. Opera en el nivel de endopoint y pueden realizar respuestas automatizadas. EDR cuenta con amplias capacidades de detección de puntos finales, lo que le permite investigarlos en detalle y responder con unos pocos clics.
+* [[Endpoint Detection and Response (EDR)]]: Endpoint Detection and Response ([[Endpoint Detection and Response (EDR)]]) proporciona al equipo SOC con visibilidad histórica y en tiempo real de las actividades de los dispositivos. Opera en el nivel de endopoint y pueden realizar respuestas automatizadas. [[Endpoint Detection and Response (EDR)]] cuenta con amplias capacidades de detección de puntos finales, lo que le permite investigarlos en detalle y responder con unos pocos clics.
 * Firewall: Un firewall funciona puramente para seguridad de red y actúa como una barrera entre las redes internas y externas (como internet). Monitorea tráfico de red entrante y saliente y filtra el tráfico no autorizado. El firewall también tiene reglas de detección desplegadas, las cuales nos ayudan a identificar y bloquear el tráfico sospechoso antes de que alcance la red interna.
 
 Muchas otras soluciones de seguridad juegan roles únicos en un entorno SOC, como los antivirus, EPP, IDS/IPS, XDR, SOAR, y más. 

@@ -2,7 +2,9 @@
 tags:
   - conceptos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 En esencia, la enumeración en ciberseguridad se refiere a la recopilación sistemática de información detallada sobre un sistema, red o aplicación de destino. Esta información puede variar desde nombres de usuarios y detalles del sistema operativo hasta [[Puertos|puertos]] abiertos y servicios activos.

@@ -2,7 +2,9 @@
 tags:
   - ingenieria-social/tecnicas-basadas-en-humanos
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 El *shoulder surfing* es una técnica de [[Ingeniería Social]] empleada por los atacantes con el objetivo de conseguir información de un usuario en concreto. Puede parecer mentira, pero es una técnica muy provechosa, que permite robar nuestras credenciales, contactos, códigos de desbloqueo (PIN, patrón, etc.), incluso datos bancarios.

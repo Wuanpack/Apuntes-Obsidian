@@ -2,7 +2,9 @@
 tags:
   - seguridad
 ---
-
+## Índice
+```table-of-contents
+```
 ## ¿Qué es?
 
 Es un ítem de la seguridad digital que abarca de forma transversal a toda compañía y que debería ser aplicada en todo negocio que mantenga información trascendental para subsistir, ya sea de forma empírica o con un área especializada.

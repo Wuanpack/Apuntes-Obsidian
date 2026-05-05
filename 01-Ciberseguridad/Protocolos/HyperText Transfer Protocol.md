@@ -1,3 +1,6 @@
+## Índice
+```table-of-contents
+```
 Los mensajes HTTP son paquetes de información intercambiada entre el usuario (el cliente) y el servidor web. Estos mensajes son importantes para entender como las aplicaciones web trabajan porque muestran como las peticiones de usuarios y las respuestas de los servidores son comunicados.
 
 Hay dos tipos de mensajes HTTP:
