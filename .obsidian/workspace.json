@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
+                "file": "05-Común/Frameworks/Flask/Flask.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOC Analyst (Level 1)"
+              "title": "Flask"
             }
           }
         ]
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 298.5,
+    "collapsed": true
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -212,8 +213,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e79297ae4ee9286d",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
+    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
+    "01-Ciberseguridad/Seguridad/Seguridad Informática.md",
+    "05-Común/Frameworks/Flask/Flask.md",
+    "05-Común/Frameworks/Flask",
+    "01-Ciberseguridad/Blue Team/SOC.md",
     "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20260503173940.png",
@@ -254,10 +260,6 @@
     "01-Ciberseguridad/Normas y Frameworks/NIST Cybersecurity Framefork (CSF).md",
     "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
     "01-Ciberseguridad/Normas y Frameworks/MITRE ATT&CK.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27032.md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 19249.md",
-    "01-Ciberseguridad/Normas y Frameworks/CIS Controls.md",
-    "01-Ciberseguridad/Normas y Frameworks",
-    "03-Recursos/Imágenes"
+    "01-Ciberseguridad/Normas y Frameworks"
   ]
 }
