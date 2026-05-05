@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b07b65589fb0f2d8",
+        "id": "00a4cacb18d2eb12",
         "type": "tabs",
         "children": [
           {
-            "id": "f27aff7bf09ff3b1",
+            "id": "61234cf2154ed17a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-Común/Frameworks/Flask/Flask.md",
+                "file": "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flask"
+              "title": "Matriz y Plan de Pruebas"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "soc level 1",
+                "query": "testing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap.md",
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Nmap"
+              "title": "Enlaces entrantes de SOC Analyst (Level 1)"
             }
           },
           {
@@ -193,13 +192,26 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "8d97448339ccd34f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para SOC Analyst (Level 1)"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 231.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,57 +221,57 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "graph:Abrir vista gráfica": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Abrir vista gráfica": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
-    "01-Ciberseguridad/Seguridad/Seguridad Informática.md",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Tipos de Pruebas.md",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
     "05-Común/Frameworks/Flask/Flask.md",
-    "05-Común/Frameworks/Flask",
-    "01-Ciberseguridad/Blue Team/SOC.md",
-    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
-    "conflict-files-obsidian-git.md",
-    "Pasted image 20260503173940.png",
-    "Pasted image 20260503172709.png",
-    "Pasted image 20260503164440.png",
-    "Pasted image 20260427233205.png",
-    "Pasted image 20260427233022.png",
-    "Pasted image 20260427232251.png",
-    "Pasted image 20260427231414.png",
-    "03-Recursos/Imágenes/Pasted image 20260427225145.png",
-    "03-Recursos/Imágenes/Pasted image 20260427225103.png",
-    "03-Recursos/Imágenes/Pasted image 20260427225045.png",
-    "03-Recursos/Gifs",
+    "03-Recursos/Imágenes/Pasted image 20260427231414.png",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas",
     "02-Informatica/Cloud/Software as a Service (Saas).md",
-    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Splunk.md",
-    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Elastic Stack.md",
-    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM",
+    "05-Común/Frameworks/Flask",
+    "03-Recursos/Imágenes/Pasted image 20260503173940.png",
+    "03-Recursos/Imágenes/Pasted image 20260503172709.png",
+    "02-Informatica/Cloud/Introducción Cloud.md",
+    "03-Recursos/Imágenes/Pasted image 20260503164440.png",
     "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/Firewall.md",
-    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/Endpoint Detection and Response (EDR).md",
-    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad",
     "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
-    "01-Ciberseguridad/Redes/SSH.md",
-    "01-Ciberseguridad/Redes/Firewall.md",
-    "01-Ciberseguridad/Redes",
     "Sin título.md",
-    "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md",
-    "01-Ciberseguridad/Protocolos",
+    "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
+    "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Metasploit.md",
+    "01-Ciberseguridad/Blue Team/Digital Forensics.md",
+    "01-Ciberseguridad/Blue Team/Incident Response.md",
+    "03-Recursos/Imágenes/Pasted image 20260427233205.png",
+    "03-Recursos/Imágenes/Pasted image 20260427233022.png",
+    "03-Recursos/Imágenes/Pasted image 20260427232251.png",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/Endpoint Detection and Response (EDR).md",
+    "03-Recursos/Gifs/f8f4399d7fbfc14c0a6659da697af1db.gif",
+    "03-Recursos/Gifs",
+    "03-Recursos/Imágenes/Pasted image 20260427225145.png",
+    "05-Común/Frameworks/Frameworks.md",
+    "01-Ciberseguridad/Protocolos/SSH.md",
     "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Splunk.md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Elastic Stack.md",
+    "01-Ciberseguridad/Blue Team/Soluciones de Seguridad",
+    "03-Recursos/Gifs/05016a6cc1c12d40b90ce9d290525378.gif",
+    "01-Ciberseguridad/Herramientas/Common Analysis Platform for Artifacts (CAPA).md",
+    "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM",
+    "01-Ciberseguridad/Herramientas/Sin título.md",
+    "01-Ciberseguridad/Seguridad/Sistemas de Defensa.md",
+    "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
+    "01-Ciberseguridad/Blue Team/SOC.md",
+    "INDEX.base",
+    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
+    "05-Común/Frameworks/Laravel/Laravel.md",
+    "02-Informatica/Desarrollo de Software Web.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
-    "01-Ciberseguridad/Vectores de Ataque/Vulnerabilidades.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Shell.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Windows Command Line (CMD).md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/PowerShell.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface/Linux Shells.md",
-    "01-Ciberseguridad/Sistemas Operativos/REMnux.md",
-    "01-Ciberseguridad/Sistemas Operativos/Command Line Interface",
     "01-Ciberseguridad/Sistemas Operativos",
-    "01-Ciberseguridad/Normas y Frameworks/NIST Cybersecurity Framefork (CSF).md",
-    "01-Ciberseguridad/Normas y Frameworks/ISO 27001.md",
-    "01-Ciberseguridad/Normas y Frameworks/MITRE ATT&CK.md",
     "01-Ciberseguridad/Normas y Frameworks"
   ]
 }

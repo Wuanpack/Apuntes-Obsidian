@@ -1,5 +1,7 @@
 [
   "obsidian-style-settings",
   "obsidian-git",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "automatic-table-of-contents",
+  "colored-tags"
 ]
