@@ -210,8 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,7 +224,7 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "61234cf2154ed17a",
+  "active": "6f9dec54e53af9e0",
   "lastOpenFiles": [
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Lenguaje Gherkin.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
