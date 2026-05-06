@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
+                "file": "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matriz y Plan de Pruebas"
+              "title": "Historias de Usuario"
             }
           }
         ]
@@ -227,13 +227,16 @@
   },
   "active": "61234cf2154ed17a",
   "lastOpenFiles": [
-    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Tipos de Pruebas.md",
+    "02-Informatica/Frameworks/Frameworks.md",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Lenguaje Gherkin.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
-    "05-Común/Frameworks/Flask/Flask.md",
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Tipos de Pruebas.md",
+    "02-Informatica/Frameworks/Flask/Flask.md",
     "03-Recursos/Imágenes/Pasted image 20260427231414.png",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas",
     "02-Informatica/Cloud/Software as a Service (Saas).md",
-    "05-Común/Frameworks/Flask",
+    "02-Informatica/Frameworks/Flask",
     "03-Recursos/Imágenes/Pasted image 20260503173940.png",
     "03-Recursos/Imágenes/Pasted image 20260503172709.png",
     "02-Informatica/Cloud/Introducción Cloud.md",
@@ -252,7 +255,6 @@
     "03-Recursos/Gifs/f8f4399d7fbfc14c0a6659da697af1db.gif",
     "03-Recursos/Gifs",
     "03-Recursos/Imágenes/Pasted image 20260427225145.png",
-    "05-Común/Frameworks/Frameworks.md",
     "01-Ciberseguridad/Protocolos/SSH.md",
     "01-Ciberseguridad/Herramientas/ToolKits/FlareVM.md",
     "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/SIEM/Splunk.md",
@@ -267,9 +269,7 @@
     "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
     "01-Ciberseguridad/Blue Team/SOC.md",
     "INDEX.base",
-    "05-Común/Frameworks/Laravel/Instalación de Laravel.md",
-    "05-Común/Frameworks/Laravel/Laravel.md",
-    "02-Informatica/Desarrollo de Software Web.md",
+    "02-Informatica/Frameworks/Laravel/Instalación de Laravel.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks"
