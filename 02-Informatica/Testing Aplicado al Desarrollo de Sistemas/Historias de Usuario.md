@@ -99,4 +99,62 @@ Después de redactar las historias de usuarios, estas deben ser priorizadas en e
 Durante los sprints, el equipo de desarrollo trabaja en las historias de usuarios seleccionadas de manera iterativa e incremental. Este enfoque permite revisar y ajustar las historias según sea necesario, asegurando que el producto evolucione de manera continua y efectiva. El desarrollo iterativo incluye aspectos clave:
 
 1. Ciclos cortos: Los sprints suelen durar entre una y cuatro semanas, permitiendo al equipo enfocarse en un conjunto manejable de  historias y entregar valor rápidamente.
-2. 
+2. Revisiones frecuentes: Al final de cada sprint, el equipo revisa el progreso y realiza ajustes basados en la retroalimentación obtenida. Esto garantiza que las funcionalidades desarrolladas cumplan con las expectativas del usuario y se alineen con los objetivos del proyecto.
+3. Adaptación continua: La naturaleza iterativa del desarrollo ágil permite al equipo responder rápidamente a los cambios en los requisitos o en el entorno del proyecto, asegurando que el producto final sea relevante y efectivo.
+4. Colaboración constante: La comunicación continua entre los miembros del equipo de desarrollo, los stakeholders y los usuarios es esencial para el éxito del desarrollo iterativo. Esta colaboración asegura que todos los involucrados estén alineados y trabajen hacia los mismos objetivos.
+
+El proceso de creación y gestión de historias de usuarios es fundamental para el éxito de los proyectos de desarrollo ágil. Desde la recopilación de requisitos hasta el desarrollo iterativo, cada paso está diseñado para asegurar que las funcionalidades desarrolladas aporten valor real y significativo a los usuarios finales.
+
+### Ventajas
+
+1. Centrado en el usuario: Las historias de usuarios aseguran que el desarrollo del producto esté alineado con las necesidades reales del usuario final, promoviendo la entrega de valor continuo.
+2. Simplicidad y Claridad: Ofrecen una forma simple y clara de expresar requisitos sin la necesidad de documentación exhaustiva, facilitando la comprensión y comunicación entre los miembros del equipo.
+3. Flexibilidad: Permiten ajustes rápidos y fáciles en respuesta a cambios en las necesidades del cliente o en el entorno del proyecto.
+4. Promoción de la Colaboración: Fomentan la colaboración entre desarrolladores, testers y stakeholders a través de discusiones continuas.
+
+### Desventajas
+
+1. Ambigüedad: La simplicidad puede llevar a interpretaciones diferentes si las conversaciones y confirmaciones no se gestionan adecuadamente, resultando en malentendidos sobre los requisitos.
+2. Falta de Detalla Técnico: Las historias de usuarios no proporcionan detalles técnicos, lo que puede requerir documentación adicional o aclaraciones continuas durante el desarrollo.
+3. Dependencia de la Comunicación: Requieren una comunicación efectiva y continua. Si esta se interrumpe, la comprensión de las historias puede ser comprometida.
+4. Prioridad Complicada: Priorizarlas puede ser complejo, especialmente cuando hay muchas partes interesadas con necesidades y expectativas diferentes.
+
+## Buenas Prácticas
+
+Para maximizar la efectividad de las historias de usuario en el desarrollo ágil de software, es fundamental adherirse a ciertas buenas prácticas. Estas prácticas aseguran que las historias sean de alta calidad, bien gestionadas y alineadas con las necesidades del usuario y los objetivos del negocio. A continuación, se detallan algunas de las prácticas más recomendadas.
+
+### INVEST
+
+Las historias de usuario deben cumplir con los criterios INVEST para garantizar su calidad y eficacia, INVEST es un acrónimo que representa las siguientes características:
+
+1. Independent (Independientes): Las historias deben ser autosuficientes, es decir, deben poder desarrollarse y desplegarse de manera independiente sin depender de otras historias. Esto facilita la planificación y priorización del trabajo.
+2. Negotiable (Negociables): Las historias de usuario no deben ser tratados como contratos rígidos. Deben ser negociables y flexibles, permitiendo cambios y ajustes basados en discusiones y feedback continuos entre el equipo de desarrollo y los stakeholders.
+3. Valuable (Valiosas): Cada historia debe aportar valor al usuario final o al negocio. Es crucial que cada funcionalidad desarrollada tenga un propósito claro y tangible, alineado con los objetivos del proyecto.
+4. Estimable (Estimables): Las historias deben ser lo suficientemente claras y detalladas para que el equipo pueda estimar el esfuerzo requerido para su implementación. Esto ayuda en la planificación y gestión de recursos.
+5. Small (Pequeñas): Las historias deben ser lo suficientemente pequeñas para ser completadas en un solo sprint. Historias demasiado grandes o complejas deben ser divididas en historias más manejables para facilitar su desarrollo y entrega.
+6. Testable (Testeables): Deben ser verificables mediante criterios de aceptación claros y definidos. Esto asegura que se pueda determinar objetivamente cuándo una historia está completa y cumple con los requisitos establecidos.
+
+### Sesiones de Refinamiento
+
+Realizar sesiones de refinamiento de backlog de manera regular es esencial para asegurar que las historias de usuario estén bien definidas y priorizadas adecuadamente. Durante estas sesiones, el equipo de desarrollo y los stakeholders revisan y discuten las historias en el backlog, ajustando detalles y prioridades según sea necesario. Estas sesiones deben:
+
+1. Clarificar historias: Resolver dudas y proporcionar detalles adicionales para asegurar una comprensión común de cada historia.
+2. Actualizar prioridades: Revisar y ajustar las prioridades de las historias en función de las necesidades actuales del negocio y del usuario.
+3. Dividir historias grandes: Identificar historias que son demasiado grandes y dividirlas en historias más pequeñas y manejables.
+4. Añadir nuevos requisitos: Incorporar feedback y nuevos requisitos surgidos desde la última sesión de refinamiento.
+
+### Colaboración Continua
+
+Mantener una comunicación continua y efectiva entre todos los miembros del equipo y los stakeholders es vital para el éxito de las historias de usuario. La colaboración constante asegura que las historias se ajusten y actualicen según las necesidades cambiantes del proyecto. Para lograr una colaboración efectiva:
+
+1. Reuniones diarias: Realizar reuniones diarias (daily stand-ups) para discutir el progreso y los impedimentos, y coordinar el trabajo en equipo.
+2. Feedback regular: Fomentar la retroalimentación continua de los stakeholders y usuarios para ajustar y mejorar las historias de usuario.
+3. Herramientas de comunicación: Utilizar herramientas de comunicación eficaces, como plataformas de colaboración en línea, para mantener a todos los miembros del equipo informados y alineados.
+
+### Documentación de Criterios de Aceptación
+
+Definir y documentar criterios de aceptación claros y detallados para cada historia de usuario es crucial para asegurar una comprensión común de lo que significa "hecho". Los criterios de aceptación actúan como una guía para el equipo de desarrollo y como una base para las pruebas de calidad. Para documentar criterios de aceptación eficaces:
+
+1. Ser específico: Detallar condiciones específicas que deben cumplirse para que la historia sea aceptada.
+2. Ser medible: Asegurar que los criterios sean medibles y verificables, facilitando la validación de la historia.
+3. Incluir casos de prueba: Proporcionar ejemplos de casos de prueba que puedan ser utilizados para verificar que los criterios de aceptación se cumplen.
