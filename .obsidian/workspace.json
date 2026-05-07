@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Matriz y Plan de Pruebas"
             }
+          },
+          {
+            "id": "21c69cc181c93ec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sin título 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sin título 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,11 +239,13 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "61234cf2154ed17a",
+  "active": "21c69cc181c93ec7",
   "lastOpenFiles": [
+    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
+    "Sin título 1.md",
+    "Sin título.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Lenguaje Gherkin.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
-    "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
     "02-Informatica/Frameworks/Frameworks.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Tipos de Pruebas.md",
     "02-Informatica/Frameworks/Flask/Flask.md",
@@ -242,7 +259,6 @@
     "03-Recursos/Imágenes/Pasted image 20260503164440.png",
     "01-Ciberseguridad/Herramientas/Soluciones de Seguridad/Firewall.md",
     "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
-    "Sin título.md",
     "01-Ciberseguridad/Ciberataques/Moniker Link (CVE-2024-21413).md",
     "01-Ciberseguridad/Herramientas/Pentesting/Metasploit/Metasploit.md",
     "01-Ciberseguridad/Blue Team/Digital Forensics.md",
@@ -268,7 +284,6 @@
     "01-Ciberseguridad/Blue Team/SOC Analyst (Level 1).md",
     "01-Ciberseguridad/Blue Team/SOC.md",
     "INDEX.base",
-    "02-Informatica/Frameworks/Laravel/Instalación de Laravel.md",
     "01-Ciberseguridad/Herramientas/ToolKits",
     "01-Ciberseguridad/Sistemas Operativos",
     "01-Ciberseguridad/Normas y Frameworks"
