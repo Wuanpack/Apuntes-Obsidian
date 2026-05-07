@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
+                "file": "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Historias de Usuario"
+              "title": "Matriz y Plan de Pruebas"
             }
           }
         ]
@@ -224,7 +224,7 @@
       "graph:Abrir vista gráfica": false
     }
   },
-  "active": "6f9dec54e53af9e0",
+  "active": "61234cf2154ed17a",
   "lastOpenFiles": [
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Lenguaje Gherkin.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
