@@ -1,3 +1,7 @@
+## Índice
+
+```table-of-contents
+```
 ## ¿Qué es?
 
 Flask es un microframework para Python basado en Werkzeug que permite crear aplicaciones web de todo tipo rápidamente.
@@ -183,4 +187,64 @@ Es una buena práctica usar una única vista que nos valga para ambos casos, ya 
 def post_form(post_id=None):
 	return "post_form{}".format(post_id)
 ```
+
+### Formar URLs en nuestro código
+
+Flask pone a nuestra disposición el método url_for() para componer una URL a partir del nombre de una vista. Esta función acepta como parámetros el nombre de una vista y un número variable de argumentos clave-valor, cada uno de ellos asociado a una parte variable de la URL. Si se pasa un argumento cuyo nombre no se corresponde con un parámetro de la parte variable, se añade a la URL como parte de la query string (la sección de la URL que viene tras el carácter '?')
+
+```python
+print(url_for("index")) #resultado '/'
+print(url_for("show_post", slug="leccion-1", preview=True)) #resultado '/p/leccion-1/?preview=True
+```
+
+Es recomendable usar el método url_for() en lugar de codificar directamente la URL en el código por los siguientes motivos:
+
+- Si se cambia una URL en cualquier momento, al no estar [[hardcodeada]], esta modificación no afectará a nuestro código.
+- La función escapa carácteres especiales, como los espacios, por nosotros.
+- Las rutas generadas son siempre absolutas, evitándose las rutas relativas.
+- Si la aplicación se sitúa bajo un contexto (por ejemplo, /miniblog), en lugar de la ruta raíz /, url_for() gestionará esta situación por nosotros.
+
+
+## Respuestas
+
+Flask convierte el valor que devuelve una vista en un objeto «respuesta» (o _response_) por ti.
+
+En caso de que devolvamos un string, el string se devuelve como el cuerpo de la respuesta, con un código de estado 200 y con text/html como tipo mime.
+
+Flask espera que el valor devuelto por una vista sea un objeto de tipo response. Si se devuelve un string, se aplica la lógica anterior. También se puede devolver una tupla con la forma (response, status, headers). El valor status sustituirá al código de estado por defecto, que es 200. Por su parte, headers puede ser una lista o un diccionario con cabeceras adicionales a devolver.
+
+## Renderizando una página HTML
+
+Todo esto está muy bien, pero sería tedioso codificar una página web completa como un string para ser devuelto por una vista. Para ello, Flask trae por defecto un motor de renderizado de plantillas llamado Jinja2, que nos ayudará a crear las páginas dinámicas de nuestra aplicación web.
+
+Para renderizar una plantilla creada con Jinja2 simplemente hay que hacer uso del método render_template(). A este método debemos pasarle el nombre de nuestra plantilla y las variables necesarias para su renderizado como parámetros clave-valor.
+
+Flask buscará las plantillas en el directorio templates de nuestro proyecto. En el sistema de ficheros, este directorio se debe encontrar en el mismo nivel en el que hayamos definido nuestra aplicación.
+
+En nuestro caso, la aplicación se encuentra en el fichero run.py.
+
+Es hora de crear este directorio y añadir las páginas index.html, post_view.html y admin/post_form.html. La estructura de nuestro proyecto quedaría del siguiente modo:
+
+![[Pasted image 20260509200103.png]]
+
+Ahora modifiquemos el cuerpo de las vistas index(), show_post() y post_form() para que muestren el resultado de renderizar las respectivas plantillas. Pero recuerda importar el método render_template() del módulo flask: from flask import render_template:
+
+```python
+@app.route("/")
+def index():
+return render_template("index.html", num_posts=len(posts))
+
+@app.route("/p/<string:slug>/")
+def show_post(slug):
+return render_template("post_view.html", slug_title=slug)
+
+@app.route("/admin/post/")
+@app.route("/admin/post/<int:post_id>/")
+def post_form(post_id=None):
+return render_template("admin/post_form.html", post_id=post_id)
+```
+
+## Plantillas
+
+Ya que hemos aprendido cómo renderizar una plantilla y dónde debe estar ubicada, tan solo nos falta modificar las plantillas que acabamos de crear para que muestren el mismo resultado que en la sección primera.
 
