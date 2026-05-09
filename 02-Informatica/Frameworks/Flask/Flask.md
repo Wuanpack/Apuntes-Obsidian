@@ -2,7 +2,7 @@
 
 Flask es un microframework para Python basado en Werkzeug que permite crear aplicaciones web de todo tipo rápidamente.
 
-Tutorial revisado: https://j2logo.com/tutorial-flask-espanol/https://j2logo.com/tutorial-flask-espanol/
+Tutorial revisado: https://j2logo.com/tutorial-flask-espanol/
 
 Para este tutorial se va a desarrollar un blog en Flask que tendrá las siguientes características:
 
@@ -154,4 +154,33 @@ Por defecto, en Flask existen los siguientes conversores:
 - uuid: Acepta cadenas con formato UUID.
 
 NOTA: También es posible añadir tus propios conversores.
+
+Veamos todo lo anterior en acción. Vamos a crear una vista para mostrar un post a partir del slug del título del mismo. Un slug es una cadena de carácteres alfanuméricos (más el carácter '-'), sin espacios, tildes ni signos de puntuación.
+
+```python
+@app.route("/p/<string:slug>/")
+def show_post(slug):
+	return "Mostrando el post {}".format(slug)
+```
+
+En esta vista hemos definido el parámetro slug en la URL y dicho parámetro se toma como argumento en la función show_post(slug). De momento, lo único que hace esta función es mostrar al usuario la parte de la URL que está parametrizada:
+
+![[Pasted image 20260509192716.png]]
+
+Al definir una URL acabada con el carácter '/', si el usuario accede a esa URL sin dicho carácter, Flask lo redirigirá a la URL acabada en '/'. En cambio, si la URL se define sin acabar en '/' y el usuario accede indicando la '/' al final, Flask dará un error HTTP 404.
+
+### Creando la vista para crear/modificar un post
+
+Piensa en la lógica de crear y modificar un post. Prácticamente lo que hay que hacer en ambos casos es lo mismo: recuperar datos de un formulario, crear un objeto post, asignarle los valores de los campos del formulario y guardar el objeto post. La única diferencia es que modificar un post supone recuperarlo previamente de la base de datos.
+
+Es una buena práctica usar una única vista que nos valga para ambos casos, ya que no estaremos repitiendo código. En estas situaciones, lo que se suele hacer es tener dos endpoints (URLs) distintos, uno para crear un post y otro para modificarlo. Podrían ser /admin/post y /admin/post/<post_id>/, respectivamente.
+
+¿Cómo hacemos para asociar dos URLs diferentes en una sola vista? Simplemente añadiendo dos decoradores a la misma función. En nuestro caso:
+
+```python
+@app.route("/admin/post/")
+@app.route("/admin/post/<int:post_id>")
+def post_form(post_id=None):
+	return "post_form{}".format(post_id)
+```
 
