@@ -191,15 +191,6 @@ Nmap informa de las combinaciones de estado open|filtered y closed|filtered cuan
 La tabla de puertos también puede incluir detalles de la versión de la aplicación cuando se ha solicitado detección de versiones. Nmap ofrece información de los protocolos IP soportados, en vez de puertos abiertos, cuando se solicita un análisis de protocolo IP con la opción (-sO).
 
 Además de la tabla de puertos interesantes, Nmap puede dar información adicional sobre los objetivos, incluyendo el nombre de DNS según la resolución inversa de la IP, un listado de sistemas operativos posibles, los tipos de dispositivo y direcciones MAC.
-
-
-
-
-
-
-
-
-
 ### Escaneando una Red "Local"
 
 En este contexto, usamos el término "Local" para referirnos a la red a la que estamos directamente conectados, como Ethernet o una red Wifi. En esta primera demostración, escanearemos la red Wifi en la que estamos conectados. 

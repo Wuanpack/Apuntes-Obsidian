@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Informatica/Contenedores/Docker.md",
+                "file": "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Nmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Nmap"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "905fcd07cda69d99",
@@ -226,9 +227,9 @@
   },
   "active": "c6df50d64c83cc44",
   "lastOpenFiles": [
+    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
     "02-Informatica/Contenedores/Docker.md",
     "02-Informatica/Contenedores",
-    "01-Ciberseguridad/Herramientas/Análisis de Red/Nmap/Descubrimiento de Hosts.md",
     "02-Informatica/Frameworks/Flask/Flask.md",
     "Pasted image 20260509200103.png",
     "Pasted image 20260509192716.png",
