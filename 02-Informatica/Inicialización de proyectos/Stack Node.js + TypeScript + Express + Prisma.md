@@ -133,6 +133,10 @@ git branch                  # Ver ramas
 ### Prisma
 
 ```bash
+yarn add prisma @types/pg --save-dev
+yarn add @prisma/client @prisma/adapter-pg pg dotenv
+npx prisma
+npx prisma init --datasource-provider postgresql --output ../generated/prisma
 npx prisma generate                     # Genera el cliente de Prisma
 npx prisma migrate dev --name <nombre>  # Crea una migración y la aplica
 npx prisma db push                      # Aplica el schema sin crear migración
@@ -140,6 +144,91 @@ npx prisma db pull                      # Importa el schema desde la DB existent
 npx prisma db seed                      # Ejecuta el seed
 npx prisma studio                       # Abre la UI visual de la base de datos
 ```
+## PostgreSQL
+
+### Instalación (Fedora)
+
+```bash
+sudo dnf install postgresql postgresql-server  # Instala PostgreSQL
+sudo postgresql-setup --initdb                 # Inicializa la base de datos
+sudo systemctl start postgresql                # Inicia el servicio
+sudo systemctl enable postgresql               # Inicia automáticamente con el sistema
+sudo systemctl status postgresql               # Verifica que está corriendo
+```
+
+### Acceso
+
+```bash
+sudo -u postgres psql                          # Entra como superusuario
+psql -U <usuario> -d <base_de_datos> -h localhost  # Entra con usuario y DB específicos
+```
+
+### Comandos dentro de psql
+
+```bash
+\l                          # Lista las bases de datos
+\du                         # Lista los usuarios y sus atributos
+\c <base_de_datos>          # Conectarse a una base de datos
+\dt                         # Lista las tablas de la DB actual
+\dn+                        # Lista los schemas con permisos
+\dp                         # Lista los permisos de las tablas
+\q                          # Salir de psql
+```
+
+### Gestión de usuarios y permisos
+
+```sql
+CREATE USER <usuario> WITH PASSWORD '<contraseña>';   -- Crear usuario
+ALTER USER <usuario> WITH PASSWORD '<contraseña>';    -- Cambiar contraseña
+\password <usuario>                                   -- Cambiar contraseña interactivamente (más seguro)
+ALTER USER <usuario> CREATEDB;                        -- Permitir crear bases de datos (necesario para Prisma migrate)
+DROP USER <usuario>;                                  -- Eliminar usuario
+
+-- Dar todos los permisos sobre una DB (para desarrollo)
+GRANT ALL PRIVILEGES ON DATABASE <db> TO <usuario>;
+GRANT ALL ON SCHEMA public TO <usuario>;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON TABLES TO <usuario>;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL ON SEQUENCES TO <usuario>;
+```
+
+### Gestión de bases de datos
+
+```sql
+CREATE DATABASE <nombre>;                             -- Crear base de datos
+DROP DATABASE <nombre>;                               -- Eliminar base de datos
+SELECT * FROM "<Tabla>";                              -- Consultar tabla (respetar mayúsculas con comillas)
+```
+
+### Configuración de autenticación (pg_hba.conf)
+
+Si aparece el error `Ident authentication failed`, editar el archivo:
+
+```bash
+sudo find / -name "pg_hba.conf" 2>/dev/null   # Encontrar el archivo
+sudo nano /var/lib/pgsql/data/pg_hba.conf     # Editar (ruta puede variar)
+```
+
+Cambiar las líneas con `ident` a `scram-sha-256`:
+
+```bash
+host all all 127.0.0.1/32 scram-sha-256 
+host all all ::1/128 scram-sha-256
+```
+
+Luego reiniciar PostgreSQL:
+
+```bash
+sudo systemctl restart postgresql
+```
+
+### Notas
+
+- El usuario `postgres` es el superusuario por defecto
+- Para desarrollo basta con `CREATEDB` + los `GRANT` del schema public
+- Las tablas creadas por Prisma respetan mayúsculas, consultar siempre con comillas dobles: `SELECT * FROM "User"`
+- La `DATABASE_URL` para Prisma sigue este formato:
+  `postgresql://usuario:contraseña@localhost:5432/nombre_db`
+
 
 ---
 
