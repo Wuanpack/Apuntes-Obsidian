@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Stack Node.js + TypeScript + Express + Prisma"
             }
+          },
+          {
+            "id": "56446144db4cde70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "commits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "commits"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "right": {
     "id": "1a8596eda4e44b2a",
@@ -214,15 +228,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f27aff7bf09ff3b1",
+  "active": "56446144db4cde70",
   "lastOpenFiles": [
+    "02-Informatica/Inicialización de proyectos/Stack Node.js + TypeScript + Express + Prisma.md",
+    "commits.md",
     "05-Común/Frameworks/Flask/Flask.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Tipos de Pruebas.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Matriz y Plan de Pruebas.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Lenguaje Gherkin.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas/Historias de Usuario.md",
     "02-Informatica/Testing Aplicado al Desarrollo de Sistemas",
-    "02-Informatica/Inicialización de proyectos/Stack Node.js + TypeScript + Express + Prisma.md",
     "02-Informatica/Inicialización de proyectos",
     "02-Informatica/Frameworks/Laravel/Laravel.md",
     "02-Informatica/Frameworks/Laravel/Instalación de Laravel.md",
@@ -260,7 +275,6 @@
     "01-Ciberseguridad/Blue Team/Security Orchestration, Automation, and Response (SOAR).md",
     "01-Ciberseguridad/Redes/SSH.md",
     "01-Ciberseguridad/Redes/Firewall.md",
-    "Sin título.md",
     "01-Ciberseguridad/Protocolos/HyperText Transfer Protocol.md"
   ]
 }

@@ -1,0 +1,4 @@
+- .hbs: 'required' removidos de las vistas
+- seed.ts: Mensajes console.log actualizados
+- affiliate.model.ts: Afiliados ordenados por id asc
+- 
